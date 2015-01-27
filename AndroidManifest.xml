@@ -42,7 +42,7 @@
 
         <activity android:excludeFromRecents="true" android:name=".WizardActivity" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="true" android:name=".WizardModalActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
-        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name=".CalculatorActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name=".MainActivity" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="true" android:name=".LoginActivity" android:noHistory="true" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="true" android:name=".MainActivity" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="true" android:name=".MainModalActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>

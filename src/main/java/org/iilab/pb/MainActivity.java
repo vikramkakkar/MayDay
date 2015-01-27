@@ -65,7 +65,7 @@ public class MainActivity extends BaseFragmentActivity {
             }
 
             ApplicationSettings.setWizardState(MainActivity.this, AppConstants.WIZARD_FLAG_HOME_NOT_CONFIGURED);
-            changeAppIcontoPB();
+            //changeAppIcontoPB();
 
             // We're restarting the wizard so we deactivate the HardwareTriggerService
             stopService(new Intent(this, HardwareTriggerService.class));
@@ -142,10 +142,11 @@ public class MainActivity extends BaseFragmentActivity {
     	getPackageManager().setComponentEnabledSetting(
                 new ComponentName("org.iilab.pb", "org.iilab.pb.HomeActivity-setup"),
                 PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
-
+/*
         getPackageManager().setComponentEnabledSetting(
                 new ComponentName("org.iilab.pb", "org.iilab.pb.HomeActivity-calculator"),
                 PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
+                */
     }
 
     @Override
@@ -176,7 +177,7 @@ public class MainActivity extends BaseFragmentActivity {
             return;
         }
 
-        
+        /*
         if (flagRiseFromPause) {
             Intent i = new Intent(MainActivity.this, CalculatorActivity.class);
             startActivity(i);
@@ -187,6 +188,7 @@ public class MainActivity extends BaseFragmentActivity {
             finish();
             return;
         }
+        */
         return;
     }
     
