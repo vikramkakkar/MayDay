@@ -45,7 +45,7 @@ We need help developing wearable interfaces to trigger MayDay and removing the c
 
 In addition we could use help developing an iPhone version of this app
 
-If you care to attend, the two-day event is now accepting registration: on.nyc.gov/dv-hackathon
+If you care to attend, the two-day event is now accepting registration: http://our.cityofnewyork.us/page/s/dv-hackathon
 
 ## Contact
 
