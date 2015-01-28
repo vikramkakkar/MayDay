@@ -37,5 +37,5 @@
         android:layout_alignRight="@+id/b_action_with_status"
         android:visibility="invisible"
         android:layout_marginRight="5dp"
-        android:layout_centerVertical="true"/>
+        android:layout_centerVertical="true"/> -->
 </RelativeLayout>
