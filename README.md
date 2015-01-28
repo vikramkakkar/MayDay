@@ -32,3 +32,20 @@ You need an Android phone with a minimum version of 2.3.3
 ### Building
 
 See the [notes to build your own APK](https://github.com/jackygrahamez/MayDay/blob/master/docs/BUILD.md)
+
+### Participating
+
+This app is being developed in preparation for a Hackathon to prevent cyberstalking being held January 30-31, 2015
+
+Location: 80 Centre Street, 5th Floor (use side entrance at 10 Hogan Place)
+
+Time: 6:00 pm (Friday)
+
+We need help developing wearable interfaces to trigger MayDay and removing the calculator disguise form the Android App
+
+In addition we could use help developing an iPhone version of this app
+
+## Contact
+
+Jack Shultz
+john dot g. shultz AT G M A I L dot com
