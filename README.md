@@ -29,6 +29,24 @@ The MayDay project is a fork of PanicButton which is an initiative of Amnesty In
 
 You need an Android phone with a minimum version of 2.3.3 
 
+#### Wearable SDKs
+
+##### Android
+
+There are several resources available for wearable technologies on the Android Developer Portal
+
+https://developer.android.com/training/building-wearables.html
+
+##### Samsung 
+
+Unfortunetly Samsung has multiple wearable SDKs specific for different devices
+
+Gear Fit http://forum.xda-developers.com/gear-fit/development/samsung-gear-fit-sdk-available-t2872803
+
+Gear http://developer.samsung.com/gear
+
+For Gear you will need the Tizen SDK for Wearable and Possibly Samsung Accessory SDK
+
 ### Building
 
 See the [notes to build your own APK](https://github.com/jackygrahamez/MayDay/blob/master/docs/BUILD.md)
