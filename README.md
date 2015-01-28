@@ -42,9 +42,9 @@ https://developer.android.com/training/building-wearables.html
 ##### Gear Fit 
 Uses a Samsung developed SDK called CUP SDK. http://forum.xda-developers.com/gear-fit/development/samsung-gear-fit-sdk-available-t2872803
 
-###### OpenFit 
+###### GearFitWeather 
 The most stable Gear Fit github project so far.
-https://github.com/jareddlc/OpenFit
+https://github.com/sert1m/GearFitWeather
 
 ##### Gear 
 
