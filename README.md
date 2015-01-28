@@ -48,4 +48,5 @@ In addition we could use help developing an iPhone version of this app
 ## Contact
 
 Jack Shultz
+
 john dot g. shultz AT G M A I L dot com
