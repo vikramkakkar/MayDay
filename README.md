@@ -50,4 +50,5 @@ If you care to attend, the two-day event is now accepting registration: http://o
 ## Contact
 
 Jack Shultz
+
 john dot g. shultz AT G M A I L dot com
