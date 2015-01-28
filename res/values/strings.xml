@@ -20,7 +20,7 @@
 
     <string name="page_button_action_text">Action</string>
     <string name="contact_hint_text">enter contact number</string>
-    <string name="default_emergency_message">Help me, I\'m in danger</string>
+    <string name="default_emergency_message">Testing PanicButton</string>
     <string name="emergency_message_header">Emergency message</string>
     <string name="sms_settings_subtitle">Add up to three emergency contacts</string>
     <string name="alert_status_standby">Alert is in standby</string>

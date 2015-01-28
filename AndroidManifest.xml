@@ -16,6 +16,7 @@
     <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
     <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
     <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.samsung.android.sdk.permission.SAMSUNG_CUP_SERVICE"/>
 
     <application android:allowBackup="true" android:debuggable="false" android:icon="@drawable/icon_calculator" android:label="@string/app_name" android:name=".common.ApplicationSettings" android:theme="@android:style/Theme.Light.NoTitleBar">
 
@@ -42,7 +43,7 @@
 
         <activity android:excludeFromRecents="true" android:name=".WizardActivity" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="true" android:name=".WizardModalActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
-        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name=".CalculatorActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name=".MainActivity" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="true" android:name=".LoginActivity" android:noHistory="true" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="true" android:name=".MainActivity" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="true" android:name=".MainModalActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
@@ -70,6 +71,13 @@
             </intent-filter>
         </receiver>
 
+        <intent-filter>
+            <action android:name="com.samsung.android.sdk.cup" />
+        </intent-filter>
+
+        <meta-data
+            android:name="SAMSUNG_CUP_APP"
+            android:value="MayDay;ic_launcher;true" />
 
     </application>
 </manifest>

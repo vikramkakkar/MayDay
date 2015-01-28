@@ -47,7 +47,7 @@ Feature: Sending sms with different gps status
     Then I see "Alerting"
     And I press "Stop Alerting"
     Then I see "Ready"
-    Then I check sms text contains "Help me, I'm in danger"
+    Then I check sms text contains "TESTING PanicButton"
 
 
   Scenario: Change GPS status
