@@ -23,29 +23,33 @@ MayDay will transmit your GPS coordinates to your network of contacts.*
 The MayDay project is a fork of PanicButton which is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.
 
 
-## Technology
-
-### Requirements
+## Technology Requirements
 
 You need an Android phone with a minimum version of 2.3.3 
 
-#### Wearable SDKs
+### Wearable SDKs
 
-##### Android
+#### Android
 
 There are several resources available for wearable technologies on the Android Developer Portal
 
 https://developer.android.com/training/building-wearables.html
 
-##### Samsung 
+#### Samsung 
 
-Unfortunetly Samsung has multiple wearable SDKs specific for different devices
+**Gear** and **Gear Fit** are different. Unfortunetly Samsung has multiple wearable SDKs specific for different devices
 
-Gear Fit http://forum.xda-developers.com/gear-fit/development/samsung-gear-fit-sdk-available-t2872803
+##### Gear Fit 
+Uses a Samsung developed SDK called CUP SDK. http://forum.xda-developers.com/gear-fit/development/samsung-gear-fit-sdk-available-t2872803
 
-Gear http://developer.samsung.com/gear
+###### OpenFit 
+The most stable Gear Fit github project so far.
+https://github.com/jareddlc/OpenFit
+
+##### Gear 
 
 For Gear you will need the Tizen SDK for Wearable and Possibly Samsung Accessory SDK
+http://developer.samsung.com/gear
 
 ### Building
 
