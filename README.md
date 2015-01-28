@@ -59,7 +59,7 @@ See the [notes to build your own APK](https://github.com/jackygrahamez/MayDay/bl
 
 This app is being developed in preparation for a Hackathon to prevent cyberstalking being held January 30-31, 2015
 
-Location: 80 Centre Street, 5th Floor (use side entrance at 10 Hogan Place)
+Location: 80 Centre Street, 5th Floor (use side entrance at 10 Hogan Place), New York, NY
 
 Time: 6:00 pm (Friday)
 
