@@ -13,7 +13,7 @@
                         "link": "setup-contacts"
                     }
                 ],
-                "content": "<p>Panic Button is a useful tool to alert your network quickly when you need help. It can&#39;t guarantee your security! Make a plan with your contacts so they are prepared to act fast. </p>"
+                "content": "<p>MayDay is a useful tool to alert your network quickly when you need help. It can&#39;t guarantee your security! Make a plan with your contacts so they are prepared to act fast. </p>"
             },
             {
                 "id": "setup-message",
@@ -58,6 +58,11 @@
                         "title": "Português",
                         "language": "pt",
                         "confirmation": "Novo idioma aplicado"
+                    },
+                    {
+                        "title": "Deutsch",
+                        "language": "de",
+                        "confirmation": "Neue Sprache eingestellt"
                     }
                 ]
             },
@@ -104,7 +109,7 @@
                         "link": "home-ready"
                     }
                 ],
-                "content": "<p>Congratulations you have now successfully configured the Panic Button app!</p>"
+                "content": "<p>Congratulations you have now successfully configured the MayDay app!</p>"
             },
             {
                 "id": "setup-disguise-test-open-fail",
@@ -187,7 +192,7 @@
                         "link": "setup-disguise-test-open"
                     }
                 ],
-                "content": "<p>Panic Button stays hidden on your phone by looking like a simple calculator. From now on, you will see the calculator disguise whenever you open the app. Learn how it works. </p>"
+                "content": "<p>MayDay stays hidden on your phone by looking like a simple calculator. From now on, you will see the calculator disguise whenever you open the app. Learn how it works. </p>"
             },
             {
                 "id": "setup-contacts",
@@ -244,14 +249,14 @@
                         "link": "setup-alarm-test-hardware"
                     }
                 ],
-                "content": "<p>It looks like you didn&#39;t succeed in triggering the alert using the phone&#39;s power button.</p><p>Remember: repeatedly press a button on the calculator fast until you feel a vibration.</p>"
+                "content": "<p>It looks like you didn&#39;t succeed in triggering the alert using the phone&#39;s power button.</p><p>Remember: repeatedly press a button on the calculator until you feel a vibration.</p>"
             },
             {
                 "id": "setup-alarm-test-hardware",
                 "lang": "en",
                 "type": "interactive",
                 "title": "Test Hardware Alarm",
-                "introduction": "Try Now! Repeatedly press the power button fast until you feel a vibration.",
+                "introduction": "Try Now! Repeatedly press the power button until you feel a vibration.",
                 "component": "alarm-test-hardware",
                 "timers": {
                     "info": "0",
@@ -290,14 +295,14 @@
                         "link": "setup-alarm-test-disguise"
                     }
                 ],
-                "content": "<p>It looks like you didn&#39;t succeed in triggering the alert.</p><p>Remember: repeatedly press a button on the calculator fast until you feel a vibration.</p>"
+                "content": "<p>It looks like you didn&#39;t succeed in triggering the alert.</p><p>Remember: repeatedly press a button on the calculator until you feel a vibration.</p>"
             },
             {
                 "id": "setup-alarm-test-disguise",
                 "lang": "en",
                 "type": "interactive",
                 "title": "Test Disguised Alarm",
-                "introduction": "Try Now! Repeatedly press a button on the calculator fast until you feel a vibration.",
+                "introduction": "Try Now! Repeatedly press a button on the calculator until you feel a vibration.",
                 "component": "alarm-test-disguise",
                 "timers": {
                     "info": "0",
@@ -335,14 +340,14 @@
                         "link": "setup-alarm-test-hardware"
                     }
                 ],
-                "content": "<p>Now learn how to trigger the Panic Button in an emergency. </p><p>Panic Button is unique because you can trigger the alert from the phone&#39;s power button. This means you can do it secretly - for example, from inside a jacket pocket. </p>"
+                "content": "<p>Now learn how to trigger the MayDay in an emergency. </p><p>MayDay is unique because you can trigger the alert from the phone&#39;s power button. This means you can do it secretly - for example, from inside a jacket pocket. </p>"
             },
             {
                 "id": "setup-about",
                 "lang": "en",
                 "type": "simple",
                 "title": "About",
-                "content": "<p>Panic Button turns your mobile phone into a secret alarm for when you&#39;re in trouble.</p><p><strong>How Does Panic Button Work?</strong></p><ul><li>TAKE TIME to set-up Panic Button somewhere safe and quiet</li><li>Create a plan with your contacts so that they are PREPARED to ACT</li><li>CHECK you are ready and that your mobile phone has credit and battery</li><li>ACTIVATE Panic Button in an emergency by rapidly pressing the phone&#39;s power button</li><li>Your network will receive an SMS and regular updates of your location helping them to ACT FAST</li></ul><p>The Panic Button project is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.</p>"
+                "content": "<p>MayDay turns your mobile phone into a secret alarm for when you&#39;re in trouble.</p><p><strong>How Does MayDay Work?</strong></p><ul><li>TAKE TIME to set-up MayDay somewhere safe and quiet</li><li>Create a plan with your contacts so that they are PREPARED to ACT</li><li>CHECK you are ready and that your mobile phone has credit and battery</li><li>ACTIVATE MayDay in an emergency by rapidly pressing the phone&#39;s power button</li><li>Your network will receive an SMS and regular updates of your location helping them to ACT FAST</li></ul><p>The MayDay project is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.</p>"
             },
             {
                 "id": "settings-reset-confirm",
@@ -401,6 +406,11 @@
                         "title": "Português",
                         "language": "pt",
                         "confirmation": "Novo idioma aplicado"
+                    },
+                    {
+                        "title": "Deutsch",
+                        "language": "de",
+                        "confirmation": "Neue Sprache eingestellt"
                     }
                 ]
             },
@@ -489,7 +499,7 @@
                 "id": "home-ready",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "MayDay",
                 "status": [
                     {
                         "title": "Ready",
@@ -517,13 +527,13 @@
                         "link": "help"
                     }
                 ],
-                "content": "<p>Panic Button is set-up and ready. Click Disguise to exit and hide the application.</p>"
+                "content": "<p>MayDay is set-up and ready. Click Disguise to exit and hide the application.</p>"
             },
             {
                 "id": "home-not-configured-disguise",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "MayDay",
                 "status": [
                     {
                         "title": "Setup not complete",
@@ -561,13 +571,13 @@
                         "link": "setup-language"
                     }
                 ],
-                "content": "<p>You cannot use Panic Button until it is fully setup.</p>"
+                "content": "<p>You cannot use MayDay until it is fully setup.</p>"
             },
             {
                 "id": "home-not-configured-alarm",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "MayDay",
                 "status": [
                     {
                         "title": "Setup not complete",
@@ -605,13 +615,13 @@
                         "link": "setup-language"
                     }
                 ],
-                "content": "<p>You cannot use Panic Button until it is fully setup.</p>"
+                "content": "<p>You cannot use MayDay until it is fully setup.</p>"
             },
             {
                 "id": "home-not-configured",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "MayDay",
                 "action": [
                     {
                         "title": "Set-Up",
@@ -628,13 +638,13 @@
                         "link": "setup-language"
                     }
                 ],
-                "content": "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\"> Panic Button is an Android app that secretly alerts your contacts when you are in trouble. The app stays hidden on your phone by looking like a simple calculator.</p>"
+                "content": "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\"> MayDay is an Android app that secretly alerts your contacts when you are in trouble. The app stays hidden on your phone by looking like a simple calculator.</p>"
             },
             {
                 "id": "home-alerting",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "MayDay",
                 "status": [
                     {
                         "title": "Alerting",
@@ -648,7 +658,7 @@
                         "link": "home-ready"
                     }
                 ],
-                "content": "<p>Panic Button is currently sending alert messages. Click Stop Alerting to cancel messages. </p>"
+                "content": "<p>MayDay is currently sending alert messages. Click Stop Alerting to cancel messages. </p>"
             },
             {
                 "id": "code",

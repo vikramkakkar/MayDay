@@ -19,4 +19,4 @@ Feature: Pin setup in the Wizard
   Scenario: Entering Pin
       When I enter "1234" into input field number 1
        And I press "Next"
-      Then I see "You cannot use Panic Button"
+      Then I see "You cannot use MayDay"
