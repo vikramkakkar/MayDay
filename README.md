@@ -65,7 +65,7 @@ Location: 80 Centre Street, 5th Floor (use side entrance at 10 Hogan Place), New
 
 Time: 6:00 pm (Friday)
 
-We need help developing wearable interfaces to trigger MayDay and removing the calculator disguise form the Android App
+We need help developing wearable interfaces to trigger MayDay and removing the calculator disguise from the Android App
 
 In addition we could use help developing an iPhone version of this app
 
