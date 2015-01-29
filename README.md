@@ -22,7 +22,7 @@ MayDay will transmit your GPS coordinates to your network of contacts.*
 
 ## The Organisations behind MayDay
 
-The MayDay project is a fork of PanicButton which is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.
+The MayDay project is a fork of MayDay which is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.
 
 
 ## Technology Requirements

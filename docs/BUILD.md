@@ -41,9 +41,9 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
   For example : I extracted to ```/opt/android-studio```
 
 * Clone MayDay source code
-  ```git clone https://github.com/PanicButton/PanicButton.git```
+  ```git clone https://github.com/jackygrahamez/MayDay.git```
 * Run maven compile to download necessary libs and compile
-    * ```cd ./PanicButton```
+    * ```cd ./MayDay```
     * ```mvn compile```
   
 Check the instructions to setup IDE [here](https://github.com/PanicButton/PanicButton/wiki/IDE-Setup-Instructions)
