@@ -257,7 +257,6 @@
       "type" : "simple",
       "title" : "MayDay",
       "status" : [{"title":"Ready","color":"green","link":"help-ready"}],
-      "action" : [{"title":"Disguise","link":"checklist"}],
       "items" : [{"title":"Settings","link":"settings"},{"title":"About","link":"about"},{"title":"Help","link":"help"}],
       "content" : "<p>MayDay is set-up and ready. Click Disguise to exit and hide the application.</p>"
     },

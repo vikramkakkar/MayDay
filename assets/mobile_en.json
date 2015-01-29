@@ -507,12 +507,6 @@
                         "link": "help-ready"
                     }
                 ],
-                "action": [
-                    {
-                        "title": "Disguise",
-                        "link": "checklist"
-                    }
-                ],
                 "items": [
                     {
                         "title": "Settings",

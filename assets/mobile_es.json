@@ -506,12 +506,6 @@
                         "link": "help-ready"
                     }
                 ],
-                "action": [
-                    {
-                        "title": "Disfrazar",
-                        "link": "checklist"
-                    }
-                ],
                 "items": [
                     {
                         "title": "Configuraciones",

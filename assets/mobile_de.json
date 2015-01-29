@@ -507,12 +507,6 @@
 						"link": "help-ready"
 					}
 				],
-				"action": [
-					{
-						"title": "Tarnen",
-						"link": "checklist"
-					}
-				],
 				"items": [
 					{
 						"title": "Einstellungen",

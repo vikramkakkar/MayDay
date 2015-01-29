@@ -504,12 +504,6 @@
             "link": "help-ready"
           }
         ],
-        "action": [
-          {
-            "title": "Cacher",
-            "link": "checklist"
-          }
-        ],
         "items": [
           {
             "title": "Paramètres",
