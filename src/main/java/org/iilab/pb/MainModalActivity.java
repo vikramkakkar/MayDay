@@ -156,7 +156,7 @@ public class MainModalActivity extends BaseFragmentActivity {
 
                         Intent i = new Intent(MainModalActivity.this, CalculatorActivity.class);
 //                        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                        //startActivity(i);
+                        startActivity(i);
                         overridePendingTransition(R.anim.show_from_bottom, R.anim.hide_to_top);
 
                         callFinishActivityReceiver();

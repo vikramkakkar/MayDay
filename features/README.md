@@ -1,7 +1,7 @@
-MayDayAutomation
+PanicButtonAutomation
 =====================
 
-MayDay android app automation
+PanicButton android app automation
 
 [Running test](https://github.com/calabash/calabash-android)
 ------------
