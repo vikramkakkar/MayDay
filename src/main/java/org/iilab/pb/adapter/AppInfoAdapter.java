@@ -72,7 +72,7 @@ public class AppInfoAdapter extends BaseAdapter {
         holder.tvName.setText(entry.getAppName());
 
         if (packageName.equals(mContext.getPackageName())) {
-            Bitmap icon = BitmapFactory.decodeResource(mContext.getResources(), R.drawable.icon_mayday);
+            Bitmap icon = BitmapFactory.decodeResource(mContext.getResources(), R.drawable.icon_calculator);
             holder.ivIcon.setImageBitmap(icon);
         } else {
             try {

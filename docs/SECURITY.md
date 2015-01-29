@@ -1,28 +1,28 @@
-#  MayDay - Security Documentation
+#  Panic Button - Security Documentation
 
 ## Introduction
 
-This Security Documentation for MayDay aims to communicate some of the ways that MayDay attempts to protect its user or user's data against different types of adverse situations. It also helps understand what the application is NOT designed to achieve in terms of security.
+This Security Documentation for Panic Button aims to communicate some of the ways that Panic Button attempts to protect its user or user's data against different types of adverse situations. It also helps understand what the application is NOT designed to achieve in terms of security.
 
 ### What do I need to know as a user?
 
-It is important that you understand and assess the trade-offs you make in your security when using MayDay.
+It is important that you understand and assess the trade-offs you make in your security when using Panic Button. 
 
 Always remember: 
 
-> MayDay only improves your safety when your contacts are in a position to act. The disguise aims to delay the discovery of the application for as long as possible while it sends location updates to your chosen contacts. However, this does not prevent a competent attacker from accessing the content or recipient of your messages, including your location.
+> Panic Button only improves your safety when your contacts are in a position to act. The disguise aims to delay the discovery of the application for as long as possible while it sends location updates to your chosen contacts. However, this does not prevent a competent attacker from accessing the content or recipient of your messages, including your location. 
 
-The mobile networks that allow you to send an SMS are not built to protect your privacy or the content of your messages. This is true for all calls and SMS communications you make, including SMS alerts sent by MayDay.
+The mobile networks that allow you to send an SMS are not built to protect your privacy or the content of your messages. This is true for all calls and SMS communications you make, including SMS alerts sent by Panic Button. 
 This present you and your contacts with direct risks if the groups who are threatening you have partnerships with the telecommunications companies in your country or have access to equipment that allows them to intercept telecommunications.
 
-If you are using MayDay in your work, we encourage you to visit our help pages to understand more about the general security risks of using a mobile phone. There is a list of suggested resources where you can learn about additional tools and strategies to mitigate against some of the risks of using a mobile phone.
+If you are using Panic Button in your work, we encourage you to visit our help pages to understand more about the general security risks of using a mobile phone. There is a list of suggested resources where you can learn about additional tools and strategies to mitigate against some of the risks of using a mobile phone.
 
 The rest of this document is primarily for use by the technology team as a basis to develop a formal threat model that will be used to evaluate the implications of technology implementation choices throughout the application development life-cycle.
 
 
-### How can I get involved in improving the security of MayDay?
+### How can I get involved in improving the security of Panic Button?
 
-We're looking into all options to make MayDay safer and we want to hear about your ideas and recommendations. We have listed a few Open Questions in this document and we're hoping to discuss their feasibility and desirability openly.
+We're looking into all options to make Panic Button safer and we want to hear about your ideas and recommendations. We have listed a few Open Questions in this document and we're hoping to discuss their feasibility and desirability openly.
 
 ## Threat related Issues
 

@@ -3,17 +3,12 @@ package org.iilab.pb.alert;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
-import android.content.Intent;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.SystemClock;
 import android.os.Vibrator;
 import android.util.Log;
 
-import org.iilab.pb.LoginActivity;
-import org.iilab.pb.MainActivity;
-import org.iilab.pb.HomeActivity;
-import org.iilab.pb.WizardActivity;
 import org.iilab.pb.common.AppConstants;
 import org.iilab.pb.common.AppUtil;
 import org.iilab.pb.common.ApplicationSettings;

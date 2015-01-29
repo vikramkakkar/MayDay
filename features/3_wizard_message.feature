@@ -17,7 +17,7 @@ Feature: Message setup in the Wizard
   Scenario: Emergency alert set message
     Then I see the text "Next"
     Then I verify "Next" button is "enabled"
-    Then I see the text "Testing MayDay"
+    Then I see the text "Help me, I'm in danger"
     Then I see the text "I'm at https://maps.google.com/GPS-location"
 
   Scenario: Navigating back to start screen
@@ -85,7 +85,7 @@ Feature: Message setup in the Wizard
  #   Then I see the text "Step 5: Activate Disguise"
  #   Then I verify action button text is "Try it now"
  #   Then I press "Try it now"
- #   Then I see the text "MayDay will now disguise itself"
+ #   Then I see the text "Panic Button will now disguise itself"
 
 
 
