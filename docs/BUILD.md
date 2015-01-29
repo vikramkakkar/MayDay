@@ -40,7 +40,7 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 * Download and extract Android Studio to any location.
   For example : I extracted to ```/opt/android-studio```
 
-* Clone panic button source code  
+* Clone MayDay source code
   ```git clone https://github.com/PanicButton/PanicButton.git```
 * Run maven compile to download necessary libs and compile
     * ```cd ./PanicButton```
