@@ -8,7 +8,7 @@
       "type" : "warning",
       "title" : "Warning",
       "action" : [{"title":"Get started","link":"setup-contacts"}],
-      "content" : "<p>Panic Button is a useful tool to alert your network quickly when you need help. It can&#39;t guarantee your security! Create a PACT with your network so that they are PREPARED to ACT. </p>"
+      "content" : "<p>MayDay is a useful tool to alert your network quickly when you need help. It can&#39;t guarantee your security! Create a PACT with your network so that they are PREPARED to ACT. </p>"
     },
     {
       "id" : "setup-message",
@@ -55,7 +55,7 @@
       "type" : "simple",
       "title" : "Well done",
       "action" : [{"title":"Finish","link":"home-ready"}],
-      "content" : "<p>Congratulations you have now succesfully configured the Panic Button app!</p>"
+      "content" : "<p>Congratulations you have now succesfully configured the MayDay app!</p>"
     },
     {
       "id" : "setup-disguise-test-open-fail",
@@ -102,7 +102,7 @@
       "type" : "simple",
       "title" : "Setup the Disguise",
       "action" : [{"title":"Learn","link":"setup-disguise-test-open"}],
-      "content" : "<p>Panic Button stays hidden on your phone by looking like a simple calculator. From now on you will see the calculator disguise whenever you open the app. Here we teach you how to access your settings from the disguise screen.</p>"
+      "content" : "<p>MayDay stays hidden on your phone by looking like a simple calculator. From now on you will see the calculator disguise whenever you open the app. Here we teach you how to access your settings from the disguise screen.</p>"
     },
     {
       "id" : "setup-contacts",
@@ -193,7 +193,7 @@
       "type" : "simple",
       "title" : "Setup the Alarm",
       "action" : [{"title":"Learn","link":"setup-alarm-test-hardware"}],
-      "content" : "<p>Now you will learn how to trigger Panic Button in an emergency. The app is special because it allows you to trigger the alert from the phone&#39;s power button (meaning you can do it secretly - for example, from inside a jacket pocket).</p>"
+      "content" : "<p>Now you will learn how to trigger MayDay in an emergency. The app is special because it allows you to trigger the alert from the phone&#39;s power button (meaning you can do it secretly - for example, from inside a jacket pocket).</p>"
     },
     {
       "id" : "settings-reset-confirm",
@@ -255,37 +255,36 @@
       "id" : "home-ready",
       "lang" : "ph",
       "type" : "simple",
-      "title" : "Panic Button",
+      "title" : "MayDay",
       "status" : [{"title":"Ready","color":"green","link":"help-ready"}],
-      "action" : [{"title":"Disguise","link":"checklist"}],
       "items" : [{"title":"Settings","link":"settings"},{"title":"About","link":"about"},{"title":"Help","link":"help"}],
-      "content" : "<p>Panic Button is set-up and ready. Click Disguise to exit and hide the application.</p>"
+      "content" : "<p>MayDay is set-up and ready. Click Disguise to exit and hide the application.</p>"
     },
     {
       "id" : "home-not-configured-disguise",
       "lang" : "ph",
       "type" : "simple",
-      "title" : "Panic Button",
+      "title" : "MayDay",
       "status" : [{"title":"Setup not complete","color":"red","link":"help-not-configured"}],
       "action" : [{"title":"Basic Settings","link":"","status":"checked"},{"title":"Setup Alarm","link":"","status":"checked"},{"title":"Setup Disguise","link":"setup-disguise"}],
       "items" : [{"title":"About","link":"setup-about"},{"title":"Help","link":"setup-help"},{"title":"Language Settings","link":"setup-language"}],
-      "content" : "<p>You cannot use Panic Button until it is fully setup.</p>"
+      "content" : "<p>You cannot use MayDay until it is fully setup.</p>"
     },
     {
       "id" : "home-not-configured-alarm",
       "lang" : "ph",
       "type" : "simple",
-      "title" : "Panic Button",
+      "title" : "MayDay",
       "status" : [{"title":"Setup not complete","color":"red","link":"help-not-configured"}],
       "action" : [{"title":"Basic Settings","link":"","status":"checked"},{"title":"Setup Alarm","link":"setup-alarm"},{"title":"Setup Disguise","link":"setup-disguise","status":"disabled"}],
       "items" : [{"title":"About","link":"setup-about"},{"title":"Help","link":"setup-help"},{"title":"Language Settings","link":"setup-language"}],
-      "content" : "<p>You cannot use Panic Button until it is fully setup.</p>"
+      "content" : "<p>You cannot use MayDay until it is fully setup.</p>"
     },
     {
       "id" : "home-not-configured",
       "lang" : "ph",
       "type" : "simple",
-      "title" : "Panic Button",
+      "title" : "MayDay",
       "action" : [{"title":"Set-Up","link":"setup-warning"}],
       "items" : [{"title":"About","link":"setup-about"},{"title":"Language Settings","link":"setup-language"}],
       "content" : "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\"> El Boton de Panico convierte tu telefono movil en una alarma secreta para que tus contactos mas confiables pueden actuar si te encuentres en riesgo.</p>"
@@ -294,11 +293,11 @@
       "id" : "home-alerting",
       "lang" : "ph",
       "type" : "simple",
-      "title" : "Panic Button",
+      "title" : "MayDay",
       "status" : [{"title":"Alerting","color":"red","link":"help-alerting"}],
       "action" : [{"title":"Stop Alerting","link":"home-ready"}],
       "items" : [{"title":"Settings","link":"settings"},{"title":"About","link":"about"},{"title":"Help","link":"help"}],
-      "content" : "<p>Panic Button is currently sending alert messages. Click Stop Alerting to stop the alert.</p>"
+      "content" : "<p>MayDay is currently sending alert messages. Click Stop Alerting to stop the alert.</p>"
     },
     {
       "id" : "code",
