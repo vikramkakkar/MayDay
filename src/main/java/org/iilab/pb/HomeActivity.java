@@ -117,7 +117,7 @@ public class HomeActivity extends Activity {
         Log.e(">>>>>>>>>>>>", "starting next activity");
 
         int wizardState = ApplicationSettings.getWizardState(this);
-        if (wizardState != AppConstants.WIZARD_FLAG_HOME_READY) {
+        if (true) {
             Log.e(">>>>>>", "first run TRUE, running WizardActivity with pageId = " + pageId);
             Intent i = new Intent(HomeActivity.this, WizardActivity.class);
             // Removing default homescreen shortcut when installed via Google Play.
