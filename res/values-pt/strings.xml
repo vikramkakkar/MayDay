@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_setup">MayDay Setup</string>
+    <string name="app_name_setup">MayDay</string>
     <string name="app_name">MayDay</string>
 
     <string name="characters_left">Caracteres:&#160;</string>

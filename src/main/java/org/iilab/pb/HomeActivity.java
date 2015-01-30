@@ -12,6 +12,7 @@ import org.iilab.pb.common.ApplicationSettings;
 import org.iilab.pb.data.PBDatabase;
 import org.iilab.pb.model.Page;
 import org.iilab.pb.trigger.HardwareTriggerService;
+import org.iilab.pb.GearFitDialog;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -20,7 +21,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+import com.samsung.android.sdk.cup.ScupDialog;
+import com.samsung.android.sdk.cup.ScupLabel;
+
 public class HomeActivity extends Activity {
+
+    String[] NAMES = {"MayDay"};
+    private GearFitDialog mHelloCupDialog = null;
+    private static final int MAYDAY_CUP = 0;
+
 
     ProgressDialog pDialog;
 
