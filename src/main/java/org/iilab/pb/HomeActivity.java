@@ -46,6 +46,14 @@ public class HomeActivity extends Activity {
         int wizardState = ApplicationSettings.getWizardState(this);
         if (AppConstants.SKIP_WIZARD) {
             pageId = "home-ready";
+            Log.e(">>>>>>", "Checking Alert State");
+            if (ApplicationSettings.isAlertActive(HomeActivity.this)) {
+                Log.e(">>>>>>", "HomeAlerting");
+                pageId = "home-alerting";
+            } else {
+                Log.e(">>>>>>", "HomeReady");
+                pageId = "home-ready";
+            }
         } else
         if (wizardState == AppConstants.WIZARD_FLAG_HOME_NOT_CONFIGURED) {
             pageId = "home-not-configured";
@@ -127,7 +135,18 @@ public class HomeActivity extends Activity {
             i.putExtra(Intent.EXTRA_SHORTCUT_NAME, "HelloWorldShortcut");
          
             i.setAction("com.android.launcher.action.UNINSTALL_SHORTCUT");
-            getApplicationContext().sendBroadcast(i);*/
+            getApplicationContext().sendBroadcast(i);
+
+                        Intent i = new Intent(LoginActivity.this, MainActivity.class);
+//                        i = AppUtil.clearBackStack(i);
+                        if (ApplicationSettings.isAlertActive(LoginActivity.this)) {
+                            i.putExtra("page_id", "home-alerting");
+                        } else {
+                            i.putExtra("page_id", "home-ready");
+                        }
+            */
+
+
             i.putExtra("page_id", pageId);
             startActivity(i);
         } else {
