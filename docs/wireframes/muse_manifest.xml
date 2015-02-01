@@ -1,0 +1,39 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1422737911903">
+  <folder name="css">
+    <file name="site_global.css" crc="3800388978"/>
+    <file name="master_a-master.css" crc="4182216159" ref="index:setup-wizard:setup-wizard-language:demo-deactivate:setup-wizard-messages:setup-wizard-pin-password:demo-activation:setup-wizard-contact-list:demo-confirmation:setup-wizard-alert-frequency:demo-mark-read"/>
+    <file name="index.css" crc="4126777596" ref="index"/>
+    <file name="setup-wizard.css" crc="343528165" ref="setup-wizard"/>
+    <file name="setup-wizard-language.css" crc="4111464918" ref="setup-wizard-language"/>
+    <file name="demo-deactivate.css" crc="4246417464" ref="demo-deactivate"/>
+    <file name="setup-wizard-messages.css" crc="4229564014" ref="setup-wizard-messages"/>
+    <file name="setup-wizard-pin-password.css" crc="3804092107" ref="setup-wizard-pin-password"/>
+    <file name="demo-activation.css" crc="3913076184" ref="demo-activation"/>
+    <file name="setup-wizard-contact-list.css" crc="192937896" ref="setup-wizard-contact-list"/>
+    <file name="demo-confirmation.css" crc="3941185136" ref="demo-confirmation"/>
+    <file name="setup-wizard-alert-frequency.css" crc="3841209076" ref="setup-wizard-alert-frequency"/>
+    <file name="demo-mark-read.css" crc="114952022" ref="demo-mark-read"/>
+  </folder>
+  <folder name="assets">
+    <file name="apple-touch-icon.png" crc="410461032" mt="1385159366000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index:setup-wizard:setup-wizard-language:setup-wizard-messages:setup-wizard-contact-list:setup-wizard-alert-frequency:setup-wizard-pin-password:demo-activation:demo-confirmation:demo-deactivate:demo-mark-read"/>
+    <file name="museutils.js" crc="3777594392" ref="index:setup-wizard:setup-wizard-language:setup-wizard-messages:setup-wizard-contact-list:setup-wizard-alert-frequency:setup-wizard-pin-password:demo-activation:demo-confirmation:demo-deactivate:demo-mark-read"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index:setup-wizard:setup-wizard-language:setup-wizard-messages:setup-wizard-contact-list:setup-wizard-alert-frequency:setup-wizard-pin-password:demo-activation:demo-confirmation:demo-deactivate:demo-mark-read"/>
+  </folder>
+  <folder name="images">
+    <file name="samsung.jpg" crc="244521871" ref="index:setup-wizard:setup-wizard-language:setup-wizard-messages:setup-wizard-contact-list:setup-wizard-alert-frequency:setup-wizard-pin-password:demo-activation:demo-confirmation:demo-deactivate:demo-mark-read"/>
+  </folder>
+  <file name="index.html" crc="3881618576" mt="1422737901253" redirect="true"/>
+  <file name="setup-wizard.html" crc="23858466" mt="1422737901254" redirect="true"/>
+  <file name="setup-wizard-language.html" crc="3913243674" mt="1422737901255" redirect="true"/>
+  <file name="setup-wizard-messages.html" crc="237766102" mt="1422737901255" redirect="true"/>
+  <file name="setup-wizard-contact-list.html" crc="246823164" mt="1422737901256" redirect="true"/>
+  <file name="setup-wizard-alert-frequency.html" crc="4019039402" mt="1422737901256" redirect="true"/>
+  <file name="setup-wizard-pin-password.html" crc="4158105019" mt="1422737901257" redirect="true"/>
+  <file name="demo-activation.html" crc="3936941769" mt="1422737901258" redirect="true"/>
+  <file name="demo-confirmation.html" crc="33304060" mt="1422737901258" redirect="true"/>
+  <file name="demo-deactivate.html" crc="503979271" mt="1422737901259" redirect="true"/>
+  <file name="demo-mark-read.html" crc="163444781" mt="1422737901260" redirect="true"/>
+</manifest>
