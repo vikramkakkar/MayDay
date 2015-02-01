@@ -22,8 +22,28 @@ MayDay will transmit your GPS coordinates to your network of contacts.*
 
 ## The Organisations behind MayDay
 
-The MayDay project is a fork of MayDay which is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.
+The MayDay project is a fork of PanicButton which is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.
 
+### Homalyn Dakers
+#### Product Manager
+
+![Homalyn](https://raw.githubusercontent.com/jackygrahamez/MayDay/master/assets/media/homalyn.jpg)
+
+Homalyn Dakers lives in Brooklyn, NY. She has an extensive 14 year background in the telecommunications industry working with various platforms. She assumed many roles within Fortune 100 Verizon Communications such as subject matter expert, training coordinator, project manager and operational analyst. She studied Early Childhood Education in Manhattan and has 8 nieces and nephews. 
+
+### John Shultz
+#### App Developer
+
+![John](https://raw.githubusercontent.com/jackygrahamez/MayDay/master/assets/media/john.jpg)
+
+John has over 10 years technology experience and has worked for The National Academies of Science, earned a Masters Degree in Biotechnology from American University and worked in app development for Healthcare for 3 1/2 years.
+
+### Jeff Tome
+#### Graphics Designer
+
+![Jeff](https://raw.githubusercontent.com/jackygrahamez/MayDay/master/assets/media/jeff.jpg)
+
+I'm a Manhattan based Graphic Designer with many freelance clients. I also teach graphic design applications at numerous colleges in Manhattan where I cover in detail many Adobe programs as well as have my own freelance clients. I teach and am highly skilled in Adobe Photoshop, Illustrator, Dreamweaver, Flash, InDesign, Color Theory, Advanced Photoshop, Advanced Flash animation, Advanced Illustrator as well as portfolio design.
 
 ## Technology Requirements
 
@@ -59,20 +79,22 @@ See the [notes to build your own APK](https://github.com/jackygrahamez/MayDay/bl
 
 ### Participating
 
-This app is being developed in preparation for a Hackathon to prevent cyberstalking being held January 30-31, 2015
+This app was developed in preparation for a Hackathon to prevent cyberstalking held January 30-31, 2015
 
-Location: 80 Centre Street, 5th Floor (use side entrance at 10 Hogan Place), New York, NY
+Additional enhancements are welcome!
 
-Time: 6:00 pm (Friday)
+### Proposal
 
-We need help developing wearable interfaces to trigger MayDay and removing the calculator disguise from the Android App
+We proposed enhancements outlined in our [wire frame documentation](http://jackygrahamez.github.io/MayDay/wires/). 
 
-In addition we could use help developing an iPhone version of this app
+1. SOS vibration read receipt confirmation
 
-If you care to attend, the two-day event is now accepting registration: http://our.cityofnewyork.us/page/s/dv-hackathon
+2. Improved wristband integration
+
+3. Secret messaging
 
 ## Contact
 
-Jack Shultz
+John Shultz
 
 john dot g. shultz AT G M A I L dot com
