@@ -32,7 +32,6 @@ coverage.ec
 
 /test_servers/
 /*.png
-*.html
 cucumber.json
 *.keystore
 calabash_settings
