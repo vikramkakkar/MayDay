@@ -87,11 +87,13 @@ Additional enhancements are welcome!
 
 We proposed enhancements outlined in our [wire frame documentation](http://jackygrahamez.github.io/MayDay/wires/). 
 
-1. SOS vibration read receipt confirmation
+1. Record and SMS a 30 second recording
 
-2. Improved wristband integration
+2. SOS vibration read receipt confirmation
 
-3. Secret messaging
+3. Improved wristband integration
+
+4. Secret messaging
 
 ## Contact
 
