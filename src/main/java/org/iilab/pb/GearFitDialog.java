@@ -5,7 +5,6 @@ import android.content.Context;
 import com.samsung.android.sdk.cup.ScupDialog;
 import com.samsung.android.sdk.cup.ScupLabel;
 
-
 /**
  * Created by jshultz on 1/30/15.
  */
