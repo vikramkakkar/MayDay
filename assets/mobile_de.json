@@ -515,10 +515,6 @@
 					{
 						"title": "Über diese App",
 						"link": "setup-about"
-					},
-					{
-						"title": "Hilfe",
-						"link": "help"
 					}
 				],
 				"content": "<p>Die Einstellungen von Panik Knopf sind nun vollständig. Klicke 'Tarnen' um die die App wieder zu verstecken.</p>"

@@ -512,10 +512,6 @@
           {
             "title": "À propos",
             "link": "setup-about"
-          },
-          {
-            "title": "Aide",
-            "link": "help"
           }
         ],
         "content": "<p>Le Bouton d’urgence est désormais installé et prêt à être utilisé en cas de danger. Appuyez sur « cacher » pour quitter et cacher l’application.</p>"

@@ -23,7 +23,7 @@ Then /^I press home button$/ do
 end
 
 And(/^I start application$/) do
-  Device.adb_command("shell am start -n org.iilab.pb/.HomeActivity")
+  Device.adb_command("shell am start -n com.mayday.md/.HomeActivity")
 end
 
 And(/^I clear log$/) do
@@ -32,7 +32,7 @@ end
 
 And(/^I check sms text contains "(.*?)"$/) do |sms_text|
   # Get sms text
-  log_input = "adb logcat -d -n5 -s \"org.iilab.pb.alert.SMSAdapter\""
+  log_input = "adb logcat -d -n5 -s \"com.mayday.md.alert.SMSAdapter\""
   log_output = `#{log_input}`
   print log_output
 

@@ -515,10 +515,6 @@
                     {
                         "title": "About",
                         "link": "setup-about"
-                    },
-                    {
-                        "title": "Help",
-                        "link": "help"
                     }
                 ],
                 "content": "<p>MayDay is set-up and ready. Click Disguise to exit and hide the application.</p>"

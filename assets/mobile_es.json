@@ -556,10 +556,6 @@
                         "link": "setup-about"
                     },
                     {
-                        "title": "Ayuda",
-                        "link": "help"
-                    },
-                    {
                         "title": "Configuración de Lenguaje",
                         "link": "setup-language"
                     }
