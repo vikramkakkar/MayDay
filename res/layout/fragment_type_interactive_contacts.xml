@@ -67,7 +67,7 @@
                     style="@style/contact_number" />
 
                 <fragment
-                    android:name="com.mayday.md.common.ContactPickerFragment"
+                    android:name="com.mayday.sos.common.ContactPickerFragment"
                     android:layout_height="wrap_content"
                     android:layout_width="fill_parent"
                     android:id="@+id/first_contact" />
@@ -87,7 +87,7 @@
                     style="@style/contact_number" />
 
                 <fragment
-                    android:name="com.mayday.md.common.ContactPickerFragment"
+                    android:name="com.mayday.sos.common.ContactPickerFragment"
                     android:layout_height="wrap_content"
                     android:layout_width="fill_parent"
                     android:id="@+id/second_contact" />
@@ -107,7 +107,7 @@
                     style="@style/contact_number" />
 
                 <fragment
-                    android:name="com.mayday.md.common.ContactPickerFragment"
+                    android:name="com.mayday.sos.common.ContactPickerFragment"
                     android:layout_height="wrap_content"
                     android:layout_width="fill_parent"
                     android:id="@+id/third_contact" />

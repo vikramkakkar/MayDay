@@ -3,8 +3,8 @@
   <component name="AndroidConfiguredLogFilters">
     <filters>
       <filter>
-        <option name="name" value="app: com.mayday.md" />
-        <option name="packageNamePattern" value="com.mayday.md" />
+        <option name="name" value="app: com.mayday.sos" />
+        <option name="packageNamePattern" value="com.mayday.sos" />
       </filter>
     </filters>
   </component>
@@ -14,17 +14,128 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.mayday.md" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.mayday.sos" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd87e74-d2df-486e-8bbf-b7bb9d293773" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/media/device-2015-02-01-233030.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/media/device-2015-02-01-233220.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/media/device-2015-02-01-233234.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/media/device-2015-02-01-233246.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/media/device-2015-02-01-233337.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/media/device-2015-02-01-233356.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mobile_en.json" afterPath="$PROJECT_DIR$/assets/mobile_en.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/media/device-2015-02-03-014541.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/BaseFragmentActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/BaseFragmentActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/CalculatorActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/CalculatorActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/GearFitDialog.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/GearFitDialog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/HelloCupDialog.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/HelloCupDialog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/HomeActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/HomeActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/LoginActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/LoginActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/MainActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/MainModalActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/MainModalActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/PanicButtonActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/PanicButtonActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/WizardActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/WizardActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/WizardModalActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/WizardModalActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/adapter/AppInfoAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/adapter/AppInfoAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/adapter/PageActionAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/adapter/PageActionAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/adapter/PageActionFakeAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/adapter/PageActionFakeAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/adapter/PageCheckListAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/adapter/PageCheckListAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/adapter/PageItemAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/adapter/PageItemAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/adapter/PageLanguageSettingsAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/adapter/PageLanguageSettingsAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/alert/AlarmReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/alert/AlarmReceiver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/alert/AlertStatus.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/alert/AlertStatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/alert/PanicAlert.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/alert/PanicAlert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/alert/PanicMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/alert/PanicMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/alert/SMSAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/alert/SMSAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/calculator/Calculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/calculator/CalculatorImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/calculator/CalculatorImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/AppConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/AppConstants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/AppUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/AppUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/ApplicationSettings.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/ApplicationSettings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/ContactEditTexts.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/ContactEditTexts.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/ContactPickerFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/ContactPickerFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/CustomLinkMovementMethod.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/CustomLinkMovementMethod.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/Intents.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/Intents.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/MessageLimitWatcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/MessageLimitWatcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/MyTagHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/MyTagHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/NestedListView.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/NestedListView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/common/SoftKeyboard.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/common/SoftKeyboard.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/data/HelpPageDbManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/data/HelpPageDbManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/data/PBDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/data/PBDatabase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/data/PageActionDbManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/data/PageActionDbManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/data/PageChecklistDbManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/data/PageChecklistDbManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/data/PageDbManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/data/PageDbManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/data/PageItemDbManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/data/PageItemDbManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/data/PageStatusDbManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/data/PageStatusDbManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/data/PageTimerDbManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/data/PageTimerDbManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/LanguageSettingsFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/LanguageSettingsFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/MainSetupAlertFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/MainSetupAlertFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/MessageTextFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/MessageTextFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/SetupCodeFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/SetupCodeFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/SetupContactsFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/SetupContactsFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/SetupMessageFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/SetupMessageFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/SimpleFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/SimpleFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/WarningFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/WarningFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/WizardAlarmTestDisguiseFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/WizardAlarmTestDisguiseFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/WizardAlarmTestHardwareFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/WizardAlarmTestHardwareFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/WizardTestDisguiseCodeFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/WizardTestDisguiseCodeFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/WizardTestDisguiseOpenFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/WizardTestDisguiseOpenFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/WizardTestDisguiseUnlockFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/WizardTestDisguiseUnlockFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/location/CurrentLocationProvider.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/location/CurrentLocationProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/location/LocationFormatter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/location/LocationFormatter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/location/LocationListenerAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/location/LocationListenerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/location/LocationUpdateReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/location/LocationUpdateReceiver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/AppInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/AppInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/AsyncTaskResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/AsyncTaskResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/Coordinates.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/Coordinates.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/HelpImage.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/HelpImage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/HelpPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/HelpPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/MarkDownResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/MarkDownResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/Page.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/PageAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/PageAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/PageChecklist.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/PageChecklist.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/PageItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/PageItem.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/PageStatus.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/PageStatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/PageTimer.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/PageTimer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/SMSSettings.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/SMSSettings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/model/ServerResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/model/ServerResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/trigger/BootReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/trigger/BootReceiver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/trigger/HardwareTriggerReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/trigger/HardwareTriggerReceiver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/trigger/HardwareTriggerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/trigger/HardwareTriggerService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mayday/md/trigger/MultiClickEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/mayday/sos/trigger/MultiClickEvent.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/ApplicationSettingsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/ApplicationSettingsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/CalculatorActivityTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/CalculatorActivityTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/HomeActivityTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/HomeActivityTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/LoginActivityTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/LoginActivityTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/PanicButtonActivityTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/PanicButtonActivityTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/SoftKeyboardTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/SoftKeyboardTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/alert/AlarmReceiverTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/alert/AlarmReceiverTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/alert/PanicAlertTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/alert/PanicAlertTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/alert/PanicMessageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/alert/PanicMessageTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/alert/SMSAdapterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/alert/SMSAdapterTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/calculator/CalculatorImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/calculator/CalculatorImplTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/common/ContactPickerFragmentTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/common/ContactPickerFragmentTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/common/MessageFragmentTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/common/MessageFragmentTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/common/MessageLimitWatcherTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/common/MessageLimitWatcherTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/common/TestFragmentActivity.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/common/TestFragmentActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/location/CurrentLocationProviderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/location/CurrentLocationProviderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/location/LocationFormatterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/location/LocationFormatterTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/location/LocationTestUtil.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/location/LocationTestUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/location/LocationUpdateReceiverTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/location/LocationUpdateReceiverTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/model/SMSSettingsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/model/SMSSettingsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/test/support/CustomShadowRelativeLayout.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/test/support/CustomShadowRelativeLayout.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/test/support/PanicButtonRobolectricTestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/test/support/PanicButtonRobolectricTestRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/trigger/BootReceiverTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/trigger/BootReceiverTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/trigger/HardwareTriggerReceiverTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/trigger/HardwareTriggerReceiverTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/trigger/HardwareTriggerServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/trigger/HardwareTriggerServiceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/trigger/MultiClickEventTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/trigger/MultiClickEventTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/wizard/WizardActivityTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/sos/wizard/WizardActivityTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/README.md" afterPath="$PROJECT_DIR$/features/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/custom_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/custom_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard_logs/dump.txt" afterPath="$PROJECT_DIR$/proguard_logs/dump.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_interactive_contacts.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_interactive_contacts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_interactive_message.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_interactive_message.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_simple.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_simple.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/roboguice.xml" afterPath="$PROJECT_DIR$/res/values/roboguice.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard_logs/seeds.txt" afterPath="$PROJECT_DIR$/proguard_logs/seeds.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/sms_settings_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/sms_settings_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard_logs/usage.txt" afterPath="$PROJECT_DIR$/proguard_logs/usage.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mayday.iws" />
@@ -48,11 +159,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mobile_en.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/mobile_en.json">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29807693" vertical-offset="7708" max-vertical-offset="10605">
-              <caret line="518" column="14" selection-start-line="518" selection-start-column="14" selection-end-line="518" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.041208792" vertical-offset="0" max-vertical-offset="1485">
+              <caret line="1" column="146" selection-start-line="1" selection-start-column="146" selection-end-line="1" selection-end-column="146" />
               <folding />
             </state>
           </provider>
@@ -77,8 +188,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/iilab/pb/GearFitDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mayday/md/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mayday/md/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.mayday.sos/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.mayday.sos/MainActivity.java" />
         <option value="$PROJECT_DIR$/assets/help_de.json" />
         <option value="$PROJECT_DIR$/assets/help_en.json" />
         <option value="$PROJECT_DIR$/assets/help_es.json" />
@@ -105,8 +216,8 @@
         <option value="$PROJECT_DIR$/res/layout/fragment_type_interactive_code.xml" />
         <option value="$PROJECT_DIR$/res/layout/fragment_type_interactive_alert.xml" />
         <option value="$PROJECT_DIR$/res/values-en/strings.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mayday/md/alert/PanicMessageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mayday/md/location/LocationFormatterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.mayday.sos/alert/PanicMessageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.mayday.sos/location/LocationFormatterTest.java" />
         <option value="$PROJECT_DIR$/res/layout-sw320dp/griditem_appinfo.xml" />
         <option value="$PROJECT_DIR$/res/layout-sw360dp/griditem_appinfo.xml" />
         <option value="$PROJECT_DIR$/res/layout/griditem_appinfo.xml" />
@@ -114,9 +225,9 @@
         <option value="$PROJECT_DIR$/res/drawable/background_warning_fragment.xml" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/res/layout/fragment_type_interactive_message.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/assets/mobile_en.json" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -140,7 +251,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -152,6 +263,43 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mayday" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mayday" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mayday" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mayday" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,53 +380,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mayday" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mayday" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mayday" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mayday" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="md" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mayday" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mayday" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -311,7 +412,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ExportedModule" value="mayday" />
-    <property name="ExportedApkPath" value="$USER_HOME$/Documents/android-builds/mayday-2015020302.apk" />
+    <property name="ExportedApkPath" value="$USER_HOME$/Documents/android-builds/maydaysos.1.0.0.apk" />
     <property name="AndroidRunProguardForReleaseBuild" value="true" />
     <property name="AndroidProguardConfigPaths" value="$USER_HOME$/android-sdks/tools/proguard/proguard-android.txt:/Users/jshultz/Projects/MayDay/proguard-project.txt" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="382" />
@@ -494,30 +595,30 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60370994" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31703204" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31703204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4940978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31703204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4940978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30033004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20049505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60370994" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -574,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48863637" vertical-offset="777" max-vertical-offset="1305">
           <caret line="69" column="280" selection-start-line="69" selection-start-column="280" selection-end-line="69" selection-end-column="280" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7613636" vertical-offset="105" max-vertical-offset="1305">
           <caret line="69" column="280" selection-start-line="69" selection-start-column="280" selection-end-line="69" selection-end-column="280" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.72" vertical-offset="6392" max-vertical-offset="10590">
           <caret line="434" column="23" selection-start-line="434" selection-start-column="23" selection-end-line="434" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.24" vertical-offset="7134" max-vertical-offset="10560">
           <caret line="481" column="22" selection-start-line="481" selection-start-column="22" selection-end-line="481" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.24" vertical-offset="7104" max-vertical-offset="10530">
           <caret line="479" column="12" selection-start-line="479" selection-start-column="12" selection-end-line="479" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.32" vertical-offset="3647" max-vertical-offset="4905">
           <caret line="252" column="6" selection-start-line="252" selection-start-column="6" selection-end-line="252" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="369">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.64" vertical-offset="619" max-vertical-offset="1155">
           <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mayday/md/alert/PanicMessageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mayday/sos/alert/PanicMessageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="401" max-vertical-offset="1740">
           <caret line="52" column="103" selection-start-line="52" selection-start-column="103" selection-end-line="52" selection-end-column="103" />
@@ -809,7 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mayday/md/location/LocationFormatterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mayday/sos/location/LocationFormatterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <caret line="23" column="110" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
@@ -821,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43145162" vertical-offset="178" max-vertical-offset="1860">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +925,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mayday/md/fragment/MessageTextFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mayday/sos/fragment/MessageTextFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1065">
           <caret line="0" column="10" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="10" />
@@ -1000,17 +1092,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02851711" vertical-offset="0" max-vertical-offset="1485">
-          <caret line="1" column="121" selection-start-line="1" selection-start-column="121" selection-end-line="1" selection-end-column="121" />
-          <folding>
-            <element signature="e#1718#1736#0" expanded="true" />
-            <element signature="e#2180#2204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22770399" vertical-offset="0" max-vertical-offset="1620">
@@ -1021,8 +1102,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/mobile_en.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29807693" vertical-offset="7708" max-vertical-offset="10605">
+        <state vertical-scroll-proportion="0.19808307" vertical-offset="7708" max-vertical-offset="10605">
           <caret line="518" column="14" selection-start-line="518" selection-start-column="14" selection-end-line="518" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.041208792" vertical-offset="0" max-vertical-offset="1485">
+          <caret line="1" column="146" selection-start-line="1" selection-start-column="146" selection-end-line="1" selection-end-column="146" />
           <folding />
         </state>
       </provider>

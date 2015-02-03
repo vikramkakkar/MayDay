@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:custom="http://schemas.android.com/apk/res/com.mayday.md"
+            xmlns:custom="http://schemas.android.com/apk/res/com.mayday.sos"
             android:id="@+id/sms_settings_fragment_root"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
@@ -34,7 +34,7 @@
                       android:layout_width="wrap_content"
                       android:text="@string/first_contact"
                       style="@style/contact_number" />
-            <fragment android:name="com.mayday.md.common.ContactPickerFragment"
+            <fragment android:name="com.mayday.sos.common.ContactPickerFragment"
                       android:layout_height="wrap_content"
                       android:layout_width="fill_parent"
                       android:id="@+id/first_contact"/>
@@ -48,7 +48,7 @@
                       android:layout_width="wrap_content"
                       android:text="@string/second_contact"
                       style="@style/contact_number" />
-            <fragment android:name="com.mayday.md.common.ContactPickerFragment"
+            <fragment android:name="com.mayday.sos.common.ContactPickerFragment"
                       android:layout_height="wrap_content"
                       android:layout_width="fill_parent"
                       android:id="@+id/second_contact"/>
@@ -62,7 +62,7 @@
                       android:layout_width="wrap_content"
                       android:text="@string/third_contact"
                       style="@style/contact_number" />
-            <fragment android:name="com.mayday.md.common.ContactPickerFragment"
+            <fragment android:name="com.mayday.sos.common.ContactPickerFragment"
                       android:layout_height="wrap_content"
                       android:layout_width="fill_parent"
                       android:id="@+id/third_contact"/>
@@ -72,7 +72,7 @@
                       android:layout_height="0dip"
                 android:layout_weight="1">
             <fragment android:id="@+id/sms_message"
-                      android:name="com.mayday.md.fragment.MessageTextFragment"
+                      android:name="com.mayday.sos.fragment.MessageTextFragment"
                       custom:max_characters="85"
                       custom:message_header="@string/emergency_message_header"
                       android:layout_width="wrap_content"

@@ -380,44 +380,44 @@ com.google.gson.stream.MalformedJsonException:
     private static final long serialVersionUID
     33:37:public MalformedJsonException(java.lang.String,java.lang.Throwable)
     39:43:public MalformedJsonException(java.lang.Throwable)
-com.mayday.md.BuildConfig
-com.mayday.md.GearFitDialog:
+com.mayday.sos.BuildConfig
+com.mayday.sos.GearFitDialog:
     15:17:public GearFitDialog(android.content.Context)
     22:40:protected void onCreate()
-com.mayday.md.GearFitDialog$1
-com.mayday.md.HelloCupDialog
-com.mayday.md.HelloCupDialog$1
-com.mayday.md.HomeActivity:
+com.mayday.sos.GearFitDialog$1
+com.mayday.sos.HelloCupDialog
+com.mayday.sos.HelloCupDialog$1
+com.mayday.sos.HomeActivity:
     private static final int MAYDAY_CUP
-    118:130:private void deleteShortCut()
-com.mayday.md.MainActivity:
+    115:127:private void deleteShortCut()
+com.mayday.sos.MainActivity:
     142:151:private void changeAppIcontoPB()
-com.mayday.md.PanicButtonActivity:
+com.mayday.sos.PanicButtonActivity:
     public static final int ADD_TO_TOP
-com.mayday.md.R:
+com.mayday.sos.R:
     10:252:public R()
-com.mayday.md.R$anim
-com.mayday.md.R$array
-com.mayday.md.R$attr
-com.mayday.md.R$color
-com.mayday.md.R$drawable
-com.mayday.md.R$id
-com.mayday.md.R$layout
-com.mayday.md.R$string
-com.mayday.md.R$style
-com.mayday.md.R$styleable:
+com.mayday.sos.R$anim
+com.mayday.sos.R$array
+com.mayday.sos.R$attr
+com.mayday.sos.R$color
+com.mayday.sos.R$drawable
+com.mayday.sos.R$id
+com.mayday.sos.R$layout
+com.mayday.sos.R$string
+com.mayday.sos.R$style
+com.mayday.sos.R$styleable:
     252:252:public R$styleable()
-com.mayday.md.adapter.AppInfoAdapter:
+com.mayday.sos.adapter.AppInfoAdapter:
     android.graphics.Bitmap bMap
-com.mayday.md.adapter.PageLanguageSettingsAdapter:
+com.mayday.sos.adapter.PageLanguageSettingsAdapter:
     private android.app.ProgressDialog pDialog
-com.mayday.md.alert.AlertStatus
-com.mayday.md.alert.PanicAlert:
+com.mayday.sos.alert.AlertStatus
+com.mayday.sos.alert.PanicAlert:
     public static final int MAX_RETRIES
     public static final int LOCATION_WAIT_TIME
-com.mayday.md.calculator.Calculator
-com.mayday.md.calculator.Calculator$Button
-com.mayday.md.common.AppConstants:
+com.mayday.sos.calculator.Calculator
+com.mayday.sos.calculator.Calculator$Button
+com.mayday.sos.common.AppConstants:
     public static final boolean SKIP_WIZARD
     public static final int PHONE_NUMBER_LIMIT
     public static final long ONE_MINUTE
@@ -445,12 +445,12 @@ com.mayday.md.common.AppConstants:
     public static final int IMAGE_FULL_WIDTH
     public static final int IMAGE_INLINE
     3:3:public AppConstants()
-com.mayday.md.common.AppUtil:
+com.mayday.sos.common.AppUtil:
     23:23:public AppUtil()
     73:75:public static java.lang.String capitalizeString(java.lang.String)
     80:84:private static java.util.Calendar clearTimes(java.util.Calendar)
     89:94:public static java.lang.Boolean isToday(long)
-com.mayday.md.common.ApplicationSettings:
+com.mayday.sos.common.ApplicationSettings:
     private static final int ALERT_FREQUENCY
     public static final java.lang.String FIRST_RUN
     public static final java.lang.String HARDCODE_INSERT
@@ -469,21 +469,21 @@ com.mayday.md.common.ApplicationSettings:
     36:37:public static void setFirstRun(android.content.Context,boolean)
     40:40:public static boolean isFirstRun(android.content.Context)
     126:129:private static void saveLong(android.content.Context,java.lang.String,java.lang.Long)
-com.mayday.md.common.ContactPickerFragment:
+com.mayday.sos.common.ContactPickerFragment:
     private static final int PICK_CONTACT_REQUEST_ID
-com.mayday.md.common.Intents:
+com.mayday.sos.common.Intents:
     private static final java.lang.String PREFIX
     public static final java.lang.String LOCATION_UPDATE_ACTION
     public static final java.lang.String SEND_ALERT_ACTION
     public static final java.lang.String SEND_ALERT_ACTION_SINGLE
     9:9:public Intents()
-com.mayday.md.common.MyTagHandler:
+com.mayday.sos.common.MyTagHandler:
     private static final int indent
     private static final int listItemIndent
-com.mayday.md.common.NestedListView:
+com.mayday.sos.common.NestedListView:
     private static final int MAXIMUM_LIST_ITEMS_VIEWABLE
-com.mayday.md.common.SoftKeyboard
-com.mayday.md.data.HelpPageDbManager:
+com.mayday.sos.common.SoftKeyboard
+com.mayday.sos.data.HelpPageDbManager:
     private static final java.lang.String TABLE_CONTENT_HELP
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PAGE_LANGUAGE
@@ -494,24 +494,24 @@ com.mayday.md.data.HelpPageDbManager:
     private static final java.lang.String PAGE_CONTENT
     private static final java.lang.String CREATE_TABLE_CONTENT_HELP
     private static final java.lang.String INSERT_SQL
-    61:79:public static long insert(android.database.sqlite.SQLiteDatabase,com.mayday.md.model.HelpPage)
+    61:79:public static long insert(android.database.sqlite.SQLiteDatabase,com.mayday.sos.model.HelpPage)
     106:128:public static java.util.List retrieve(android.database.sqlite.SQLiteDatabase,java.lang.String)
-    134:142:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.md.model.HelpPage)
+    134:142:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.sos.model.HelpPage)
     147:155:public static boolean isExist(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)
-    160:165:public static void insertOrUpdate(android.database.sqlite.SQLiteDatabase,com.mayday.md.model.HelpPage)
+    160:165:public static void insertOrUpdate(android.database.sqlite.SQLiteDatabase,com.mayday.sos.model.HelpPage)
     169:169:public static int delete(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)
-com.mayday.md.data.PBDatabase:
+com.mayday.sos.data.PBDatabase:
     private static final java.lang.String DATABASE_NAME
     121:121:public java.util.List retrievePages(java.lang.String)
     133:133:public java.util.List retrievePageAction(java.lang.String,java.lang.String)
     149:149:public java.util.List retrievePageItem(java.lang.String,java.lang.String)
     165:165:public java.util.List retrievePageStatus(java.lang.String,java.lang.String)
-    182:182:public com.mayday.md.model.PageTimer retrievePageTimer(java.lang.String,java.lang.String)
+    182:182:public com.mayday.sos.model.PageTimer retrievePageTimer(java.lang.String,java.lang.String)
     198:198:public java.util.List retrievePageChecklist(java.lang.String,java.lang.String)
-    210:218:public void insertOrUpdateHelpPage(com.mayday.md.model.HelpPage)
+    210:218:public void insertOrUpdateHelpPage(com.mayday.sos.model.HelpPage)
     221:221:public java.util.List retrieveHelpPage(java.lang.String)
     225:226:public void deleteHelpPage(java.lang.String,java.lang.String)
-com.mayday.md.data.PageActionDbManager:
+com.mayday.sos.data.PageActionDbManager:
     private static final java.lang.String TABLE_PAGE_ACTION
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PAGE_LANGUAGE
@@ -522,9 +522,9 @@ com.mayday.md.data.PageActionDbManager:
     private static final java.lang.String ACTION_CONFIRMATION
     private static final java.lang.String CREATE_TABLE_PAGE_ACTION
     private static final java.lang.String INSERT_SQL
-    109:118:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.md.model.PageAction,java.lang.String,java.lang.String)
+    109:118:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.sos.model.PageAction,java.lang.String,java.lang.String)
     123:131:public static boolean isExist(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)
-com.mayday.md.data.PageChecklistDbManager:
+com.mayday.sos.data.PageChecklistDbManager:
     private static final java.lang.String TABLE_PAGE_CHECKLIST
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PAGE_LANGUAGE
@@ -532,9 +532,9 @@ com.mayday.md.data.PageChecklistDbManager:
     private static final java.lang.String CHECKLIST_LINK
     private static final java.lang.String CREATE_TABLE_PAGE_CHECKLIST
     private static final java.lang.String INSERT_SQL
-    92:97:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.md.model.PageChecklist,java.lang.String,java.lang.String)
+    92:97:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.sos.model.PageChecklist,java.lang.String,java.lang.String)
     102:110:public static boolean isExist(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)
-com.mayday.md.data.PageDbManager:
+com.mayday.sos.data.PageDbManager:
     private static final java.lang.String TABLE_PAGE
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PAGE_LANGUAGE
@@ -552,7 +552,7 @@ com.mayday.md.data.PageDbManager:
     private static final java.lang.String INSERT_SQL
     125:156:public static java.util.List retrieve(android.database.sqlite.SQLiteDatabase,java.lang.String)
     203:203:public static int delete(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)
-com.mayday.md.data.PageItemDbManager:
+com.mayday.sos.data.PageItemDbManager:
     private static final java.lang.String TABLE_PAGE_ITEM
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PAGE_LANGUAGE
@@ -560,9 +560,9 @@ com.mayday.md.data.PageItemDbManager:
     private static final java.lang.String ITEM_LINK
     private static final java.lang.String CREATE_TABLE_PAGE_ITEM
     private static final java.lang.String INSERT_SQL
-    92:97:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.md.model.PageItem,java.lang.String,java.lang.String)
+    92:97:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.sos.model.PageItem,java.lang.String,java.lang.String)
     102:110:public static boolean isExist(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)
-com.mayday.md.data.PageStatusDbManager:
+com.mayday.sos.data.PageStatusDbManager:
     private static final java.lang.String TABLE_PAGE_STATUS
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PAGE_LANGUAGE
@@ -571,9 +571,9 @@ com.mayday.md.data.PageStatusDbManager:
     private static final java.lang.String STATUS_LINK
     private static final java.lang.String CREATE_TABLE_PAGE_STATUS
     private static final java.lang.String INSERT_SQL
-    98:104:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.md.model.PageStatus,java.lang.String,java.lang.String)
+    98:104:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.sos.model.PageStatus,java.lang.String,java.lang.String)
     109:117:public static boolean isExist(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)
-com.mayday.md.data.PageTimerDbManager:
+com.mayday.sos.data.PageTimerDbManager:
     private static final java.lang.String TABLE_PAGE_TIMER
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PAGE_LANGUAGE
@@ -582,58 +582,58 @@ com.mayday.md.data.PageTimerDbManager:
     private static final java.lang.String TIMER_FAIL
     private static final java.lang.String CREATE_TABLE_PAGE_TIMER
     private static final java.lang.String INSERT_SQL
-    91:97:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.md.model.PageTimer,java.lang.String,java.lang.String)
+    91:97:public static long update(android.database.sqlite.SQLiteDatabase,com.mayday.sos.model.PageTimer,java.lang.String,java.lang.String)
     102:110:public static boolean isExist(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String)
-com.mayday.md.fragment.LanguageSettingsFragment:
+com.mayday.sos.fragment.LanguageSettingsFragment:
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PARENT_ACTIVITY
-com.mayday.md.fragment.MainSetupAlertFragment:
+com.mayday.sos.fragment.MainSetupAlertFragment:
     private static final int EXACT_CHARACTERS
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PARENT_ACTIVITY
-com.mayday.md.fragment.MessageTextFragment:
+com.mayday.sos.fragment.MessageTextFragment:
     76:76:public java.lang.String getMessage()
     80:83:public void setMessage(java.lang.String)
-com.mayday.md.fragment.SetupCodeFragment:
+com.mayday.sos.fragment.SetupCodeFragment:
     private static final int EXACT_CHARACTERS
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PARENT_ACTIVITY
-com.mayday.md.fragment.SetupContactsFragment:
+com.mayday.sos.fragment.SetupContactsFragment:
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PARENT_ACTIVITY
-com.mayday.md.fragment.SetupMessageFragment:
+com.mayday.sos.fragment.SetupMessageFragment:
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PARENT_ACTIVITY
-com.mayday.md.fragment.SimpleFragment:
+com.mayday.sos.fragment.SimpleFragment:
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PARENT_ACTIVITY
-com.mayday.md.fragment.WarningFragment:
+com.mayday.sos.fragment.WarningFragment:
     private static final java.lang.String PAGE_ID
     private static final java.lang.String PARENT_ACTIVITY
-com.mayday.md.fragment.WizardAlarmTestDisguiseFragment:
+com.mayday.sos.fragment.WizardAlarmTestDisguiseFragment:
     private static final java.lang.String PAGE_ID
-com.mayday.md.fragment.WizardAlarmTestHardwareFragment:
+com.mayday.sos.fragment.WizardAlarmTestHardwareFragment:
     private static final java.lang.String PAGE_ID
-com.mayday.md.fragment.WizardTestDisguiseCodeFragment:
+com.mayday.sos.fragment.WizardTestDisguiseCodeFragment:
     private static final java.lang.String PAGE_ID
-com.mayday.md.fragment.WizardTestDisguiseOpenFragment:
+com.mayday.sos.fragment.WizardTestDisguiseOpenFragment:
     private static final java.lang.String PAGE_ID
-com.mayday.md.fragment.WizardTestDisguiseUnlockFragment:
+com.mayday.sos.fragment.WizardTestDisguiseUnlockFragment:
     private static final java.lang.String PAGE_ID
-com.mayday.md.location.LocationFormatter:
+com.mayday.sos.location.LocationFormatter:
     public static final java.lang.String GOOGLE_MAP_URL
     public static final java.lang.String VIA
-com.mayday.md.location.LocationUpdateReceiver:
+com.mayday.sos.location.LocationUpdateReceiver:
     private static final int ACCURACY_THRESHOLD
-com.mayday.md.model.AppInfo:
+com.mayday.sos.model.AppInfo:
     21:22:public void setAppName(java.lang.String)
     29:30:public void setPackageName(java.lang.String)
-com.mayday.md.model.AsyncTaskResult
-com.mayday.md.model.Coordinates
-com.mayday.md.model.HelpImage
-com.mayday.md.model.HelpPage
-com.mayday.md.model.MarkDownResponse
-com.mayday.md.model.Page:
+com.mayday.sos.model.AsyncTaskResult
+com.mayday.sos.model.Coordinates
+com.mayday.sos.model.HelpImage
+com.mayday.sos.model.HelpPage
+com.mayday.sos.model.MarkDownResponse
+com.mayday.sos.model.Page:
     102:103:public void setId(java.lang.String)
     110:111:public void setLang(java.lang.String)
     118:119:public void setType(java.lang.String)
@@ -645,45 +645,45 @@ com.mayday.md.model.Page:
     166:167:public void setAction(java.util.List)
     174:175:public void setItems(java.util.List)
     182:183:public void setContent(java.lang.String)
-    190:191:public void setTimers(com.mayday.md.model.PageTimer)
+    190:191:public void setTimers(com.mayday.sos.model.PageTimer)
     214:215:public void setChecklist(java.util.List)
     222:223:public void setHeading(java.lang.String)
     230:231:public void setSectionOrder(java.lang.String)
-com.mayday.md.model.PageAction:
+com.mayday.sos.model.PageAction:
     35:54:public static java.util.List parsePageItems(org.json.JSONArray)
-    59:68:public static com.mayday.md.model.PageAction parsePageAction(org.json.JSONObject)
+    59:68:public static com.mayday.sos.model.PageAction parsePageAction(org.json.JSONObject)
     77:78:public void setTitle(java.lang.String)
     85:86:public void setLink(java.lang.String)
     93:94:public void setStatus(java.lang.String)
     101:102:public void setLanguage(java.lang.String)
     109:110:public void setConfirmation(java.lang.String)
-com.mayday.md.model.PageChecklist:
+com.mayday.sos.model.PageChecklist:
     30:49:public static java.util.List parseChecklist(org.json.JSONArray)
     58:59:public void setTitle(java.lang.String)
     66:67:public void setLink(java.lang.String)
-com.mayday.md.model.PageItem:
+com.mayday.sos.model.PageItem:
     29:48:public static java.util.List parsePageItems(org.json.JSONArray)
     57:58:public void setTitle(java.lang.String)
     65:66:public void setLink(java.lang.String)
-com.mayday.md.model.PageStatus:
+com.mayday.sos.model.PageStatus:
     31:49:public static java.util.List parseStatusList(org.json.JSONArray)
     57:58:public void setTitle(java.lang.String)
     65:66:public void setColor(java.lang.String)
     73:74:public void setLink(java.lang.String)
-com.mayday.md.model.PageTimer:
-    26:35:public static com.mayday.md.model.PageTimer parsePageTimer(org.json.JSONObject)
+com.mayday.sos.model.PageTimer:
+    26:35:public static com.mayday.sos.model.PageTimer parsePageTimer(org.json.JSONObject)
     43:44:public void setInfo(java.lang.String)
     51:52:public void setInactive(java.lang.String)
     59:60:public void setFail(java.lang.String)
-com.mayday.md.model.SMSSettings:
+com.mayday.sos.model.SMSSettings:
     public static final java.lang.String PHONE_NUMBER
     public static final java.lang.String SMS_MESSAGE
     private static final int MASK_LIMIT
     public static final java.lang.String BLANK
-com.mayday.md.model.ServerResponse
-com.mayday.md.trigger.HardwareTriggerReceiver:
-    54:54:com.mayday.md.alert.PanicAlert getPanicAlert(android.content.Context)
-com.mayday.md.trigger.MultiClickEvent:
+com.mayday.sos.model.ServerResponse
+com.mayday.sos.trigger.HardwareTriggerReceiver:
+    54:54:com.mayday.sos.alert.PanicAlert getPanicAlert(android.content.Context)
+com.mayday.sos.trigger.MultiClickEvent:
     public static final int TIME_INTERVAL
     private static final int TOTAL_CLICKS
 com.samsung.android.sdk.SsdkInterface

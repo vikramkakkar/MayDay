@@ -7,7 +7,7 @@
     android:focusableInTouchMode="true"
     android:background="#000000">
 
-    <ScrollView xmlns:custom="http://schemas.android.com/apk/res/com.mayday.md"
+    <ScrollView xmlns:custom="http://schemas.android.com/apk/res/com.mayday.sos"
         android:id="@+id/wizard_start_root"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent">
@@ -64,7 +64,7 @@
 
                 <fragment
                     android:id="@+id/sms_message"
-                    android:name="com.mayday.md.fragment.MessageTextFragment"
+                    android:name="com.mayday.sos.fragment.MessageTextFragment"
                     custom:max_characters="85"
                     custom:message_header="@string/emergency_message_header"
                     android:layout_width="wrap_content"

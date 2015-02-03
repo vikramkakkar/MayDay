@@ -3655,259 +3655,259 @@ com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy
 com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy valueOf(java.lang.String)
 com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken[] values()
 com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken valueOf(java.lang.String)
-com.mayday.md.BaseFragmentActivity
-com.mayday.md.BaseFragmentActivity: BaseFragmentActivity()
-com.mayday.md.CalculatorActivity
-com.mayday.md.HomeActivity
-com.mayday.md.HomeActivity: HomeActivity()
-com.mayday.md.LoginActivity
-com.mayday.md.LoginActivity: LoginActivity()
-com.mayday.md.MainActivity
-com.mayday.md.MainActivity: MainActivity()
-com.mayday.md.MainModalActivity
-com.mayday.md.MainModalActivity: MainModalActivity()
-com.mayday.md.PanicButtonActivity
-com.mayday.md.PanicButtonActivity: PanicButtonActivity()
-com.mayday.md.R$anim: int hide_to_bottom
-com.mayday.md.R$anim: int hide_to_top
-com.mayday.md.R$anim: int show_from_bottom
-com.mayday.md.R$anim: int show_from_top
-com.mayday.md.R$array: int roboguice_modules
-com.mayday.md.R$attr: int max_characters
-com.mayday.md.R$attr: int message_header
-com.mayday.md.R$color: int active_color
-com.mayday.md.R$color: int blue
-com.mayday.md.R$color: int standby_color
-com.mayday.md.R$drawable: int activate1
-com.mayday.md.R$drawable: int activate2
-com.mayday.md.R$drawable: int activate3
-com.mayday.md.R$drawable: int alert_button_focused
-com.mayday.md.R$drawable: int alert_button_stand_by
-com.mayday.md.R$drawable: int alert_button_stop
-com.mayday.md.R$drawable: int arrow_next
-com.mayday.md.R$drawable: int back
-com.mayday.md.R$drawable: int back_button
-com.mayday.md.R$drawable: int back_button_normal
-com.mayday.md.R$drawable: int back_button_pressed
-com.mayday.md.R$drawable: int background_warning_fragment
-com.mayday.md.R$drawable: int drawable_wizard_button
-com.mayday.md.R$drawable: int drawable_wizard_button_disabled
-com.mayday.md.R$drawable: int icon_alarm
-com.mayday.md.R$drawable: int icon_arrow
-com.mayday.md.R$drawable: int icon_calculator
-com.mayday.md.R$drawable: int icon_mayday
-com.mayday.md.R$drawable: int icon_setup
-com.mayday.md.R$drawable: int next
-com.mayday.md.R$drawable: int plus
-com.mayday.md.R$drawable: int save
-com.mayday.md.R$drawable: int send_alert_button
-com.mayday.md.R$drawable: int setup_wizard
-com.mayday.md.R$drawable: int socialperson
-com.mayday.md.R$drawable: int splash
-com.mayday.md.R$drawable: int stop_alert_button
-com.mayday.md.R$drawable: int tick_green
-com.mayday.md.R$drawable: int topbar_button
-com.mayday.md.R$drawable: int topbar_button_disabled
-com.mayday.md.R$drawable: int topbar_button_normal
-com.mayday.md.R$drawable: int topbar_button_pressed
-com.mayday.md.R$drawable: int warning
-com.mayday.md.R$drawable: int wizard_active
-com.mayday.md.R$drawable: int wizard_disguise
-com.mayday.md.R$drawable: int wizard_inactive
-com.mayday.md.R$id: int alertDelay_edittext
-com.mayday.md.R$id: int alert_status_strip
-com.mayday.md.R$id: int b_action
-com.mayday.md.R$id: int b_action1
-com.mayday.md.R$id: int b_action2
-com.mayday.md.R$id: int b_action_with_status
-com.mayday.md.R$id: int b_action_without_status
-com.mayday.md.R$id: int char_c
-com.mayday.md.R$id: int characters_left_view
-com.mayday.md.R$id: int contact_edit_text
-com.mayday.md.R$id: int contact_picker_button
-com.mayday.md.R$id: int create_pin_edittext
-com.mayday.md.R$id: int decimal_point
-com.mayday.md.R$id: int display
-com.mayday.md.R$id: int divide
-com.mayday.md.R$id: int eight
-com.mayday.md.R$id: int equals_sign
-com.mayday.md.R$id: int first_contact
-com.mayday.md.R$id: int five
-com.mayday.md.R$id: int four
-com.mayday.md.R$id: int fragment_action
-com.mayday.md.R$id: int fragment_action_list
-com.mayday.md.R$id: int fragment_container
-com.mayday.md.R$id: int fragment_contents
-com.mayday.md.R$id: int fragment_intro
-com.mayday.md.R$id: int fragment_item_list
-com.mayday.md.R$id: int fragment_status
-com.mayday.md.R$id: int fragment_title
-com.mayday.md.R$id: int fragment_warning
-com.mayday.md.R$id: int gv_app_list
-com.mayday.md.R$id: int imageView2
-com.mayday.md.R$id: int iv_arrow
-com.mayday.md.R$id: int iv_icon
-com.mayday.md.R$id: int iv_tick
-com.mayday.md.R$id: int ll_actions
-com.mayday.md.R$id: int ll_contact_1
-com.mayday.md.R$id: int ll_contact_2
-com.mayday.md.R$id: int ll_contact_3
-com.mayday.md.R$id: int ll_fragment_status
-com.mayday.md.R$id: int ll_fragment_warning
-com.mayday.md.R$id: int ll_message
-com.mayday.md.R$id: int login_screen_layout_root
-com.mayday.md.R$id: int lv_checklist
-com.mayday.md.R$id: int message_edit_text
-com.mayday.md.R$id: int message_fragment_header
-com.mayday.md.R$id: int minus
-com.mayday.md.R$id: int multiply
-com.mayday.md.R$id: int nine
-com.mayday.md.R$id: int one
-com.mayday.md.R$id: int plus
-com.mayday.md.R$id: int second_contact
-com.mayday.md.R$id: int seven
-com.mayday.md.R$id: int six
-com.mayday.md.R$id: int sms_message
-com.mayday.md.R$id: int sms_previous_button
-com.mayday.md.R$id: int sms_save_button
-com.mayday.md.R$id: int sms_settings_fragment_root
-com.mayday.md.R$id: int sms_settings_header
-com.mayday.md.R$id: int sms_settings_layout_root
-com.mayday.md.R$id: int third_contact
-com.mayday.md.R$id: int three
-com.mayday.md.R$id: int tv_action
-com.mayday.md.R$id: int tv_item
-com.mayday.md.R$id: int tv_name
-com.mayday.md.R$id: int tv_toast
-com.mayday.md.R$id: int two
-com.mayday.md.R$id: int wizard_layout_root
-com.mayday.md.R$id: int wizard_start_root
-com.mayday.md.R$id: int zero
-com.mayday.md.R$layout: int alert_status_strip
-com.mayday.md.R$layout: int calculator_layout
-com.mayday.md.R$layout: int contact_picker_fragment
-com.mayday.md.R$layout: int fragment_type_interactive_alert
-com.mayday.md.R$layout: int fragment_type_interactive_code
-com.mayday.md.R$layout: int fragment_type_interactive_contacts
-com.mayday.md.R$layout: int fragment_type_interactive_disguise_test_code
-com.mayday.md.R$layout: int fragment_type_interactive_disguise_test_open
-com.mayday.md.R$layout: int fragment_type_interactive_message
-com.mayday.md.R$layout: int fragment_type_interactive_test_hardware
-com.mayday.md.R$layout: int fragment_type_language_settings
-com.mayday.md.R$layout: int fragment_type_simple
-com.mayday.md.R$layout: int griditem_appinfo
-com.mayday.md.R$layout: int layout_warning_fragment
-com.mayday.md.R$layout: int login_screen_layout
-com.mayday.md.R$layout: int message_fragment
-com.mayday.md.R$layout: int root_layout
-com.mayday.md.R$layout: int row_page_action
-com.mayday.md.R$layout: int row_page_checklist
-com.mayday.md.R$layout: int row_page_item
-com.mayday.md.R$layout: int row_page_language_settings
-com.mayday.md.R$layout: int sms_settings_fragment
-com.mayday.md.R$layout: int sms_settings_layout
-com.mayday.md.R$layout: int welcome_screen
-com.mayday.md.R$layout: int wizard_modal
-com.mayday.md.R$string: int addition
-com.mayday.md.R$string: int alert_status_active
-com.mayday.md.R$string: int alert_status_standby
-com.mayday.md.R$string: int app_name
-com.mayday.md.R$string: int app_name_setup
-com.mayday.md.R$string: int char_c
-com.mayday.md.R$string: int characters_left
-com.mayday.md.R$string: int choose_contact
-com.mayday.md.R$string: int code_ok
-com.mayday.md.R$string: int contact_hint_text
-com.mayday.md.R$string: int decimal_point
-com.mayday.md.R$string: int default_emergency_message
-com.mayday.md.R$string: int division
-com.mayday.md.R$string: int eight
-com.mayday.md.R$string: int emergency_message_header
-com.mayday.md.R$string: int enter_message_hint
-com.mayday.md.R$string: int equal_to
-com.mayday.md.R$string: int first_contact
-com.mayday.md.R$string: int five
-com.mayday.md.R$string: int four
-com.mayday.md.R$string: int i_am_at
-com.mayday.md.R$string: int i_am_at_url
-com.mayday.md.R$string: int incorrect_pin
-com.mayday.md.R$string: int incorrect_pin_3_times
-com.mayday.md.R$string: int location_not_found
-com.mayday.md.R$string: int multiplication
-com.mayday.md.R$string: int nine
-com.mayday.md.R$string: int one
-com.mayday.md.R$string: int page_button_action_text
-com.mayday.md.R$string: int page_modal_button1_text
-com.mayday.md.R$string: int page_modal_button2_text
-com.mayday.md.R$string: int page_status_text
-com.mayday.md.R$string: int page_title_text
-com.mayday.md.R$string: int panic_button
-com.mayday.md.R$string: int save_text
-com.mayday.md.R$string: int second_contact
-com.mayday.md.R$string: int send_emergency_alert
-com.mayday.md.R$string: int seven
-com.mayday.md.R$string: int six
-com.mayday.md.R$string: int sms_settings_subtitle
-com.mayday.md.R$string: int stop_alert
-com.mayday.md.R$string: int subtraction
-com.mayday.md.R$string: int third_contact
-com.mayday.md.R$string: int three
-com.mayday.md.R$string: int two
-com.mayday.md.R$string: int zero
-com.mayday.md.R$style: int Theme_Transparent
-com.mayday.md.R$style: int activate_disguise_button
-com.mayday.md.R$style: int alert_strip_display
-com.mayday.md.R$style: int back_button
-com.mayday.md.R$style: int calculator_btn
-com.mayday.md.R$style: int calculator_btn_container
-com.mayday.md.R$style: int calculator_display
-com.mayday.md.R$style: int contact_number
-com.mayday.md.R$style: int contact_select_button
-com.mayday.md.R$style: int custom_action_bar
-com.mayday.md.R$style: int custom_action_bar_sep
-com.mayday.md.R$style: int i_am_at_text
-com.mayday.md.R$style: int message_box
-com.mayday.md.R$style: int page_title
-com.mayday.md.R$style: int save_button
-com.mayday.md.R$style: int wizard_content_style
-com.mayday.md.R$style: int wizard_intro_style
-com.mayday.md.R$style: int wizard_page_title
-com.mayday.md.R$style: int wizard_panic_button
-com.mayday.md.R$style: int wizard_static_panel
-com.mayday.md.R$style: int wizard_text
-com.mayday.md.R$style: int wizard_title_sep
-com.mayday.md.R$style: int wizard_warning_style
-com.mayday.md.R$styleable: int[] MessageFragmentArguments
-com.mayday.md.R$styleable: int MessageFragmentArguments_max_characters
-com.mayday.md.R$styleable: int MessageFragmentArguments_message_header
-com.mayday.md.WizardActivity
-com.mayday.md.WizardActivity: WizardActivity()
-com.mayday.md.WizardModalActivity
-com.mayday.md.WizardModalActivity: WizardModalActivity()
-com.mayday.md.alert.AlarmReceiver
-com.mayday.md.alert.AlarmReceiver: AlarmReceiver()
-com.mayday.md.alert.AlertStatus: com.mayday.md.alert.AlertStatus[] values()
-com.mayday.md.alert.AlertStatus: com.mayday.md.alert.AlertStatus valueOf(java.lang.String)
-com.mayday.md.calculator.Calculator$Button: com.mayday.md.calculator.Calculator$Button[] values()
-com.mayday.md.calculator.Calculator$Button: com.mayday.md.calculator.Calculator$Button valueOf(java.lang.String)
-com.mayday.md.calculator.CalculatorImpl$Button: com.mayday.md.calculator.CalculatorImpl$Button[] values()
-com.mayday.md.calculator.CalculatorImpl$Button: com.mayday.md.calculator.CalculatorImpl$Button valueOf(java.lang.String)
-com.mayday.md.calculator.CalculatorImpl$Operation: com.mayday.md.calculator.CalculatorImpl$Operation[] values()
-com.mayday.md.calculator.CalculatorImpl$Operation: com.mayday.md.calculator.CalculatorImpl$Operation valueOf(java.lang.String)
-com.mayday.md.common.ApplicationSettings
-com.mayday.md.common.ApplicationSettings: ApplicationSettings()
-com.mayday.md.common.ContactPickerFragment
-com.mayday.md.common.ContactPickerFragment: ContactPickerFragment()
-com.mayday.md.common.NestedListView
-com.mayday.md.common.NestedListView: NestedListView(android.content.Context,android.util.AttributeSet)
-com.mayday.md.fragment.MessageTextFragment
-com.mayday.md.fragment.MessageTextFragment: MessageTextFragment()
-com.mayday.md.location.LocationUpdateReceiver
-com.mayday.md.location.LocationUpdateReceiver: LocationUpdateReceiver()
-com.mayday.md.trigger.BootReceiver
-com.mayday.md.trigger.BootReceiver: BootReceiver()
-com.mayday.md.trigger.HardwareTriggerService
-com.mayday.md.trigger.HardwareTriggerService: HardwareTriggerService()
+com.mayday.sos.BaseFragmentActivity
+com.mayday.sos.BaseFragmentActivity: BaseFragmentActivity()
+com.mayday.sos.CalculatorActivity
+com.mayday.sos.HomeActivity
+com.mayday.sos.HomeActivity: HomeActivity()
+com.mayday.sos.LoginActivity
+com.mayday.sos.LoginActivity: LoginActivity()
+com.mayday.sos.MainActivity
+com.mayday.sos.MainActivity: MainActivity()
+com.mayday.sos.MainModalActivity
+com.mayday.sos.MainModalActivity: MainModalActivity()
+com.mayday.sos.PanicButtonActivity
+com.mayday.sos.PanicButtonActivity: PanicButtonActivity()
+com.mayday.sos.R$anim: int hide_to_bottom
+com.mayday.sos.R$anim: int hide_to_top
+com.mayday.sos.R$anim: int show_from_bottom
+com.mayday.sos.R$anim: int show_from_top
+com.mayday.sos.R$array: int roboguice_modules
+com.mayday.sos.R$attr: int max_characters
+com.mayday.sos.R$attr: int message_header
+com.mayday.sos.R$color: int active_color
+com.mayday.sos.R$color: int blue
+com.mayday.sos.R$color: int standby_color
+com.mayday.sos.R$drawable: int activate1
+com.mayday.sos.R$drawable: int activate2
+com.mayday.sos.R$drawable: int activate3
+com.mayday.sos.R$drawable: int alert_button_focused
+com.mayday.sos.R$drawable: int alert_button_stand_by
+com.mayday.sos.R$drawable: int alert_button_stop
+com.mayday.sos.R$drawable: int arrow_next
+com.mayday.sos.R$drawable: int back
+com.mayday.sos.R$drawable: int back_button
+com.mayday.sos.R$drawable: int back_button_normal
+com.mayday.sos.R$drawable: int back_button_pressed
+com.mayday.sos.R$drawable: int background_warning_fragment
+com.mayday.sos.R$drawable: int drawable_wizard_button
+com.mayday.sos.R$drawable: int drawable_wizard_button_disabled
+com.mayday.sos.R$drawable: int icon_alarm
+com.mayday.sos.R$drawable: int icon_arrow
+com.mayday.sos.R$drawable: int icon_calculator
+com.mayday.sos.R$drawable: int icon_mayday
+com.mayday.sos.R$drawable: int icon_setup
+com.mayday.sos.R$drawable: int next
+com.mayday.sos.R$drawable: int plus
+com.mayday.sos.R$drawable: int save
+com.mayday.sos.R$drawable: int send_alert_button
+com.mayday.sos.R$drawable: int setup_wizard
+com.mayday.sos.R$drawable: int socialperson
+com.mayday.sos.R$drawable: int splash
+com.mayday.sos.R$drawable: int stop_alert_button
+com.mayday.sos.R$drawable: int tick_green
+com.mayday.sos.R$drawable: int topbar_button
+com.mayday.sos.R$drawable: int topbar_button_disabled
+com.mayday.sos.R$drawable: int topbar_button_normal
+com.mayday.sos.R$drawable: int topbar_button_pressed
+com.mayday.sos.R$drawable: int warning
+com.mayday.sos.R$drawable: int wizard_active
+com.mayday.sos.R$drawable: int wizard_disguise
+com.mayday.sos.R$drawable: int wizard_inactive
+com.mayday.sos.R$id: int alertDelay_edittext
+com.mayday.sos.R$id: int alert_status_strip
+com.mayday.sos.R$id: int b_action
+com.mayday.sos.R$id: int b_action1
+com.mayday.sos.R$id: int b_action2
+com.mayday.sos.R$id: int b_action_with_status
+com.mayday.sos.R$id: int b_action_without_status
+com.mayday.sos.R$id: int char_c
+com.mayday.sos.R$id: int characters_left_view
+com.mayday.sos.R$id: int contact_edit_text
+com.mayday.sos.R$id: int contact_picker_button
+com.mayday.sos.R$id: int create_pin_edittext
+com.mayday.sos.R$id: int decimal_point
+com.mayday.sos.R$id: int display
+com.mayday.sos.R$id: int divide
+com.mayday.sos.R$id: int eight
+com.mayday.sos.R$id: int equals_sign
+com.mayday.sos.R$id: int first_contact
+com.mayday.sos.R$id: int five
+com.mayday.sos.R$id: int four
+com.mayday.sos.R$id: int fragment_action
+com.mayday.sos.R$id: int fragment_action_list
+com.mayday.sos.R$id: int fragment_container
+com.mayday.sos.R$id: int fragment_contents
+com.mayday.sos.R$id: int fragment_intro
+com.mayday.sos.R$id: int fragment_item_list
+com.mayday.sos.R$id: int fragment_status
+com.mayday.sos.R$id: int fragment_title
+com.mayday.sos.R$id: int fragment_warning
+com.mayday.sos.R$id: int gv_app_list
+com.mayday.sos.R$id: int imageView2
+com.mayday.sos.R$id: int iv_arrow
+com.mayday.sos.R$id: int iv_icon
+com.mayday.sos.R$id: int iv_tick
+com.mayday.sos.R$id: int ll_actions
+com.mayday.sos.R$id: int ll_contact_1
+com.mayday.sos.R$id: int ll_contact_2
+com.mayday.sos.R$id: int ll_contact_3
+com.mayday.sos.R$id: int ll_fragment_status
+com.mayday.sos.R$id: int ll_fragment_warning
+com.mayday.sos.R$id: int ll_message
+com.mayday.sos.R$id: int login_screen_layout_root
+com.mayday.sos.R$id: int lv_checklist
+com.mayday.sos.R$id: int message_edit_text
+com.mayday.sos.R$id: int message_fragment_header
+com.mayday.sos.R$id: int minus
+com.mayday.sos.R$id: int multiply
+com.mayday.sos.R$id: int nine
+com.mayday.sos.R$id: int one
+com.mayday.sos.R$id: int plus
+com.mayday.sos.R$id: int second_contact
+com.mayday.sos.R$id: int seven
+com.mayday.sos.R$id: int six
+com.mayday.sos.R$id: int sms_message
+com.mayday.sos.R$id: int sms_previous_button
+com.mayday.sos.R$id: int sms_save_button
+com.mayday.sos.R$id: int sms_settings_fragment_root
+com.mayday.sos.R$id: int sms_settings_header
+com.mayday.sos.R$id: int sms_settings_layout_root
+com.mayday.sos.R$id: int third_contact
+com.mayday.sos.R$id: int three
+com.mayday.sos.R$id: int tv_action
+com.mayday.sos.R$id: int tv_item
+com.mayday.sos.R$id: int tv_name
+com.mayday.sos.R$id: int tv_toast
+com.mayday.sos.R$id: int two
+com.mayday.sos.R$id: int wizard_layout_root
+com.mayday.sos.R$id: int wizard_start_root
+com.mayday.sos.R$id: int zero
+com.mayday.sos.R$layout: int alert_status_strip
+com.mayday.sos.R$layout: int calculator_layout
+com.mayday.sos.R$layout: int contact_picker_fragment
+com.mayday.sos.R$layout: int fragment_type_interactive_alert
+com.mayday.sos.R$layout: int fragment_type_interactive_code
+com.mayday.sos.R$layout: int fragment_type_interactive_contacts
+com.mayday.sos.R$layout: int fragment_type_interactive_disguise_test_code
+com.mayday.sos.R$layout: int fragment_type_interactive_disguise_test_open
+com.mayday.sos.R$layout: int fragment_type_interactive_message
+com.mayday.sos.R$layout: int fragment_type_interactive_test_hardware
+com.mayday.sos.R$layout: int fragment_type_language_settings
+com.mayday.sos.R$layout: int fragment_type_simple
+com.mayday.sos.R$layout: int griditem_appinfo
+com.mayday.sos.R$layout: int layout_warning_fragment
+com.mayday.sos.R$layout: int login_screen_layout
+com.mayday.sos.R$layout: int message_fragment
+com.mayday.sos.R$layout: int root_layout
+com.mayday.sos.R$layout: int row_page_action
+com.mayday.sos.R$layout: int row_page_checklist
+com.mayday.sos.R$layout: int row_page_item
+com.mayday.sos.R$layout: int row_page_language_settings
+com.mayday.sos.R$layout: int sms_settings_fragment
+com.mayday.sos.R$layout: int sms_settings_layout
+com.mayday.sos.R$layout: int welcome_screen
+com.mayday.sos.R$layout: int wizard_modal
+com.mayday.sos.R$string: int addition
+com.mayday.sos.R$string: int alert_status_active
+com.mayday.sos.R$string: int alert_status_standby
+com.mayday.sos.R$string: int app_name
+com.mayday.sos.R$string: int app_name_setup
+com.mayday.sos.R$string: int char_c
+com.mayday.sos.R$string: int characters_left
+com.mayday.sos.R$string: int choose_contact
+com.mayday.sos.R$string: int code_ok
+com.mayday.sos.R$string: int contact_hint_text
+com.mayday.sos.R$string: int decimal_point
+com.mayday.sos.R$string: int default_emergency_message
+com.mayday.sos.R$string: int division
+com.mayday.sos.R$string: int eight
+com.mayday.sos.R$string: int emergency_message_header
+com.mayday.sos.R$string: int enter_message_hint
+com.mayday.sos.R$string: int equal_to
+com.mayday.sos.R$string: int first_contact
+com.mayday.sos.R$string: int five
+com.mayday.sos.R$string: int four
+com.mayday.sos.R$string: int i_am_at
+com.mayday.sos.R$string: int i_am_at_url
+com.mayday.sos.R$string: int incorrect_pin
+com.mayday.sos.R$string: int incorrect_pin_3_times
+com.mayday.sos.R$string: int location_not_found
+com.mayday.sos.R$string: int multiplication
+com.mayday.sos.R$string: int nine
+com.mayday.sos.R$string: int one
+com.mayday.sos.R$string: int page_button_action_text
+com.mayday.sos.R$string: int page_modal_button1_text
+com.mayday.sos.R$string: int page_modal_button2_text
+com.mayday.sos.R$string: int page_status_text
+com.mayday.sos.R$string: int page_title_text
+com.mayday.sos.R$string: int panic_button
+com.mayday.sos.R$string: int save_text
+com.mayday.sos.R$string: int second_contact
+com.mayday.sos.R$string: int send_emergency_alert
+com.mayday.sos.R$string: int seven
+com.mayday.sos.R$string: int six
+com.mayday.sos.R$string: int sms_settings_subtitle
+com.mayday.sos.R$string: int stop_alert
+com.mayday.sos.R$string: int subtraction
+com.mayday.sos.R$string: int third_contact
+com.mayday.sos.R$string: int three
+com.mayday.sos.R$string: int two
+com.mayday.sos.R$string: int zero
+com.mayday.sos.R$style: int Theme_Transparent
+com.mayday.sos.R$style: int activate_disguise_button
+com.mayday.sos.R$style: int alert_strip_display
+com.mayday.sos.R$style: int back_button
+com.mayday.sos.R$style: int calculator_btn
+com.mayday.sos.R$style: int calculator_btn_container
+com.mayday.sos.R$style: int calculator_display
+com.mayday.sos.R$style: int contact_number
+com.mayday.sos.R$style: int contact_select_button
+com.mayday.sos.R$style: int custom_action_bar
+com.mayday.sos.R$style: int custom_action_bar_sep
+com.mayday.sos.R$style: int i_am_at_text
+com.mayday.sos.R$style: int message_box
+com.mayday.sos.R$style: int page_title
+com.mayday.sos.R$style: int save_button
+com.mayday.sos.R$style: int wizard_content_style
+com.mayday.sos.R$style: int wizard_intro_style
+com.mayday.sos.R$style: int wizard_page_title
+com.mayday.sos.R$style: int wizard_panic_button
+com.mayday.sos.R$style: int wizard_static_panel
+com.mayday.sos.R$style: int wizard_text
+com.mayday.sos.R$style: int wizard_title_sep
+com.mayday.sos.R$style: int wizard_warning_style
+com.mayday.sos.R$styleable: int[] MessageFragmentArguments
+com.mayday.sos.R$styleable: int MessageFragmentArguments_max_characters
+com.mayday.sos.R$styleable: int MessageFragmentArguments_message_header
+com.mayday.sos.WizardActivity
+com.mayday.sos.WizardActivity: WizardActivity()
+com.mayday.sos.WizardModalActivity
+com.mayday.sos.WizardModalActivity: WizardModalActivity()
+com.mayday.sos.alert.AlarmReceiver
+com.mayday.sos.alert.AlarmReceiver: AlarmReceiver()
+com.mayday.sos.alert.AlertStatus: com.mayday.sos.alert.AlertStatus[] values()
+com.mayday.sos.alert.AlertStatus: com.mayday.sos.alert.AlertStatus valueOf(java.lang.String)
+com.mayday.sos.calculator.Calculator$Button: com.mayday.sos.calculator.Calculator$Button[] values()
+com.mayday.sos.calculator.Calculator$Button: com.mayday.sos.calculator.Calculator$Button valueOf(java.lang.String)
+com.mayday.sos.calculator.CalculatorImpl$Button: com.mayday.sos.calculator.CalculatorImpl$Button[] values()
+com.mayday.sos.calculator.CalculatorImpl$Button: com.mayday.sos.calculator.CalculatorImpl$Button valueOf(java.lang.String)
+com.mayday.sos.calculator.CalculatorImpl$Operation: com.mayday.sos.calculator.CalculatorImpl$Operation[] values()
+com.mayday.sos.calculator.CalculatorImpl$Operation: com.mayday.sos.calculator.CalculatorImpl$Operation valueOf(java.lang.String)
+com.mayday.sos.common.ApplicationSettings
+com.mayday.sos.common.ApplicationSettings: ApplicationSettings()
+com.mayday.sos.common.ContactPickerFragment
+com.mayday.sos.common.ContactPickerFragment: ContactPickerFragment()
+com.mayday.sos.common.NestedListView
+com.mayday.sos.common.NestedListView: NestedListView(android.content.Context,android.util.AttributeSet)
+com.mayday.sos.fragment.MessageTextFragment
+com.mayday.sos.fragment.MessageTextFragment: MessageTextFragment()
+com.mayday.sos.location.LocationUpdateReceiver
+com.mayday.sos.location.LocationUpdateReceiver: LocationUpdateReceiver()
+com.mayday.sos.trigger.BootReceiver
+com.mayday.sos.trigger.BootReceiver: BootReceiver()
+com.mayday.sos.trigger.HardwareTriggerService
+com.mayday.sos.trigger.HardwareTriggerService: HardwareTriggerService()
 com.samsung.android.sdk.cup.ScupIPCCommand
 com.samsung.android.sdk.cup.ScupIPCCommand: android.os.Parcelable$Creator CREATOR
 com.samsung.android.sdk.cup.ScupSpiCodec
