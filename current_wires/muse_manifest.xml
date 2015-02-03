@@ -1,0 +1,42 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1422952400316">
+  <folder name="css">
+    <file name="site_global.css" crc="365011649"/>
+    <file name="master_a-master.css" crc="78084341" ref="index:home-ready:setup-contacts:about:setup-alert:settings:home-alerting:setup-message"/>
+    <file name="index.css" crc="341506125" ref="index"/>
+    <file name="master_b-master.css" crc="87422131" ref="gear-fit"/>
+    <file name="home-ready.css" crc="527779120" ref="home-ready"/>
+    <file name="setup-contacts.css" crc="3890158061" ref="setup-contacts"/>
+    <file name="gear-fit.css" crc="4076587143" ref="gear-fit"/>
+    <file name="about.css" crc="3867709677" ref="about"/>
+    <file name="setup-alert.css" crc="3876716703" ref="setup-alert"/>
+    <file name="settings.css" crc="18625119" ref="settings"/>
+    <file name="home-alerting.css" crc="499401298" ref="home-alerting"/>
+    <file name="setup-message.css" crc="4074539846" ref="setup-message"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index:home-ready:setup-message:settings:setup-contacts:setup-alert:home-alerting:gear-fit:about"/>
+    <file name="museutils.js" crc="3777594392" ref="index:home-ready:setup-message:settings:setup-contacts:setup-alert:home-alerting:gear-fit:about"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index:home-ready:setup-message:settings:setup-contacts:setup-alert:home-alerting:gear-fit:about"/>
+  </folder>
+  <folder name="images">
+    <file name="samsung.jpg" crc="244521871" ref="index:home-ready:setup-message:settings:setup-contacts:setup-alert:home-alerting:about"/>
+    <file name="device-2015-02-03-014947.jpg" crc="169899984" ref="index"/>
+    <file name="device-2015-02-03-014753.jpg" crc="3859459431" ref="setup-message"/>
+    <file name="device-2015-02-03-014725.jpg" crc="4059729652" ref="settings"/>
+    <file name="device-2015-02-03-014811.jpg" crc="390431923" ref="setup-contacts"/>
+    <file name="device-2015-02-03-014823.jpg" crc="4097708144" ref="setup-alert"/>
+    <file name="device-2015-02-03-020000.jpg" crc="4204181895" ref="home-alerting"/>
+    <file name="demo_gear_fit.jpg" crc="3807503191" ref="gear-fit"/>
+    <file name="device-2015-02-03-030306.jpg" crc="451862167" ref="about"/>
+    <file name="device-2015-02-03-032929.jpg" crc="256139261" ref="home-ready"/>
+  </folder>
+  <file name="index.html" crc="108956946" mt="1422951316182" redirect="true"/>
+  <file name="home-ready.html" crc="3805337777" mt="1422952348004" redirect="true"/>
+  <file name="setup-message.html" crc="4178838777" mt="1422951316183" redirect="true"/>
+  <file name="settings.html" crc="147777443" mt="1422951316184" redirect="true"/>
+  <file name="setup-contacts.html" crc="3812474792" mt="1422951316185" redirect="true"/>
+  <file name="setup-alert.html" crc="30477824" mt="1422951316185" redirect="true"/>
+  <file name="home-alerting.html" crc="3865476019" mt="1422951316186" redirect="true"/>
+  <file name="gear-fit.html" crc="3928172157" mt="1422950888691" redirect="true"/>
+  <file name="about.html" crc="452889822" mt="1422952389931" redirect="true"/>
+</manifest>
