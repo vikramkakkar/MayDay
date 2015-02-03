@@ -347,7 +347,17 @@
                 "lang": "en",
                 "type": "simple",
                 "title": "About",
-                "content": "<p>MayDay turns your mobile phone into a secret alarm for when you&#39;re in trouble.</p><p><strong>How Does MayDay Work?</strong></p><ul><li>TAKE TIME to set-up MayDay somewhere safe and quiet</li><li>Create a plan with your contacts so that they are PREPARED to ACT</li><li>CHECK you are ready and that your mobile phone has credit and battery</li><li>ACTIVATE MayDay in an emergency by rapidly pressing the phone&#39;s power button</li><li>Your network will receive an SMS and regular updates of your location helping them to ACT FAST</li></ul><p>The MayDay project is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.</p>"
+                "content": "
+                <p>MayDay will turn the device it's running on into a silent SMS alarm which will alert your emergency contact list and include your GPS location.</p>
+                <p><strong>How Does MayDay Work?</strong></p>
+                <ul>
+                <li>MayDay is installed on both smartphones and watches which pair with each other.<br /><br /></li>
+                <li>Provide your emergency contact list.<br /><br /></li>
+                <li>In the event of an emergency, repeatedly press the power button 10 times.<br /><br /></li>
+                <li>This will send out an emergency SMS alert to your emergency contact list along with your GPS location.<br /><br /></li>
+                </ul>
+                <p>MayDay interfaces with Samsung Gear Fit&#8482; to activate the app. Currently trigger of alarm is restricted to power button on the phone.</p>
+                "
             },
             {
                 "id": "settings-reset-confirm",
@@ -470,10 +480,6 @@
                 "title": "Settings",
                 "items": [
                     {
-                        "title": "Language Settings",
-                        "link": "settings-language"
-                    },
-                    {
                         "title": "Message Settings",
                         "link": "settings-message"
                     },
@@ -484,10 +490,6 @@
                     {
                         "title": "Alert Settings",
                         "link": "settings-alert"
-                    },
-                    {
-                        "title": "Restart the Installation",
-                        "link": "settings-reset-confirm"
                     }
                 ]
             },
@@ -513,7 +515,7 @@
                         "link": "setup-about"
                     }
                 ],
-                "content": "<p>MayDay is set-up and ready. Click Disguise to exit and hide the application.</p>"
+                "content": "<p><strong>In and emergency press power 10 times.</strong></p><p>But first check your MayDay Settings to ensure your alerts are delivered to the correct people.</p>"
             },
             {
                 "id": "home-not-configured-disguise",

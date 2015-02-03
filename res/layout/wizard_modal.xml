@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="@string/page_title_text"
         android:textSize="32sp"
-        android:textColor="@android:color/white"
+        android:textColor="#ffffff"
         android:paddingBottom="15dp"
         android:layout_centerHorizontal="true" />
 
@@ -29,7 +29,7 @@
         <View
             android:layout_height="1dp"
             android:layout_width="match_parent"
-            android:background="#ff666666" />
+            android:background="#CC3300" />
 
         <TextView
             android:id="@+id/fragment_status"
@@ -44,7 +44,7 @@
         <View
             android:layout_height="1dp"
             android:layout_width="match_parent"
-            android:background="#ff666666" />
+            android:background="#CC3300" />
     </LinearLayout>
 
 
@@ -77,7 +77,7 @@
     <ListView
         android:id="@+id/lv_checklist"
         android:layout_height="wrap_content"
-        android:divider="@android:drawable/screen_background_light_transparent"
+        android:divider="#CC3300"
         android:layout_below="@+id/ll_fragment_warning"
         android:layout_width="match_parent"
         android:cacheColorHint="#00000000" />

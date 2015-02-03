@@ -8,8 +8,8 @@
 
     <string name="enter_message_hint">Enter Message</string>
 
-    <string name="i_am_at">I\'m at</string>
-    <string name="i_am_at_url">I\'m at https://maps.google.com/GPS-location</string>
+    <string name="i_am_at">I\'m here</string>
+    <string name="i_am_at_url">I\'m here https://maps.google.com/GPS-location</string>
     <string name="location_not_found">Trying to identify location</string>
     <string name="panic_button">Panic\nButton</string>
     <string name="page_title_text">Title</string>
@@ -20,7 +20,7 @@
 
     <string name="page_button_action_text">Action</string>
     <string name="contact_hint_text">enter contact number</string>
-    <string name="default_emergency_message">Testing MayDay</string>
+    <string name="default_emergency_message">I need IMMEDIATE help!</string>
     <string name="emergency_message_header">Emergency message</string>
     <string name="sms_settings_subtitle">Add up to three emergency contacts</string>
     <string name="alert_status_standby">Alert is in standby</string>

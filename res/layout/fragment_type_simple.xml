@@ -37,7 +37,7 @@
                 <View
                     android:layout_height="1dp"
                     android:layout_width="match_parent"
-                    android:background="#ff666666" />
+                    android:background="#CC3300" />
 
                 <TextView
                     android:id="@+id/fragment_status"
@@ -52,7 +52,7 @@
                 <View
                     android:layout_height="1dp"
                     android:layout_width="match_parent"
-                    android:background="#ff666666" />
+                    android:background="#CC3300" />
             </LinearLayout>
 
             <TextView
@@ -105,7 +105,7 @@
                 android:id="@+id/fragment_action_list"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/b_action"
-                android:divider="@android:drawable/screen_background_light_transparent"
+                android:divider="#CC3300"
                 android:layout_width="match_parent" />
 
             <com.mayday.md.common.NestedListView
