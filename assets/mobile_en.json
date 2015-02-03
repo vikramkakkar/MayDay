@@ -515,7 +515,7 @@
                         "link": "setup-about"
                     }
                 ],
-                "content": "<p><strong>In and emergency press power 10 times.</strong></p><p>But first check your MayDay Settings to ensure your alerts are delivered to the correct people.</p>"
+                "content": "<p><strong>In an emergency press power 10 times.</strong></p><p>But first check your MayDay Settings to ensure your alerts are delivered to the correct people.</p>"
             },
             {
                 "id": "home-not-configured-disguise",
