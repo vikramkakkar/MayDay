@@ -1,0 +1,37 @@
+#u91
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u247
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #FF3412;
+	position: relative;
+}
+
+#u267
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #534741;
+	position: relative;
+}
+
+#u248-12,#u268-19
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	text-align: center;
+	position: relative;
+}
+
+#u268-4,#u268-6,#u268-8,#u268-10,#u268-12,#u268-14,#u268-16
+{
+	color: #FFFFFF;
+}
+
