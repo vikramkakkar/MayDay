@@ -7,12 +7,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://jackygrahamez.github.io/MayDay/current_wires/images/device-2015-02-03-014947.jpg</loc>
-    <lastmod>2015-02-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://jackygrahamez.github.io/MayDay/current_wires/images/device-2015-02-03-014753.jpg</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -56,6 +50,12 @@
   </url>
   <url>
     <loc>http://jackygrahamez.github.io/MayDay/current_wires/images/device-2015-02-03-032929.jpg</loc>
+    <lastmod>2015-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://jackygrahamez.github.io/MayDay/current_wires/images/device-2015-02-03-182811.jpg</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
