@@ -1,7 +1,7 @@
 .version.settings /* version checker */
 {
 	color: #000001;
-	background-color: #1C325F;
+	background-color: #40872F;
 }
 
 @-ms-viewport
@@ -62,7 +62,7 @@
 
 #u142
 {
-	z-index: 17;
+	z-index: 37;
 	width: 290px;
 	background-color: transparent;
 	position: relative;
@@ -78,7 +78,7 @@
 
 #u243
 {
-	z-index: 19;
+	z-index: 39;
 	width: 270px;
 	height: 33px;
 	border-width: 1px;
@@ -93,7 +93,7 @@
 
 #u244
 {
-	z-index: 20;
+	z-index: 40;
 	width: 270px;
 	height: 35px;
 	border-width: 1px;
@@ -108,7 +108,7 @@
 
 #u245
 {
-	z-index: 21;
+	z-index: 41;
 	width: 270px;
 	height: 37px;
 	border-width: 1px;
@@ -121,13 +121,19 @@
 	left: 24px;
 }
 
+#pu247
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-top: 94px;
+	margin-left: 355px;
+}
+
 #u247
 {
 	z-index: 4;
-	width: 18px;
-	margin-right: -10000px;
-	margin-top: 94px;
-	left: 356px;
+	width: 19px;
+	margin-left: 1px;
 }
 
 #u248-12
@@ -135,10 +141,28 @@
 	z-index: 5;
 	width: 19px;
 	min-height: 123px;
-	margin-bottom: -32px;
+	margin-bottom: -27px;
 	margin-right: -10000px;
 	margin-top: 6px;
 	left: -1px;
+}
+
+#u267
+{
+	z-index: 17;
+	width: 19px;
+	padding-bottom: 9px;
+	margin-top: 29px;
+}
+
+#u268-19
+{
+	z-index: 18;
+	width: 25px;
+	min-height: 141px;
+	margin-right: -10000px;
+	margin-top: 11px;
+	left: -3px;
 }
 
 body
