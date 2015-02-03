@@ -3703,6 +3703,7 @@ com.mayday.md.R$drawable: int save
 com.mayday.md.R$drawable: int send_alert_button
 com.mayday.md.R$drawable: int setup_wizard
 com.mayday.md.R$drawable: int socialperson
+com.mayday.md.R$drawable: int splash
 com.mayday.md.R$drawable: int stop_alert_button
 com.mayday.md.R$drawable: int tick_green
 com.mayday.md.R$drawable: int topbar_button

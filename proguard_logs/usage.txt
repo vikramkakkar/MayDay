@@ -395,7 +395,7 @@ com.mayday.md.MainActivity:
 com.mayday.md.PanicButtonActivity:
     public static final int ADD_TO_TOP
 com.mayday.md.R:
-    10:251:public R()
+    10:252:public R()
 com.mayday.md.R$anim
 com.mayday.md.R$array
 com.mayday.md.R$attr
@@ -406,7 +406,7 @@ com.mayday.md.R$layout
 com.mayday.md.R$string
 com.mayday.md.R$style
 com.mayday.md.R$styleable:
-    251:251:public R$styleable()
+    252:252:public R$styleable()
 com.mayday.md.adapter.AppInfoAdapter:
     android.graphics.Bitmap bMap
 com.mayday.md.adapter.PageLanguageSettingsAdapter:

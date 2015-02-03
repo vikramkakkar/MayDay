@@ -18,22 +18,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd87e74-d2df-486e-8bbf-b7bb9d293773" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/location/LocationFormatterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/md/location/LocationFormatterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mayday/md/alert/PanicMessageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mayday/md/alert/PanicMessageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/background_warning_fragment.xml" afterPath="$PROJECT_DIR$/res/drawable/background_warning_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_interactive_alert.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_interactive_alert.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_interactive_code.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_interactive_code.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_interactive_contacts.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_interactive_contacts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_interactive_message.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_interactive_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_language_settings.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_language_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_type_simple.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_type_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/griditem_appinfo.xml" afterPath="$PROJECT_DIR$/res/layout/griditem_appinfo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-sw320dp/griditem_appinfo.xml" afterPath="$PROJECT_DIR$/res/layout-sw320dp/griditem_appinfo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-sw360dp/griditem_appinfo.xml" afterPath="$PROJECT_DIR$/res/layout-sw360dp/griditem_appinfo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/layout_warning_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/layout_warning_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mobile_en.json" afterPath="$PROJECT_DIR$/assets/mobile_en.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-en/strings.xml" afterPath="$PROJECT_DIR$/res/values-en/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/wizard_modal.xml" afterPath="$PROJECT_DIR$/res/layout/wizard_modal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard_logs/dump.txt" afterPath="$PROJECT_DIR$/proguard_logs/dump.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard_logs/seeds.txt" afterPath="$PROJECT_DIR$/proguard_logs/seeds.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard_logs/usage.txt" afterPath="$PROJECT_DIR$/proguard_logs/usage.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mayday.iws" />
@@ -57,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8333333" vertical-offset="315" max-vertical-offset="1485">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.22770399" vertical-offset="0" max-vertical-offset="1620">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,6 +66,7 @@
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="$USER_HOME$/Documents/KeyStores/MyReleaseKey" />
     <option name="KEY_ALIAS" value="MyReleaseKey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +76,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/iilab/pb/GearFitDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mayday/md/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mayday/md/MainActivity.java" />
         <option value="$PROJECT_DIR$/assets/help_de.json" />
         <option value="$PROJECT_DIR$/assets/help_en.json" />
@@ -124,6 +113,8 @@
         <option value="$PROJECT_DIR$/res/drawable/background_warning_fragment.xml" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/res/layout/fragment_type_interactive_message.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -318,7 +309,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ExportedModule" value="mayday" />
-    <property name="ExportedApkPath" value="$USER_HOME$/Documents/android-builds/mayday-2015020102.apk" />
+    <property name="ExportedApkPath" value="$USER_HOME$/Documents/android-builds/mayday-2015020302.apk" />
     <property name="AndroidRunProguardForReleaseBuild" value="true" />
     <property name="AndroidProguardConfigPaths" value="$USER_HOME$/android-sdks/tools/proguard/proguard-android.txt:/Users/jshultz/Projects/MayDay/proguard-project.txt" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="382" />
@@ -496,7 +487,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1254" height="709" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -512,7 +503,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31703204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29342327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29342327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -548,13 +539,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/help_es.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.48" vertical-offset="3448" max-vertical-offset="3780">
-          <caret line="239" column="170" selection-start-line="239" selection-start-column="170" selection-end-line="239" selection-end-column="170" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/help_fr.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.48" vertical-offset="3423" max-vertical-offset="3780">
@@ -1024,8 +1008,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8333333" vertical-offset="315" max-vertical-offset="1485">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.02851711" vertical-offset="0" max-vertical-offset="1485">
+          <caret line="1" column="121" selection-start-line="1" selection-start-column="121" selection-end-line="1" selection-end-column="121" />
+          <folding>
+            <element signature="e#1718#1736#0" expanded="true" />
+            <element signature="e#2180#2204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22770399" vertical-offset="0" max-vertical-offset="1620">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
