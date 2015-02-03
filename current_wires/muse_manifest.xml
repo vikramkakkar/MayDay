@@ -1,17 +1,17 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1422970384534">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1422971037230">
   <folder name="css">
     <file name="site_global.css" crc="365011649"/>
-    <file name="master_a-master.css" crc="412151459" ref="index:home-ready:setup-contacts:about:setup-alert:settings:home-alerting:setup-message"/>
-    <file name="index.css" crc="3982672098" ref="index"/>
-    <file name="master_b-master.css" crc="87422131" ref="gear-fit"/>
-    <file name="home-ready.css" crc="4239077195" ref="home-ready"/>
-    <file name="setup-contacts.css" crc="307733445" ref="setup-contacts"/>
-    <file name="gear-fit.css" crc="4076587143" ref="gear-fit"/>
-    <file name="about.css" crc="105891910" ref="about"/>
-    <file name="setup-alert.css" crc="4244414239" ref="setup-alert"/>
-    <file name="settings.css" crc="21006127" ref="settings"/>
-    <file name="home-alerting.css" crc="469633142" ref="home-alerting"/>
-    <file name="setup-message.css" crc="450855268" ref="setup-message"/>
+    <file name="master_a-master.css" crc="431510411" ref="index:home-ready:setup-contacts:about:setup-alert:settings:home-alerting:setup-message"/>
+    <file name="index.css" crc="208247675" ref="index"/>
+    <file name="master_b-master.css" crc="3947757315" ref="gear-fit"/>
+    <file name="home-ready.css" crc="406389015" ref="home-ready"/>
+    <file name="setup-contacts.css" crc="496455488" ref="setup-contacts"/>
+    <file name="gear-fit.css" crc="415736838" ref="gear-fit"/>
+    <file name="about.css" crc="3789045884" ref="about"/>
+    <file name="setup-alert.css" crc="273492058" ref="setup-alert"/>
+    <file name="settings.css" crc="272967128" ref="settings"/>
+    <file name="home-alerting.css" crc="3954004387" ref="home-alerting"/>
+    <file name="setup-message.css" crc="4071811101" ref="setup-message"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index:home-ready:setup-message:settings:setup-contacts:setup-alert:home-alerting:gear-fit:about"/>
@@ -30,13 +30,13 @@
     <file name="device-2015-02-03-030306.jpg" crc="451862167" ref="about"/>
     <file name="device-2015-02-03-032929.jpg" crc="256139261" ref="home-ready"/>
   </folder>
-  <file name="index.html" crc="4038904721" mt="1422970291857" redirect="true"/>
-  <file name="home-ready.html" crc="364417339" mt="1422970291858" redirect="true"/>
-  <file name="setup-message.html" crc="469729891" mt="1422970291859" redirect="true"/>
-  <file name="settings.html" crc="3806712552" mt="1422970291859" redirect="true"/>
-  <file name="setup-contacts.html" crc="3795394862" mt="1422970291860" redirect="true"/>
-  <file name="setup-alert.html" crc="3793865735" mt="1422970291861" redirect="true"/>
-  <file name="home-alerting.html" crc="442551132" mt="1422970291861" redirect="true"/>
-  <file name="gear-fit.html" crc="3910423649" mt="1422970373926" redirect="true"/>
-  <file name="about.html" crc="421638765" mt="1422970291862" redirect="true"/>
+  <file name="index.html" crc="4045767602" mt="1422970964629" redirect="true"/>
+  <file name="home-ready.html" crc="323203258" mt="1422970964630" redirect="true"/>
+  <file name="setup-message.html" crc="535209435" mt="1422970964631" redirect="true"/>
+  <file name="settings.html" crc="3939967344" mt="1422970964632" redirect="true"/>
+  <file name="setup-contacts.html" crc="3843584243" mt="1422970964633" redirect="true"/>
+  <file name="setup-alert.html" crc="3844111014" mt="1422970964634" redirect="true"/>
+  <file name="home-alerting.html" crc="145770517" mt="1422970964634" redirect="true"/>
+  <file name="gear-fit.html" crc="3760573474" mt="1422970994448" redirect="true"/>
+  <file name="about.html" crc="154786528" mt="1422970964635" redirect="true"/>
 </manifest>

@@ -1,7 +1,7 @@
 .version.setup_contacts /* version checker */
 {
-	color: #000012;
-	background-color: #57A3C5;
+	color: #00001D;
+	background-color: #974F40;
 }
 
 @-ms-viewport
@@ -62,7 +62,7 @@
 
 #u154
 {
-	z-index: 37;
+	z-index: 48;
 	width: 289px;
 	background-color: transparent;
 	position: relative;
@@ -76,12 +76,30 @@
 	padding-bottom: 1px;
 }
 
-#pu247
+#pu269
 {
 	width: 0.01px;
+	padding-bottom: 0px;
 	margin-right: -10000px;
-	margin-top: 94px;
 	margin-left: 355px;
+}
+
+#u269
+{
+	z-index: 37;
+	width: 19px;
+	padding-bottom: 1px;
+	margin-left: 1px;
+}
+
+#u270-10
+{
+	z-index: 38;
+	width: 19px;
+	min-height: 69px;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: -1px;
 }
 
 #u247
@@ -89,6 +107,7 @@
 	z-index: 4;
 	width: 19px;
 	margin-left: 1px;
+	margin-top: 21px;
 }
 
 #u248-12

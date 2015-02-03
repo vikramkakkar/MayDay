@@ -1,7 +1,7 @@
 .version.gear_fit /* version checker */
 {
-	color: #0000F2;
-	background-color: #FBC887;
+	color: #000018;
+	background-color: #C7A406;
 }
 
 @-ms-viewport
@@ -48,22 +48,44 @@
 #u216
 {
 	z-index: 2;
+	padding-bottom: 0px;
+}
+
+#u216_position_content
+{
 	padding-bottom: 189px;
+}
+
+#u271
+{
+	z-index: 5;
+	width: 19px;
+	padding-bottom: 1px;
+	margin-left: 360px;
+}
+
+#u272-10
+{
+	z-index: 6;
+	width: 19px;
+	min-height: 69px;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: -1px;
 }
 
 #u188
 {
 	z-index: 3;
 	width: 366px;
-	margin-right: -10000px;
-	margin-top: 175px;
-	left: 7px;
+	margin-left: 7px;
+	margin-top: 102px;
 }
 
 #u216-bw
 {
 	z-index: 2;
-	height: 381px;
+	height: 570px;
 }
 
 body

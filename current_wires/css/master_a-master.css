@@ -4,6 +4,15 @@
 	position: relative;
 }
 
+#u269
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #22B573;
+	position: relative;
+}
+
 #u247
 {
 	border-width: 1px;
@@ -22,7 +31,7 @@
 	position: relative;
 }
 
-#u248-12,#u268-19
+#u270-10,#u248-12,#u268-19
 {
 	background-color: transparent;
 	color: #FFFFFF;
