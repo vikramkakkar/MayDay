@@ -486,10 +486,6 @@
                         "link": "settings-alert"
                     },
                     {
-                        "title": "Code Settings",
-                        "link": "settings-code"
-                    },
-                    {
                         "title": "Restart the Installation",
                         "link": "settings-reset-confirm"
                     }

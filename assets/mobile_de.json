@@ -486,10 +486,6 @@
 						"link": "settings-alert"
 					},
 					{
-						"title": "PIN-Einstellungen",
-						"link": "settings-code"
-					},
-					{
 						"title": "Neuinstallation der App",
 						"link": "settings-reset-confirm"
 					}

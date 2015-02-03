@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_margin="10dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#000000">
 
 
     <TextView
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="@string/page_title_text"
         android:textSize="32sp"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:paddingBottom="15dp"
         android:layout_centerHorizontal="true" />
 
@@ -67,7 +68,8 @@
 
         <TextView
             android:id="@+id/fragment_warning"
-            style="@style/wizard_warning_style" />
+            style="@style/wizard_warning_style"
+            android:textColor="#ffffff" />
 
     </LinearLayout>
 

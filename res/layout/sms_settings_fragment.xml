@@ -10,7 +10,8 @@
                  android:layout_height="wrap_content"
                  android:layout_width="fill_parent"
                  android:stretchColumns="0"
-                 android:orientation="vertical">
+                 android:orientation="vertical"
+        android:background="#000000">
 
             <TextView android:id="@+id/sms_settings_header"
                       android:layout_width="match_parent"

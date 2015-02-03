@@ -13,10 +13,9 @@
         android:weightSum="1">
 
         <ImageView
-            android:layout_width="538dp"
-            android:layout_height="299dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/imageView2"
-            android:layout_gravity="center_horizontal"
             android:background="@drawable/icon_mayday" />
     </LinearLayout>
 </FrameLayout>

@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#000000">
 
     <ScrollView
         android:id="@+id/wizard_start_root"
@@ -21,7 +22,8 @@
                 android:text="@string/page_title_text"
                 android:textSize="32sp"
                 android:paddingBottom="5dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/fragment_intro"
@@ -31,7 +33,8 @@
             <TextView
                 android:id="@+id/fragment_contents"
                 android:layout_below="@+id/fragment_intro"
-                style="@style/wizard_content_style" />
+                style="@style/wizard_content_style"
+                android:textColor="#ffffff" />
 
         </RelativeLayout>
     </ScrollView>

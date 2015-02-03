@@ -4,7 +4,8 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:descendantFocusability="beforeDescendants"
-    android:focusableInTouchMode="true">
+    android:focusableInTouchMode="true"
+    android:background="#000000">
 
     <ScrollView
         android:id="@+id/wizard_start_root"
@@ -23,7 +24,8 @@
                 android:text="@string/page_title_text"
                 android:textSize="32sp"
                 android:paddingBottom="5dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/fragment_intro"
@@ -45,7 +47,8 @@
 
                 <TextView
                     android:id="@+id/fragment_warning"
-                    style="@style/wizard_warning_style" />
+                    style="@style/wizard_warning_style"
+                    android:textColor="#ffffff" />
             </LinearLayout>
 
 

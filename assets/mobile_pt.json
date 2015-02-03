@@ -470,10 +470,6 @@
             "link": "settings-alert"
           },
           {
-            "title": "Configurações da Senha",
-            "link": "settings-code"
-          },
-          {
             "title": "Reiniciar a Instalação",
             "link": "settings-reset-confirm"
           }

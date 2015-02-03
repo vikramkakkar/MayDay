@@ -9,7 +9,8 @@
     <ScrollView
         android:id="@+id/wizard_start_root"
         android:layout_height="wrap_content"
-        android:layout_width="fill_parent">
+        android:layout_width="fill_parent"
+        android:background="#000000">
 
         <RelativeLayout
             android:layout_width="fill_parent"
@@ -24,7 +25,8 @@
                 android:text="@string/page_title_text"
                 android:textSize="32sp"
                 android:paddingBottom="5dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/fragment_intro"
@@ -46,13 +48,15 @@
 
                 <TextView
                     android:id="@+id/fragment_warning"
-                    style="@style/wizard_warning_style" />
+                    style="@style/wizard_warning_style"
+                    android:textColor="#ffffff" />
             </LinearLayout>
 
             <TextView
                 android:id="@+id/fragment_contents"
                 android:layout_below="@+id/ll_fragment_warning"
-                style="@style/wizard_content_style" />
+                style="@style/wizard_content_style"
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/alertDelay_edittext"

@@ -481,10 +481,6 @@
                         "link": "settings-contacts"
                     },
                     {
-                        "title": "Configuraciones de clave de acceso",
-                        "link": "settings-code"
-                    },
-                    {
                         "title": "Configuraciones de frequencia",
                         "link": "settings-alert"
                     },
