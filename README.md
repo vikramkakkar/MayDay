@@ -6,7 +6,7 @@
 MayDay will transmit your GPS coordinates to your network of contacts.*
 *We hope to build support for peripheral devices.*
 
-![Wearable Interface](https://raw.githubusercontent.com/jackygrahamez/MayDay/8a6e12783f75de38b4e8ae8cf69441360af00eda/assets/media/demo_gear_fit.jpg)
+![Wearable Interface](https://raw.githubusercontent.com/jackygrahamez/MayDay/master/assets/media/demo_gear_fit.jpg)
 
 ## How does MayDay work?
 
