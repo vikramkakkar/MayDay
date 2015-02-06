@@ -297,8 +297,10 @@ public class SimpleFragment extends Fragment {
 
     @Override
     public void onResume() {
+        String pageId;
         super.onResume();
         Log.e("SimpleFragment.onResume", currentPage.getId());
+
     }
 
 }

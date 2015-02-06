@@ -153,6 +153,13 @@ public class MainActivity extends BaseFragmentActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        if (ApplicationSettings.isAlertActive(MainActivity.this)) {
+            Log.e(">>>>>>", "HomeAlerting");
+            pageId = "home-alerting";
+            Intent i = new Intent(MainActivity.this, WizardActivity.class);
+            i.putExtra("page_id", pageId);
+            startActivity(i);
+        }
         Log.e("MainActivity.onResume", "pageId = " + pageId + " and flagRiseFromPause = " + flagRiseFromPause);
 
 
@@ -190,6 +197,7 @@ public class MainActivity extends BaseFragmentActivity {
             return;
         }
         */
+
         return;
     }
     
