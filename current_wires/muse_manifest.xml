@@ -1,8 +1,8 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1423010571296">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1423349199107">
   <folder name="css">
     <file name="site_global.css" crc="365011649"/>
     <file name="master_a-master.css" crc="431510411" ref="index:home-ready:setup-contacts:about:setup-alert:settings:home-alerting:setup-message"/>
-    <file name="index.css" crc="4076163601" ref="index"/>
+    <file name="index.css" crc="3866997344" ref="index"/>
     <file name="master_b-master.css" crc="3947757315" ref="gear-fit"/>
     <file name="home-ready.css" crc="4088573581" ref="home-ready"/>
     <file name="setup-contacts.css" crc="4219099229" ref="setup-contacts"/>
@@ -28,9 +28,9 @@
     <file name="demo_gear_fit.jpg" crc="3807503191" ref="gear-fit"/>
     <file name="device-2015-02-03-030306.jpg" crc="451862167" ref="about"/>
     <file name="device-2015-02-03-032929.jpg" crc="256139261" ref="home-ready"/>
-    <file name="device-2015-02-03-182811.jpg" crc="51685745" ref="index"/>
+    <file name="device-2015-02-07-174102.jpg" crc="222174421" ref="index"/>
   </folder>
-  <file name="index.html" crc="219007402" mt="1423010541751" redirect="true"/>
+  <file name="index.html" crc="97613033" mt="1423349198645" redirect="true"/>
   <file name="home-ready.html" crc="475362943" mt="1422972002501" redirect="true"/>
   <file name="setup-message.html" crc="3783227995" mt="1422972026361" redirect="true"/>
   <file name="settings.html" crc="351155533" mt="1422971978833" redirect="true"/>
