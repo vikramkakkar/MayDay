@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="134" android:versionName="1.3.4" package="com.mayday.md">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="138" android:versionName="1.3.8" package="com.mayday.md">
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="17"/>
 
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
@@ -36,6 +36,9 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            <intent-filter >
+                <action android:name="com.samsung.android.sdk.cup"/>
+            </intent-filter>
         </activity-alias>
 
         <activity-alias android:enabled="false" android:icon="@drawable/icon_mayday"
@@ -43,6 +46,9 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter >
+                <action android:name="com.samsung.android.sdk.cup"/>
             </intent-filter>
         </activity-alias>
 
