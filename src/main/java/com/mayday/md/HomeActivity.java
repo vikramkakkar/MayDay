@@ -25,6 +25,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+import com.mayday.md.trigger.MultiClickEvent;
 import com.samsung.android.sdk.cup.ScupDialog;
 import com.samsung.android.sdk.cup.ScupLabel;
 
@@ -33,7 +34,7 @@ public class HomeActivity extends Activity {
     String[] NAMES = {"MayDay"};
     private GearFitDialog mHelloCupDialog = null;
     private static final int MAYDAY_CUP = 0;
-
+    private MultiClickEvent multiClickEvent;
 
     ProgressDialog pDialog;
 
@@ -50,6 +51,17 @@ public class HomeActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_screen);
+
+
+
+        Bundle bundle=getIntent().getExtras();
+        boolean startedByCUP=false;
+        if(bundle!=null) {
+            startedByCUP = bundle.getBoolean("START_BY_CUP");
+            Log.e(">>>>>>", "START_BY_CUP");
+            //multiClickEvent.registerClick(System.currentTimeMillis());
+            multiClickEvent.registerClick(System.currentTimeMillis());
+        }
 
         //deleteShortCut();
 
