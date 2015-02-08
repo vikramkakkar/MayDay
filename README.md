@@ -61,6 +61,8 @@ https://developer.android.com/training/building-wearables.html
 
 **Gear** and **Gear Fit** are different. Unfortunetly Samsung has multiple wearable SDKs specific for different devices
 
+SDK Resource http://www.javafind.net/gate.jsp?q=/library/324/Samsung_Mobile_SDK_1.5/Docs/API/allclasses-noframe.html
+
 ##### Gear Fit 
 Uses a Samsung developed SDK called CUP SDK. http://forum.xda-developers.com/gear-fit/development/samsung-gear-fit-sdk-available-t2872803
 
