@@ -1,4 +1,4 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1423349199107">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1423354170038">
   <folder name="css">
     <file name="site_global.css" crc="365011649"/>
     <file name="master_a-master.css" crc="431510411" ref="index:home-ready:setup-contacts:about:setup-alert:settings:home-alerting:setup-message"/>
@@ -30,13 +30,13 @@
     <file name="device-2015-02-03-032929.jpg" crc="256139261" ref="home-ready"/>
     <file name="device-2015-02-07-174102.jpg" crc="222174421" ref="index"/>
   </folder>
-  <file name="index.html" crc="97613033" mt="1423349198645" redirect="true"/>
-  <file name="home-ready.html" crc="475362943" mt="1422972002501" redirect="true"/>
-  <file name="setup-message.html" crc="3783227995" mt="1422972026361" redirect="true"/>
-  <file name="settings.html" crc="351155533" mt="1422971978833" redirect="true"/>
-  <file name="setup-contacts.html" crc="283081565" mt="1422972036153" redirect="true"/>
-  <file name="setup-alert.html" crc="240682155" mt="1422972060443" redirect="true"/>
-  <file name="home-alerting.html" crc="3953967121" mt="1422972075079" redirect="true"/>
-  <file name="gear-fit.html" crc="34047022" mt="1422972156809" redirect="true"/>
-  <file name="about.html" crc="4071808365" mt="1422972096339" redirect="true"/>
+  <file name="index.html" crc="3836211692" mt="1423354155929" redirect="true"/>
+  <file name="home-ready.html" crc="196593024" mt="1423354155929" redirect="true"/>
+  <file name="setup-message.html" crc="483055489" mt="1423354155930" redirect="true"/>
+  <file name="settings.html" crc="424208015" mt="1423354155931" redirect="true"/>
+  <file name="setup-contacts.html" crc="3829801540" mt="1423354155937" redirect="true"/>
+  <file name="setup-alert.html" crc="4053156986" mt="1423354155937" redirect="true"/>
+  <file name="home-alerting.html" crc="80529787" mt="1423354155938" redirect="true"/>
+  <file name="gear-fit.html" crc="228006630" mt="1423354133458" redirect="true"/>
+  <file name="about.html" crc="157329476" mt="1423354155939" redirect="true"/>
 </manifest>
