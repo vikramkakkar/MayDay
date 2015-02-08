@@ -51,6 +51,12 @@ public class HomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_screen);
 
+        Bundle bundle=getIntent().getExtras();
+        boolean startedByCUP=false;
+        if(bundle!=null) {
+            startedByCUP = bundle.getBoolean("START_BY_CUP");
+        }
+
         //deleteShortCut();
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
