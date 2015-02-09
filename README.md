@@ -51,6 +51,12 @@ You need an Android phone with a minimum version of 2.3.3
 
 ### Wearable SDKs
 
+#### Bluetooth Sniffing
+
+Some of the wearable technologies are not fully documented. It becomes helpful to identify bluetooth traffic to tie events to. For instance, we want to know what bluetooth signals are transmited with the device's power button in pressed. Here is a stackoverflow post about bluetooth sniffing on Android. 
+
+http://stackoverflow.com/questions/23877761/sniffing-logging-your-own-android-bluetooth-traffic
+
 #### Android
 
 There are several resources available for wearable technologies on the Android Developer Portal
