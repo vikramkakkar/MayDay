@@ -62,7 +62,7 @@ public class HardwareTriggerReceiver extends BroadcastReceiver {
         return keyguardManager.inKeyguardRestrictedInputMode();
     }
 
-    private boolean isCallActive(Context context) {
+    public boolean isCallActive(Context context) {
         AudioManager manager = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
         return manager.getMode() == AudioManager.MODE_IN_CALL;
     }
