@@ -3,8 +3,10 @@ package com.mayday.md;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,6 +17,7 @@ import com.mayday.md.common.AppConstants;
 import com.mayday.md.common.ApplicationSettings;
 import com.mayday.md.data.PBDatabase;
 import com.mayday.md.model.Page;
+import com.mayday.md.trigger.HardwareTriggerReceiver;
 import com.mayday.md.trigger.HardwareTriggerService;
 import com.mayday.md.GearFitDialog;
 import org.json.JSONArray;
@@ -33,7 +36,7 @@ public class HomeActivity extends Activity {
     String[] NAMES = {"MayDay"};
     private GearFitDialog mHelloCupDialog = null;
     private static final int MAYDAY_CUP = 0;
-
+    public static final String CUSTOM_INTENT = "android.intent.action.SCREEN_ON";
 
     ProgressDialog pDialog;
 
@@ -50,11 +53,19 @@ public class HomeActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_screen);
+        SharedPreferences mPref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
         Bundle bundle=getIntent().getExtras();
         boolean startedByCUP=false;
         if(bundle!=null) {
-            startedByCUP = bundle.getBoolean("START_BY_CUP");
+            int c = mPref.getInt("numRun", 0);
+            c++;
+            mPref.edit().putInt("numRun",c).commit();
+            Log.e(">>>>>>", "START_BY_CUP "+c);
+            if (c >=5) {
+                HardwareTriggerReceiver hardwareTriggerReceiver = new HardwareTriggerReceiver();
+                hardwareTriggerReceiver.onActivation(getApplicationContext());
+            }
         }
 
         //deleteShortCut();

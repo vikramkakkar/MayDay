@@ -25,7 +25,10 @@ public class HardwareTriggerReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.e(">>>>>>>", "in onReceive of HWReceiver");
+
         String action = intent.getAction();
+        Log.e(">>>>>>>", "in onReceive of HWReceiver context "+context);
+        Log.e(">>>>>>>", "in onReceive of HWReceiver intent "+intent);
 
         if (!isCallActive(context) && isScreenLocked(context) && (action.equals(ACTION_SCREEN_OFF) || action.equals(ACTION_SCREEN_ON))) {
             multiClickEvent.registerClick(System.currentTimeMillis());
@@ -36,7 +39,7 @@ public class HardwareTriggerReceiver extends BroadcastReceiver {
         }
     }
 
-    protected void onActivation(Context context) {
+    public void onActivation(Context context) {
         Log.e(">>>>>>>", "in onActivation of HWReceiver");
         activateAlert(new PanicAlert(context));
     }

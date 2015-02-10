@@ -131,7 +131,7 @@ public class WizardAlarmTestHardwareFragment extends Fragment {
         }
 
         @Override
-        protected void onActivation(Context context) {
+        public void onActivation(Context context) {
             Log.e(">>>>>>>", "in onActivation of wizardHWReceiver");
 
             Vibrator vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
