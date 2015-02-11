@@ -97,7 +97,7 @@
 
         <meta-data
             android:name="SAMSUNG_CUP_APP"
-            android:value="MayDay;ic_launcher;true" />
+            android:value="MayDay;@drawable/icon_mayday;true" />
 
     </application>
 </manifest>
