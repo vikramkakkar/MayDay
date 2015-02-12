@@ -1,0 +1,233 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/Maven__android_support_v4_r12.xml
+* .idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml
+* .idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml
+* .idea/libraries/Maven__com_google_android_android_4_1_1_4.xml
+* .idea/libraries/Maven__com_google_android_support_v4_r7.xml
+* .idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml
+* .idea/libraries/Maven__commons_codec_commons_codec_1_3.xml
+* .idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml
+* .idea/libraries/Maven__junit_junit_4_8_2.xml
+* .idea/libraries/Maven__nekohtml_nekohtml_1_9_6_2.xml
+* .idea/libraries/Maven__nekohtml_xercesMinimal_1_9_6_2.xml
+* .idea/libraries/Maven__org_apache_ant_ant_1_8_0.xml
+* .idea/libraries/Maven__org_apache_ant_ant_launcher_1_8_0.xml
+* .idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml
+* .idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_ant_tasks_2_1_3.xml
+* .idea/libraries/Maven__org_apache_maven_maven_artifact_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_error_diagnostics_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_model_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_maven_settings_2_2_1.xml
+* .idea/libraries/Maven__org_apache_maven_wagon_wagon_file_1_0_beta_6.xml
+* .idea/libraries/Maven__org_apache_maven_wagon_wagon_http_lightweight_1_0_beta_6.xml
+* .idea/libraries/Maven__org_apache_maven_wagon_wagon_http_shared_1_0_beta_6.xml
+* .idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6.xml
+* .idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml
+* .idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_11.xml
+* .idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_5_15.xml
+* .idea/libraries/Maven__org_javassist_javassist_3_14_0_GA.xml
+* .idea/libraries/Maven__org_json_json_20080701.xml
+* .idea/libraries/Maven__org_khronos_opengl_api_gl1_1_android_2_1_r1.xml
+* .idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml
+* .idea/libraries/Maven__org_objenesis_objenesis_1_0.xml
+* .idea/libraries/Maven__org_robolectric_robolectric_2_0_alpha_1.xml
+* .idea/libraries/Maven__org_xerial_sqlite_jdbc_3_7_2.xml
+* .idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml
+* .idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml
+* .idea/libraries/crashlytics.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* LICENSE.md
+* README.md
+* build.xml
+* classes/
+* classes/res-cache/
+* classes/res-cache/amnesty-panic-button/
+* classes/res-cache/amnesty-panic-button/drawable-hdpi/
+* classes/res-cache/amnesty-panic-button/drawable-hdpi/icon.png
+* classes/res-cache/amnesty-panic-button/drawable-hdpi/next.png
+* classes/res-cache/amnesty-panic-button/drawable-hdpi/plus.png
+* classes/res-cache/amnesty-panic-button/drawable-hdpi/save.png
+* classes/res-cache/amnesty-panic-button/drawable-hdpi/socialperson.png
+* classes/res-cache/amnesty-panic-button/drawable-hdpi/wizard_active.png
+* classes/res-cache/amnesty-panic-button/drawable-hdpi/wizard_inactive.png
+* classes/res-cache/amnesty-panic-button/drawable-ldpi/
+* classes/res-cache/amnesty-panic-button/drawable-ldpi/icon.png
+* classes/res-cache/amnesty-panic-button/drawable-mdpi/
+* classes/res-cache/amnesty-panic-button/drawable-mdpi/icon.png
+* docs/
+* docs/BUILD.md
+* docs/DEVELOPMENT.md
+* docs/SECURITY.md
+* docs/setup_images/
+* docs/setup_images/1.png
+* docs/setup_images/2.png
+* docs/setup_images/3.png
+* docs/setup_images/4.png
+* docs/setup_images/5.png
+* docs/setup_images/6.png
+* docs/setup_images/7.png
+* docs/setup_images/8.png
+* docs/setup_images/9.png
+* docs/setup_images/a.1.png
+* docs/setup_images/a.2.png
+* docs/setup_images/a.3.png
+* docs/setup_images/a.4.png
+* docs/wireframes/
+* docs/wireframes/assets/
+* docs/wireframes/assets/apple-touch-icon.png
+* docs/wireframes/css/
+* docs/wireframes/css/demo-activation.css
+* docs/wireframes/css/demo-confirmation.css
+* docs/wireframes/css/demo-deactivate.css
+* docs/wireframes/css/demo-mark-read.css
+* docs/wireframes/css/index.css
+* docs/wireframes/css/master_a-master.css
+* docs/wireframes/css/setup-wizard-alert-frequency.css
+* docs/wireframes/css/setup-wizard-contact-list.css
+* docs/wireframes/css/setup-wizard-language.css
+* docs/wireframes/css/setup-wizard-messages.css
+* docs/wireframes/css/setup-wizard-pin-password.css
+* docs/wireframes/css/setup-wizard.css
+* docs/wireframes/css/site_global.css
+* docs/wireframes/demo-activation.html
+* docs/wireframes/demo-confirmation.html
+* docs/wireframes/demo-deactivate.html
+* docs/wireframes/demo-mark-read.html
+* docs/wireframes/images/
+* docs/wireframes/images/samsung.jpg
+* docs/wireframes/index.html
+* docs/wireframes/muse_manifest.xml
+* docs/wireframes/scripts/
+* docs/wireframes/scripts/jquery-1.8.3.min.js
+* docs/wireframes/scripts/jquery.watch.js
+* docs/wireframes/scripts/museutils.js
+* docs/wireframes/setup-wizard-alert-frequency.html
+* docs/wireframes/setup-wizard-contact-list.html
+* docs/wireframes/setup-wizard-language.html
+* docs/wireframes/setup-wizard-messages.html
+* docs/wireframes/setup-wizard-pin-password.html
+* docs/wireframes/setup-wizard.html
+* docs/wireframes/sitemap.xml
+* features/
+* features/1_wizard.feature
+* features/2_wizard_contacts.feature
+* features/3_wizard_message.feature
+* features/4_wizard_pin.feature
+* features/5_wizard_hardware_alarm.feature
+* features/6_wizard_complete.feature
+* features/7_no_connection_tests.feature
+* features/8_disabling_gps.feature
+* features/README.md
+* features/step_definitions/
+* features/step_definitions/calabash_steps.rb
+* features/step_definitions/custom_steps.rb
+* features/support/
+* features/support/app_installation_hooks.rb
+* features/support/app_life_cycle_hooks.rb
+* features/support/device.rb
+* features/support/env.rb
+* features/support/hooks.rb
+* features/support/more/
+* features/support/more/clikingoncalculation.py
+* features/support/more/gpsmonkey.py
+* features/support/more/longpress.py
+* features/support/more/presspowr5times.py
+* features/support/more/unlockscreen.py
+* features/x_gps_settings.feature
+* features/x_settings.feature
+* features/x_sms_settings.feature
+* lib/
+* lib/android/
+* lib/android/support-v4/
+* lib/android/support-v4/r12/
+* lib/android/support-v4/r12/support-v4-r12.jar
+* mayday.iml
+* pom.xml
+* proguard-project.txt
+* proguard_logs/
+* proguard_logs/dump.txt
+* proguard_logs/seeds.txt
+* proguard_logs/usage.txt
+* settings.gradle
+* wearable/
+* wearable/.gitignore
+* wearable/build.gradle
+* wearable/proguard-rules.pro
+* wearable/src/
+* wearable/src/main/
+* wearable/src/main/AndroidManifest.xml
+* wearable/src/main/java/
+* wearable/src/main/java/io/
+* wearable/src/main/java/io/mayday/
+* wearable/src/main/java/io/mayday/wearable/
+* wearable/src/main/java/io/mayday/wearable/MainActivity.java
+* wearable/src/main/res/
+* wearable/src/main/res/drawable-hdpi/
+* wearable/src/main/res/drawable-hdpi/ic_launcher.png
+* wearable/src/main/res/drawable-mdpi/
+* wearable/src/main/res/drawable-mdpi/ic_launcher.png
+* wearable/src/main/res/drawable-xhdpi/
+* wearable/src/main/res/drawable-xhdpi/ic_launcher.png
+* wearable/src/main/res/drawable-xxhdpi/
+* wearable/src/main/res/drawable-xxhdpi/ic_launcher.png
+* wearable/src/main/res/layout/
+* wearable/src/main/res/layout/activity_main.xml
+* wearable/src/main/res/layout/rect_activity_main.xml
+* wearable/src/main/res/layout/round_activity_main.xml
+* wearable/src/main/res/values/
+* wearable/src/main/res/values/strings.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/crashlytics.jar => app/libs/crashlytics.jar
+* libs/cup-v1.0.0.jar => app/libs/cup-v1.0.0.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
