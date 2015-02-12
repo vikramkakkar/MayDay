@@ -1,0 +1,7 @@
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/classes/debug
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-901cc8229b94f351cf2d24f722308a3f242c57cc.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/cup-v1.0.0-1cf83f3813c5e34a5dbe16463f82bf80e789b3e5.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c728896c638f8bf216c729e7e5f7c8943d9321f9.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ed8aac479076ea76749eceee4ee8a62b2a67a085.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/crashlytics-91799d2117bc8ab78089fedfe9dfeed559bc1831.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/classes-42d8c56c4a8300c2cb3fe75ada4ab98d556fc946.jar
