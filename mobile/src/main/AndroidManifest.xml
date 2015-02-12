@@ -29,7 +29,7 @@
             android:name=".HomeActivity" android:noHistory="true" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
@@ -55,6 +55,40 @@
             </intent-filter>
         </activity-alias>
 
+
+        <activity android:excludeFromRecents="false" android:name=".WizardActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="false" android:name=".WizardModalActivity"
+            android:screenOrientation="portrait" />
+        <activity android:excludeFromRecents="false" android:launchMode="singleTask"
+            android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="false" android:name=".LoginActivity"
+            android:noHistory="true" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="false" android:name=".MainModalActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".trigger.HardwareTriggerService"/>
+
+        <receiver android:enabled="true" android:exported="false" android:name=".trigger.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:enabled="true" android:exported="false" android:name=".location.LocationUpdateReceiver">
+            <intent-filter>
+                <action android:name="com.mayday.md.LOCATION_UPDATE_ACTION"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:enabled="true" android:exported="false" android:name=".alert.AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.mayday.md.SEND_ALERT_ACTION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mayday.md.SEND_ALERT_ACTION_SINGLE"/>
+            </intent-filter>
+        </receiver>
 
         <intent-filter>
             <action android:name="com.samsung.android.sdk.cup" />
