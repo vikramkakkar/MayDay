@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.location;
+package com.mayday.md.location;
 
 import android.content.Context;
 import android.content.Intent;

@@ -1,13 +1,13 @@
-package main.java.com.mayday.md.
+package com.mayday.md;
 
 import android.content.Intent;
 import android.widget.Button;
 import android.widget.TextView;
 
 
-import main.java.com.mayday.md.CalculatorActivity;
-import main.java.com.mayday.md.alert.PanicAlert;
-import main.java.com.mayday.md.trigger.HardwareTriggerService;
+import com.mayday.md.CalculatorActivity;
+import com.mayday.md.alert.PanicAlert;
+import com.mayday.md.trigger.HardwareTriggerService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

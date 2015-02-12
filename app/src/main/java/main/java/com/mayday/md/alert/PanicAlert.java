@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.alert;
+package com.mayday.md.alert;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -10,15 +10,15 @@ import android.os.SystemClock;
 import android.os.Vibrator;
 import android.util.Log;
 
-import main.java.com.mayday.md.LoginActivity;
-import main.java.com.mayday.md.MainActivity;
-import main.java.com.mayday.md.HomeActivity;
-import main.java.com.mayday.md.WizardActivity;
-import main.java.com.mayday.md.common.AppConstants;
-import main.java.com.mayday.md.common.AppUtil;
-import main.java.com.mayday.md.common.ApplicationSettings;
-import main.java.com.mayday.md.common.Intents;
-import main.java.com.mayday.md.location.CurrentLocationProvider;
+import com.mayday.md.LoginActivity;
+import com.mayday.md.MainActivity;
+import com.mayday.md.HomeActivity;
+import com.mayday.md.WizardActivity;
+import com.mayday.md.common.AppConstants;
+import com.mayday.md.common.AppUtil;
+import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.common.Intents;
+import com.mayday.md.location.CurrentLocationProvider;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

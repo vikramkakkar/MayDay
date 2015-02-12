@@ -1,4 +1,4 @@
-package main.java.com.mayday.md;
+package com.mayday.md;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -12,13 +12,13 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import main.java.com.mayday.md.adapter.PageCheckListAdapter;
-import main.java.com.mayday.md.common.AppConstants;
-import main.java.com.mayday.md.common.ApplicationSettings;
-import main.java.com.mayday.md.common.CustomLinkMovementMethod;
-import main.java.com.mayday.md.common.MyTagHandler;
-import main.java.com.mayday.md.data.PBDatabase;
-import main.java.com.mayday.md.model.Page;
+import com.mayday.md.adapter.PageCheckListAdapter;
+import com.mayday.md.common.AppConstants;
+import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.common.CustomLinkMovementMethod;
+import com.mayday.md.common.MyTagHandler;
+import com.mayday.md.data.PBDatabase;
+import com.mayday.md.model.Page;
 
 
 

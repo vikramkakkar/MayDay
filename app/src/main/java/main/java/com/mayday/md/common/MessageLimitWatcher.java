@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.common;
+package com.mayday.md.common;
 
 import android.graphics.Color;
 import android.text.Editable;

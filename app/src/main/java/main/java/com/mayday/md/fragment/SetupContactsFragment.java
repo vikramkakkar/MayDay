@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.fragment;
+package com.mayday.md.fragment;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,19 +20,19 @@ import android.widget.Toast;
 
 import java.util.List;
 
-import main.java.com.mayday.md.MainActivity;
-import main.java.com.mayday.md.R;
-import main.java.com.mayday.md.WizardActivity;
-import main.java.com.mayday.md.adapter.PageItemAdapter;
-import main.java.com.mayday.md.common.AppConstants;
-import main.java.com.mayday.md.common.AppUtil;
-import main.java.com.mayday.md.common.ApplicationSettings;
-import main.java.com.mayday.md.common.ContactEditTexts;
-import main.java.com.mayday.md.common.MyTagHandler;
-import main.java.com.mayday.md.data.PBDatabase;
-import main.java.com.mayday.md.model.Page;
-import main.java.com.mayday.md.model.PageItem;
-import main.java.com.mayday.md.model.SMSSettings;
+import com.mayday.md.MainActivity;
+import com.mayday.md.R;
+import com.mayday.md.WizardActivity;
+import com.mayday.md.adapter.PageItemAdapter;
+import com.mayday.md.common.AppConstants;
+import com.mayday.md.common.AppUtil;
+import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.common.ContactEditTexts;
+import com.mayday.md.common.MyTagHandler;
+import com.mayday.md.data.PBDatabase;
+import com.mayday.md.model.Page;
+import com.mayday.md.model.PageItem;
+import com.mayday.md.model.SMSSettings;
 
 /**
  * Created by aoe on 12/11/13.

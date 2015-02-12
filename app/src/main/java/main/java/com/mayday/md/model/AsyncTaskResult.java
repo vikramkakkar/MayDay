@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.model;
+package com.mayday.md.model;
 
 /**
  * Created by aoe on 1/3/14.

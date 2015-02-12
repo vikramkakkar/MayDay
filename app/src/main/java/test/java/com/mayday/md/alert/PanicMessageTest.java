@@ -1,14 +1,14 @@
-package main.java.com.mayday.md.alert;
+package com.mayday.md.alert;
 
 import android.content.Context;
 import android.location.Location;
 import android.location.LocationManager;
 
-import main.java.com.mayday.md.R;
-import main.java.com.mayday.md.common.AppConstants;
-import main.java.com.mayday.md.common.ApplicationSettings;
-import main.java.com.mayday.md.location.LocationTestUtil;
-import main.java.com.mayday.md.model.SMSSettings;
+import com.mayday.md.R;
+import com.mayday.md.common.AppConstants;
+import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.location.LocationTestUtil;
+import com.mayday.md.model.SMSSettings;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

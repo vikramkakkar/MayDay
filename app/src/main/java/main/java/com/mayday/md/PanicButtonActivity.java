@@ -1,7 +1,7 @@
-package main.java.com.mayday.md;
+package com.mayday.md;
 
-import main.java.com.mayday.md.alert.PanicAlert;
-import main.java.com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.alert.PanicAlert;
+import com.mayday.md.common.ApplicationSettings;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;

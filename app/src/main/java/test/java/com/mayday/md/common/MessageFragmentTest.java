@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.common;
+package com.mayday.md.common;
 
 import android.content.res.TypedArray;
 import android.support.v4.app.FragmentActivity;
@@ -11,9 +11,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
-import main.java.com.mayday.md.R;
-import main.java.com.mayday.md.common.MessageLimitWatcher;
-import main.java.com.mayday.md.fragment.MessageTextFragment;
+import com.mayday.md.R;
+import com.mayday.md.common.MessageLimitWatcher;
+import com.mayday.md.fragment.MessageTextFragment;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

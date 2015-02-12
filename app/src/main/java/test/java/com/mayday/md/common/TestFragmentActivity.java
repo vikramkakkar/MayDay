@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.common;
+package com.mayday.md.common;
 
 import android.support.v4.app.FragmentActivity;
 

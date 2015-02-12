@@ -1,12 +1,12 @@
-package main.java.com.mayday.md.trigger;
+package com.mayday.md.trigger;
 
 import android.content.Intent;
 
 
-import main.java.com.mayday.md.common.AppConstants;
-import main.java.com.mayday.md.common.ApplicationSettings;
-import main.java.com.mayday.md.trigger.BootReceiver;
-import main.java.com.mayday.md.trigger.HardwareTriggerService;
+import com.mayday.md.common.AppConstants;
+import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.trigger.BootReceiver;
+import com.mayday.md.trigger.HardwareTriggerService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

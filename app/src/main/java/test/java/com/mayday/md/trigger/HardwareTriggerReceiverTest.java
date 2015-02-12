@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.trigger;
+package com.mayday.md.trigger;
 
 import android.app.Application;
 import android.app.KeyguardManager;
@@ -7,9 +7,9 @@ import android.content.Intent;
 
 
 import org.codehaus.plexus.util.ReflectionUtils;
-import main.java.com.mayday.md.alert.PanicAlert;
-import main.java.com.mayday.md.trigger.HardwareTriggerReceiver;
-import main.java.com.mayday.md.trigger.MultiClickEvent;
+import com.mayday.md.alert.PanicAlert;
+import com.mayday.md.trigger.HardwareTriggerReceiver;
+import com.mayday.md.trigger.MultiClickEvent;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

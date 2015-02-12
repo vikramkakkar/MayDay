@@ -1,9 +1,9 @@
-package main.java.com.mayday.md.common;
+package com.mayday.md.common;
 
 import android.app.Activity;
 import android.widget.TextView;
 
-import main.java.com.mayday.md.common.MessageLimitWatcher;
+import com.mayday.md.common.MessageLimitWatcher;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;

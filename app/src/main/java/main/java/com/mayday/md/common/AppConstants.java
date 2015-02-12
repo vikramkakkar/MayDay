@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.common;
+package com.mayday.md.common;
 
 public class AppConstants {
     //Test values

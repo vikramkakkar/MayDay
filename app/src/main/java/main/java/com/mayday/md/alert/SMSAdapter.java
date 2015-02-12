@@ -1,10 +1,10 @@
-package main.java.com.mayday.md.alert;
+package com.mayday.md.alert;
 
 import android.content.Context;
 import android.telephony.SmsManager;
 import android.util.Log;
 
-import main.java.com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.common.ApplicationSettings;
 
 public class SMSAdapter {
     private static final String LOG_TAG = SMSAdapter.class.getName();

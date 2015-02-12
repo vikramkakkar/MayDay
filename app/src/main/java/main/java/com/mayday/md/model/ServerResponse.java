@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.model;
+package com.mayday.md.model;
 
 import org.json.JSONObject;
 

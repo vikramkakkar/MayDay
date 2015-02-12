@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.alert;
+package com.mayday.md.alert;
 
 import android.content.Context;
 import android.telephony.SmsManager;

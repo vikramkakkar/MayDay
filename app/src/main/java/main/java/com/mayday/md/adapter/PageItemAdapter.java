@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.adapter;
+package com.mayday.md.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import main.java.com.mayday.md.R;
-import main.java.com.mayday.md.model.PageItem;
+import com.mayday.md.R;
+import com.mayday.md.model.PageItem;
 
 /**
  * Created by aoe on 1/6/14.

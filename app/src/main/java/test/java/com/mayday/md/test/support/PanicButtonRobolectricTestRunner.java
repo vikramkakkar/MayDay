@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.test.support;
+package com.mayday.md.test.support;
 
 import org.junit.runners.model.InitializationError;
 import org.robolectric.Robolectric;

@@ -1,7 +1,7 @@
-package main.java.com.mayday.md.trigger;
+package com.mayday.md.trigger;
 
 import android.media.AudioManager;
-import main.java.com.mayday.md.alert.PanicAlert;
+import com.mayday.md.alert.PanicAlert;
 
 import android.app.KeyguardManager;
 import android.content.BroadcastReceiver;

@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.location;
+package com.mayday.md.location;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.util.Log;
 
-import main.java.com.mayday.md.alert.PanicMessage;
-import main.java.com.mayday.md.common.ApplicationSettings;
-import main.java.com.mayday.md.common.Intents;
+import com.mayday.md.alert.PanicMessage;
+import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.common.Intents;
 
 public class LocationUpdateReceiver extends BroadcastReceiver {
     private static final String TAG = LocationUpdateReceiver.class.getName();

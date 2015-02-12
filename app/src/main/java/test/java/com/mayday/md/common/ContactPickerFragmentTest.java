@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.common;
+package com.mayday.md.common;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -10,8 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 
 
-import main.java.com.mayday.md.R;
-import main.java.com.mayday.md.common.ContactPickerFragment;
+import com.mayday.md.R;
+import com.mayday.md.common.ContactPickerFragment;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

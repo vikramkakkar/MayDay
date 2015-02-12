@@ -1,4 +1,4 @@
-package main.java.com.mayday.md;
+package com.mayday.md;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -12,19 +12,19 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import main.java.com.mayday.md.alert.PanicAlert;
-import main.java.com.mayday.md.common.AppConstants;
-import main.java.com.mayday.md.common.ApplicationSettings;
-import main.java.com.mayday.md.data.PBDatabase;
-import main.java.com.mayday.md.fragment.LanguageSettingsFragment;
-import main.java.com.mayday.md.fragment.MainSetupAlertFragment;
-import main.java.com.mayday.md.fragment.SetupCodeFragment;
-import main.java.com.mayday.md.fragment.SetupContactsFragment;
-import main.java.com.mayday.md.fragment.SetupMessageFragment;
-import main.java.com.mayday.md.fragment.SimpleFragment;
-import main.java.com.mayday.md.fragment.WarningFragment;
-import main.java.com.mayday.md.model.Page;
-import main.java.com.mayday.md.trigger.HardwareTriggerService;
+import com.mayday.md.alert.PanicAlert;
+import com.mayday.md.common.AppConstants;
+import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.data.PBDatabase;
+import com.mayday.md.fragment.LanguageSettingsFragment;
+import com.mayday.md.fragment.MainSetupAlertFragment;
+import com.mayday.md.fragment.SetupCodeFragment;
+import com.mayday.md.fragment.SetupContactsFragment;
+import com.mayday.md.fragment.SetupMessageFragment;
+import com.mayday.md.fragment.SimpleFragment;
+import com.mayday.md.fragment.WarningFragment;
+import com.mayday.md.model.Page;
+import com.mayday.md.trigger.HardwareTriggerService;
 
 
 /**

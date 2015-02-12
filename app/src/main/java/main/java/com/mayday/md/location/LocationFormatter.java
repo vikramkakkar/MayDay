@@ -1,9 +1,9 @@
-package main.java.com.mayday.md.location;
+package com.mayday.md.location;
 
 import android.content.Context;
 import android.location.Location;
 
-import main.java.com.mayday.md.R;
+import com.mayday.md.R;
 
 public class LocationFormatter {
     public static final String GOOGLE_MAP_URL = "https://maps.google.com/maps?q=";

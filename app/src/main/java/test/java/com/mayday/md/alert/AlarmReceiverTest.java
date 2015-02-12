@@ -1,13 +1,13 @@
-package main.java.com.mayday.md.alert;
+package com.mayday.md.alert;
 
 import android.content.Context;
 import android.content.Intent;
 import android.location.Location;
 
 
-import main.java.com.mayday.md.alert.AlarmReceiver;
-import main.java.com.mayday.md.alert.PanicMessage;
-import main.java.com.mayday.md.common.Intents;
+import com.mayday.md.alert.AlarmReceiver;
+import com.mayday.md.alert.PanicMessage;
+import com.mayday.md.common.Intents;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

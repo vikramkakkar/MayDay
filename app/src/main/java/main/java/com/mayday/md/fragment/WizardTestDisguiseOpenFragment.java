@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.fragment;
+package com.mayday.md.fragment;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -21,13 +21,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import main.java.com.mayday.md.R;
-import main.java.com.mayday.md.WizardActivity;
-import main.java.com.mayday.md.adapter.AppInfoAdapter;
-import main.java.com.mayday.md.common.ApplicationSettings;
-import main.java.com.mayday.md.data.PBDatabase;
-import main.java.com.mayday.md.model.AppInfo;
-import main.java.com.mayday.md.model.Page;
+import com.mayday.md.R;
+import com.mayday.md.WizardActivity;
+import com.mayday.md.adapter.AppInfoAdapter;
+import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.data.PBDatabase;
+import com.mayday.md.model.AppInfo;
+import com.mayday.md.model.Page;
 
 /**
  * Created by aoe on 1/16/14.

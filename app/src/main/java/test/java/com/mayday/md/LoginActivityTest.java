@@ -1,11 +1,11 @@
-package main.java.com.mayday.md.
+package com.mayday.md;
 
 import android.widget.Button;
 import android.widget.EditText;
 
 
-import main.java.com.mayday.md.LoginActivity;
-import main.java.com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.LoginActivity;
+import com.mayday.md.common.ApplicationSettings;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

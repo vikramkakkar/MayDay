@@ -1,6 +1,6 @@
-package main.java.com.mayday.md.alert;
+package com.mayday.md.alert;
 
-import main.java.com.mayday.md.R;
+import com.mayday.md.R;
 
 public enum AlertStatus {
     STANDBY(R.string.send_emergency_alert, R.string.alert_status_standby, R.drawable.send_alert_button, true),

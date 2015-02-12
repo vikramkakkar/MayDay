@@ -1,7 +1,7 @@
-package main.java.com.mayday.md.fragment;
+package com.mayday.md.fragment;
 
-import main.java.com.mayday.md.R;
-import main.java.com.mayday.md.common.MessageLimitWatcher;
+import com.mayday.md.R;
+import com.mayday.md.common.MessageLimitWatcher;
 
 import android.app.Activity;
 import android.content.res.TypedArray;

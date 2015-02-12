@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.common;
+package com.mayday.md.common;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.TextView;
 
-import main.java.com.mayday.md.MainActivity;
+import com.mayday.md.MainActivity;
 
 
 /**

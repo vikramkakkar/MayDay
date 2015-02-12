@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.trigger;
+package com.mayday.md.trigger;
 
 import android.app.Service;
 import android.content.Intent;

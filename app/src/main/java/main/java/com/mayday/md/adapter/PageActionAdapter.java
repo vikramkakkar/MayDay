@@ -1,4 +1,4 @@
-package main.java.com.mayday.md.adapter;
+package com.mayday.md.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,12 +13,12 @@ import android.widget.ImageView;
 
 import java.util.List;
 
-import main.java.com.mayday.md.CalculatorActivity;
-import main.java.com.mayday.md.MainActivity;
-import main.java.com.mayday.md.R;
-import main.java.com.mayday.md.WizardActivity;
-import main.java.com.mayday.md.common.AppConstants;
-import main.java.com.mayday.md.model.PageAction;
+import com.mayday.md.CalculatorActivity;
+import com.mayday.md.MainActivity;
+import com.mayday.md.R;
+import com.mayday.md.WizardActivity;
+import com.mayday.md.common.AppConstants;
+import com.mayday.md.model.PageAction;
 
 
 /**

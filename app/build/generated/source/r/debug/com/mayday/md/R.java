@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package main.java.com.mayday.md.
+package com.mayday.md;
 
 public final class R {
     public static final class anim {

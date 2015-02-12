@@ -1,6 +1,6 @@
-package main.java.com.mayday.md.common;
+package com.mayday.md.common;
 
-import main.java.com.mayday.md.R;
+import com.mayday.md.R;
 
 import android.content.Intent;
 import android.database.Cursor;
