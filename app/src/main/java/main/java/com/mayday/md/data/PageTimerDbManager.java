@@ -1,7 +1,7 @@
-package com.mayday.md.data;
+package main.java.com.mayday.md.data;
 
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.model.PageTimer;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.model.PageTimer;
 
 import android.content.ContentValues;
 import android.database.Cursor;

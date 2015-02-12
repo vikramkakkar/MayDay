@@ -1,4 +1,4 @@
-package com.mayday.md.data;
+package main.java.com.mayday.md.data;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteStatement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.model.PageStatus;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.model.PageStatus;
 
 /**
  * Created by aoe on 1/5/14.

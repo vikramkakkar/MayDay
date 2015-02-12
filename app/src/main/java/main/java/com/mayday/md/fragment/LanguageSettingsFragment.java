@@ -1,11 +1,11 @@
-package com.mayday.md.fragment;
+package main.java.com.mayday.md.fragment;
 
-import com.mayday.md.R;
-import com.mayday.md.adapter.PageLanguageSettingsAdapter;
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.common.MyTagHandler;
-import com.mayday.md.data.PBDatabase;
-import com.mayday.md.model.Page;
+import main.java.com.mayday.md.R;
+import main.java.com.mayday.md.adapter.PageLanguageSettingsAdapter;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.common.MyTagHandler;
+import main.java.com.mayday.md.data.PBDatabase;
+import main.java.com.mayday.md.model.Page;
 
 import android.app.Activity;
 import android.os.Bundle;

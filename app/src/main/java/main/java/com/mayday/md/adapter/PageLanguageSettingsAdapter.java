@@ -1,4 +1,4 @@
-package com.mayday.md.adapter;
+package main.java.com.mayday.md.adapter;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -14,13 +14,13 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.mayday.md.MainActivity;
-import com.mayday.md.R;
-import com.mayday.md.WizardActivity;
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.common.AppUtil;
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.model.PageAction;
+import main.java.com.mayday.md.MainActivity;
+import main.java.com.mayday.md.R;
+import main.java.com.mayday.md.WizardActivity;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.common.AppUtil;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.model.PageAction;
 
 import java.util.List;
 import java.util.Locale;

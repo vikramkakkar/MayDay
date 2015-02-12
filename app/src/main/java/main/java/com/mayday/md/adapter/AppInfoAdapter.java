@@ -1,4 +1,4 @@
-package com.mayday.md.adapter;
+package main.java.com.mayday.md.adapter;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -17,8 +17,8 @@ import android.widget.Toast;
 
 import java.util.List;
 
-import com.mayday.md.R;
-import com.mayday.md.model.AppInfo;
+import main.java.com.mayday.md.R;
+import main.java.com.mayday.md.model.AppInfo;
 
 /**
  * Created by aoe on 1/24/14.

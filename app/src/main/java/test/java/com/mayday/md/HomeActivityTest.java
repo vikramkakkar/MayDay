@@ -1,11 +1,11 @@
-package com.mayday.md;
+package main.java.com.mayday.md.
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 
 
-import com.mayday.md.HomeActivity;
-import com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.HomeActivity;
+import main.java.com.mayday.md.common.ApplicationSettings;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +17,7 @@ import org.robolectric.shadows.ShadowPreferenceManager;
 import static org.junit.Assert.assertNotNull;
 import static org.robolectric.Robolectric.shadowOf;
 
-//import com.mayday.md.HomeActivity;
+//import main.java.com.mayday.md.HomeActivity;
 
 @RunWith(RobolectricTestRunner.class)
 public class HomeActivityTest {

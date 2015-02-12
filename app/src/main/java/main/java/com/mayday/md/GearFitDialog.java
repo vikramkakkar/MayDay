@@ -1,4 +1,4 @@
-package com.mayday.md;
+package main.java.com.mayday.md;
 
 import android.content.Context;
 

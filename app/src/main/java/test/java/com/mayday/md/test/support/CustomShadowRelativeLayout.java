@@ -1,4 +1,4 @@
-package com.mayday.md.test.support;
+package main.java.com.mayday.md.test.support;
 
 
 import android.widget.RelativeLayout;

@@ -1,4 +1,4 @@
-package com.mayday.md.common;
+package main.java.com.mayday.md.common;
 
 import android.text.Editable;
 import android.text.Html;

@@ -1,12 +1,12 @@
-package com.mayday.md.fragment;
+package main.java.com.mayday.md.fragment;
 
-import com.mayday.md.R;
-import com.mayday.md.WizardActivity;
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.data.PBDatabase;
-import com.mayday.md.model.Page;
-import com.mayday.md.trigger.MultiClickEvent;
+import main.java.com.mayday.md.R;
+import main.java.com.mayday.md.WizardActivity;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.data.PBDatabase;
+import main.java.com.mayday.md.model.Page;
+import main.java.com.mayday.md.trigger.MultiClickEvent;
 
 import android.app.Activity;
 import android.content.Context;

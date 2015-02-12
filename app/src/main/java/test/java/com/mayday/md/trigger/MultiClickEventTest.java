@@ -1,6 +1,6 @@
-package com.mayday.md.trigger;
+package main.java.com.mayday.md.trigger;
 
-import com.mayday.md.trigger.MultiClickEvent;
+import main.java.com.mayday.md.trigger.MultiClickEvent;
 import org.junit.Before;
 import org.junit.Test;
 

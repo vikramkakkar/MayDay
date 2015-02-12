@@ -1,4 +1,4 @@
-package com.mayday.md.location;
+package main.java.com.mayday.md.location;
 
 import android.content.Context;
 import android.location.Criteria;
@@ -6,7 +6,7 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.util.Log;
 
-import com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.common.ApplicationSettings;
 
 import static android.location.Criteria.ACCURACY_FINE;
 import static android.location.LocationManager.GPS_PROVIDER;

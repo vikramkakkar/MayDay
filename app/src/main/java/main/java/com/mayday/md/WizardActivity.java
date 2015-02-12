@@ -1,23 +1,23 @@
-package com.mayday.md;
+package main.java.com.mayday.md;
 
 
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.common.MyTagHandler;
-import com.mayday.md.data.PBDatabase;
-import com.mayday.md.fragment.LanguageSettingsFragment;
-import com.mayday.md.fragment.SetupCodeFragment;
-import com.mayday.md.fragment.SetupContactsFragment;
-import com.mayday.md.fragment.SetupMessageFragment;
-import com.mayday.md.fragment.SimpleFragment;
-import com.mayday.md.fragment.WarningFragment;
-import com.mayday.md.fragment.WizardAlarmTestDisguiseFragment;
-import com.mayday.md.fragment.WizardAlarmTestHardwareFragment;
-import com.mayday.md.fragment.WizardTestDisguiseCodeFragment;
-import com.mayday.md.fragment.WizardTestDisguiseOpenFragment;
-import com.mayday.md.fragment.WizardTestDisguiseUnlockFragment;
-import com.mayday.md.model.Page;
-import com.mayday.md.trigger.HardwareTriggerService;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.common.MyTagHandler;
+import main.java.com.mayday.md.data.PBDatabase;
+import main.java.com.mayday.md.fragment.LanguageSettingsFragment;
+import main.java.com.mayday.md.fragment.SetupCodeFragment;
+import main.java.com.mayday.md.fragment.SetupContactsFragment;
+import main.java.com.mayday.md.fragment.SetupMessageFragment;
+import main.java.com.mayday.md.fragment.SimpleFragment;
+import main.java.com.mayday.md.fragment.WarningFragment;
+import main.java.com.mayday.md.fragment.WizardAlarmTestDisguiseFragment;
+import main.java.com.mayday.md.fragment.WizardAlarmTestHardwareFragment;
+import main.java.com.mayday.md.fragment.WizardTestDisguiseCodeFragment;
+import main.java.com.mayday.md.fragment.WizardTestDisguiseOpenFragment;
+import main.java.com.mayday.md.fragment.WizardTestDisguiseUnlockFragment;
+import main.java.com.mayday.md.model.Page;
+import main.java.com.mayday.md.trigger.HardwareTriggerService;
 
 import android.content.ComponentName;
 import android.content.Intent;

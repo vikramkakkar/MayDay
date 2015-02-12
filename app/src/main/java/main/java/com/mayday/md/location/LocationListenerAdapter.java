@@ -1,4 +1,4 @@
-package com.mayday.md.location;
+package main.java.com.mayday.md.location;
 
 import android.location.Location;
 import android.location.LocationListener;

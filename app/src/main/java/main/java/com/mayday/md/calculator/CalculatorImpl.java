@@ -1,4 +1,4 @@
-package com.mayday.md.calculator;
+package main.java.com.mayday.md.calculator;
 
 import java.math.BigDecimal;
 

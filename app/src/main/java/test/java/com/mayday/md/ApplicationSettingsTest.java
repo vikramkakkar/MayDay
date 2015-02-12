@@ -1,10 +1,10 @@
-package com.mayday.md;
+package main.java.com.mayday.md.
 
 import android.app.Application;
 import android.content.SharedPreferences;
 
 
-import com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.common.ApplicationSettings;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

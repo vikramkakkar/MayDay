@@ -1,12 +1,12 @@
-package com.mayday.md;
+package main.java.com.mayday.md.
 
 import android.view.ViewGroup;
 
 
 import org.hamcrest.core.Is;
-import com.mayday.md.CalculatorActivity;
-import com.mayday.md.alert.PanicAlert;
-import com.mayday.md.test.support.PanicButtonRobolectricTestRunner;
+import main.java.com.mayday.md.CalculatorActivity;
+import main.java.com.mayday.md.alert.PanicAlert;
+import main.java.com.mayday.md.test.support.PanicButtonRobolectricTestRunner;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

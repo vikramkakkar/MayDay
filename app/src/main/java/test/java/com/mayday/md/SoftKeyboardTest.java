@@ -1,7 +1,7 @@
-package com.mayday.md;
+package main.java.com.mayday.md.
 
 
-import com.mayday.md.common.SoftKeyboard;
+import main.java.com.mayday.md.common.SoftKeyboard;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;

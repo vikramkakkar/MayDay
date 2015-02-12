@@ -1,4 +1,4 @@
-package com.mayday.md.alert;
+package main.java.com.mayday.md.alert;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.location.Location;
 import android.util.Log;
 
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.common.Intents;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.common.Intents;
 
 
 public class AlarmReceiver extends BroadcastReceiver {

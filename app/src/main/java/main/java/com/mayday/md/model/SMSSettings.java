@@ -1,4 +1,4 @@
-package com.mayday.md.model;
+package main.java.com.mayday.md.model;
 
 import android.content.Context;
 import android.content.SharedPreferences;

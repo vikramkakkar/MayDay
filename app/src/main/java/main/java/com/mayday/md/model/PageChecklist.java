@@ -1,4 +1,4 @@
-package com.mayday.md.model;
+package main.java.com.mayday.md.model;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

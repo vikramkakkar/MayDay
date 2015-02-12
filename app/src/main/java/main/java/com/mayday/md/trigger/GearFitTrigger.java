@@ -1,4 +1,4 @@
-package com.mayday.md.trigger;
+package main.java.com.mayday.md.trigger;
 
 import android.content.ContextWrapper;
 import android.content.Intent;

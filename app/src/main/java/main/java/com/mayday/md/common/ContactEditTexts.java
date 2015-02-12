@@ -1,4 +1,4 @@
-package com.mayday.md.common;
+package main.java.com.mayday.md.common;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -14,8 +14,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.mayday.md.R;
-import com.mayday.md.model.SMSSettings;
+import main.java.com.mayday.md.R;
+import main.java.com.mayday.md.model.SMSSettings;
 
 
 import static com.mayday.md.R.id.first_contact;

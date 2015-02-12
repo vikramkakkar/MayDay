@@ -1,4 +1,4 @@
-package com.mayday.md.data;
+package main.java.com.mayday.md.data;
 
 import android.content.Context;
 import android.database.SQLException;
@@ -8,14 +8,14 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.List;
 
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.model.HelpPage;
-import com.mayday.md.model.Page;
-import com.mayday.md.model.PageAction;
-import com.mayday.md.model.PageChecklist;
-import com.mayday.md.model.PageItem;
-import com.mayday.md.model.PageStatus;
-import com.mayday.md.model.PageTimer;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.model.HelpPage;
+import main.java.com.mayday.md.model.Page;
+import main.java.com.mayday.md.model.PageAction;
+import main.java.com.mayday.md.model.PageChecklist;
+import main.java.com.mayday.md.model.PageItem;
+import main.java.com.mayday.md.model.PageStatus;
+import main.java.com.mayday.md.model.PageTimer;
 
 /**
  * Created by aoe on 12/12/13.

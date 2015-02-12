@@ -1,10 +1,10 @@
-package com.mayday.md.wizard;
+package main.java.com.mayday.md.wizard;
 
 import android.app.Application;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 
-import com.mayday.md.WizardActivity;
+import main.java.com.mayday.md.WizardActivity;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

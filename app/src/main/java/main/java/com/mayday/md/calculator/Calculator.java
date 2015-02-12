@@ -1,4 +1,4 @@
-package com.mayday.md.calculator;
+package main.java.com.mayday.md.calculator;
 
 public interface Calculator {
 

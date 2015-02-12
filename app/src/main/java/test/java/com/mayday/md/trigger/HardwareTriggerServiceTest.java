@@ -1,10 +1,10 @@
-package com.mayday.md.trigger;
+package main.java.com.mayday.md.trigger;
 
 import android.content.Intent;
 import android.content.IntentFilter;
 
-import com.mayday.md.trigger.HardwareTriggerReceiver;
-import com.mayday.md.trigger.HardwareTriggerService;
+import main.java.com.mayday.md.trigger.HardwareTriggerReceiver;
+import main.java.com.mayday.md.trigger.HardwareTriggerService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;

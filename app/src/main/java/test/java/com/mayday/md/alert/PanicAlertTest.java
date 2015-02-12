@@ -1,4 +1,4 @@
-package com.mayday.md.alert;
+package main.java.com.mayday.md.alert;
 
 import android.app.AlarmManager;
 import android.app.Application;
@@ -12,9 +12,9 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.os.Vibrator;
 
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.location.CurrentLocationProvider;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.location.CurrentLocationProvider;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

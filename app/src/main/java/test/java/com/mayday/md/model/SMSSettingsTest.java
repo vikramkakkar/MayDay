@@ -1,8 +1,8 @@
-package com.mayday.md.model;
+package main.java.com.mayday.md.model;
 
 import android.content.Context;
 
-import com.mayday.md.model.SMSSettings;
+import main.java.com.mayday.md.model.SMSSettings;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;

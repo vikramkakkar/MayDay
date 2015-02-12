@@ -1,12 +1,12 @@
-package com.mayday.md;
+package main.java.com.mayday.md;
 
-import com.mayday.md.alert.PanicAlert;
-import com.mayday.md.calculator.CalculatorImpl;
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.common.AppUtil;
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.trigger.HardwareTriggerService;
-import com.mayday.md.trigger.MultiClickEvent;
+import main.java.com.mayday.md.alert.PanicAlert;
+import main.java.com.mayday.md.calculator.CalculatorImpl;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.common.AppUtil;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.trigger.HardwareTriggerService;
+import main.java.com.mayday.md.trigger.MultiClickEvent;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,10 +1,10 @@
-package com.mayday.md.calculator;
+package main.java.com.mayday.md.calculator;
 
 
 import junit.framework.TestCase;
 
-import com.mayday.md.calculator.CalculatorImpl;
-import com.mayday.md.calculator.CalculatorImpl.Button;
+import main.java.com.mayday.md.calculator.CalculatorImpl;
+import main.java.com.mayday.md.calculator.CalculatorImpl.Button;
 import org.junit.Test;
 
 import static com.mayday.md.calculator.CalculatorImpl.Button.DIVIDE;

@@ -1,7 +1,7 @@
-package com.mayday.md;
+package main.java.com.mayday.md;
 
-import com.mayday.md.common.AppUtil;
-import com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.common.AppUtil;
+import main.java.com.mayday.md.common.ApplicationSettings;
 
 import android.content.Intent;
 import android.os.Bundle;

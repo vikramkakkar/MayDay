@@ -1,8 +1,8 @@
-package com.mayday.md.location;
+package main.java.com.mayday.md.location;
 
 import android.location.Location;
 
-import com.mayday.md.location.CurrentLocationProvider;
+import main.java.com.mayday.md.location.CurrentLocationProvider;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

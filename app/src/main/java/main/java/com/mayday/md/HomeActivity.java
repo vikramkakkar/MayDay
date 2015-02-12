@@ -1,4 +1,4 @@
-package com.mayday.md;
+package main.java.com.mayday.md;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -14,14 +14,14 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.mayday.md.common.AppConstants;
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.data.PBDatabase;
-import com.mayday.md.model.Page;
-import com.mayday.md.trigger.GearFitTrigger;
-import com.mayday.md.trigger.HardwareTriggerReceiver;
-import com.mayday.md.trigger.HardwareTriggerService;
-import com.mayday.md.GearFitDialog;
+import main.java.com.mayday.md.common.AppConstants;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.data.PBDatabase;
+import main.java.com.mayday.md.model.Page;
+import main.java.com.mayday.md.trigger.GearFitTrigger;
+import main.java.com.mayday.md.trigger.HardwareTriggerReceiver;
+import main.java.com.mayday.md.trigger.HardwareTriggerService;
+import main.java.com.mayday.md.GearFitDialog;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

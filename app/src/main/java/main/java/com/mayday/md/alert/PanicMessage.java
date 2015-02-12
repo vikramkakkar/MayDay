@@ -1,12 +1,12 @@
-package com.mayday.md.alert;
+package main.java.com.mayday.md.alert;
 
 import android.content.Context;
 import android.location.Location;
 
-import com.mayday.md.R;
-import com.mayday.md.common.ApplicationSettings;
-import com.mayday.md.location.LocationFormatter;
-import com.mayday.md.model.SMSSettings;
+import main.java.com.mayday.md.R;
+import main.java.com.mayday.md.common.ApplicationSettings;
+import main.java.com.mayday.md.location.LocationFormatter;
+import main.java.com.mayday.md.model.SMSSettings;
 
 import static android.telephony.SmsMessage.MAX_USER_DATA_SEPTETS;
 
