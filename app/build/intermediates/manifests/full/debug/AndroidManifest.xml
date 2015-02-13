@@ -84,18 +84,15 @@
             android:excludeFromRecents="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Transparent" />
-        <!--
-            <activity android:excludeFromRecents="false" android:launchMode="singleTask"
-            android:name=".MainActivity" android:screenOrientation="portrait"/>
-        -->
+        <activity
+            android:name="com.mayday.md.MainActivity"
+            android:excludeFromRecents="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mayday.md.LoginActivity"
             android:excludeFromRecents="false"
             android:noHistory="true"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.mayday.md.MainActivity"
-            android:excludeFromRecents="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.mayday.md.MainModalActivity"

@@ -71,7 +71,6 @@
         <LinearLayout android:layout_width="fill_parent"
                       android:layout_height="0dip"
                 android:layout_weight="1">
-
             <fragment android:id="@+id/sms_message"
                       android:name="com.mayday.md.fragment.MessageTextFragment"
                       custom:max_characters="85"
