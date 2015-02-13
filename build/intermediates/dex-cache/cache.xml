@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jshultz/Documents/workspace/MayDay/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/gson-2.2.4-ca9d787bdee38d3683d2a10f84305792380157e1.jar" />
+    </item>
+    <item
+        jar="/Users/jshultz/Documents/workspace/MayDay/app/libs/support-v4-r12.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/support-v4-r12-0da09499ee3775a73d10ff29319d52733c7ac045.jar" />
+    </item>
+    <item
+        jar="/Users/jshultz/Documents/workspace/MayDay/app/libs/crashlytics.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b8189e9eef2f07fae743e05d7fe7e69daebe98d1">
+        <dex dex="/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/crashlytics-91799d2117bc8ab78089fedfe9dfeed559bc1831.jar" />
+    </item>
+    <item
+        jar="/Users/jshultz/Documents/workspace/MayDay/app/libs/cup-v1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cfe1d346e954f98896faa51627af5894ca5a3aec">
+        <dex dex="/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/cup-v1.0.0-1cf83f3813c5e34a5dbe16463f82bf80e789b3e5.jar" />
+    </item>
+
+</items>

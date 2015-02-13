@@ -15,7 +15,6 @@ ADDED from AndroidManifest.xml:2:1
 		INJECTED from AndroidManifest.xml:0:0
 uses-sdk
 ADDED from AndroidManifest.xml:3:5
-MERGED from com.android.support:support-v4:21.0.3:15:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:3:42
 		INJECTED from AndroidManifest.xml:0:0
@@ -82,7 +81,6 @@ ADDED from AndroidManifest.xml:21:5
 		ADDED from AndroidManifest.xml:21:22
 application
 ADDED from AndroidManifest.xml:24:5
-MERGED from com.android.support:support-v4:21.0.3:16:5
 	android:label
 		ADDED from AndroidManifest.xml:26:9
 	android:allowBackup
@@ -165,21 +163,19 @@ ADDED from AndroidManifest.xml:62:9
 		ADDED from AndroidManifest.xml:62:19
 	android:name
 		ADDED from AndroidManifest.xml:62:54
-activity#com.mayday.md.MainActivity
+activity#com.mayday.md.LoginActivity
 ADDED from AndroidManifest.xml:64:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:65:42
+		ADDED from AndroidManifest.xml:65:38
+	android:noHistory
+		ADDED from AndroidManifest.xml:65:13
 	android:excludeFromRecents
 		ADDED from AndroidManifest.xml:64:19
 	android:name
-		ADDED from AndroidManifest.xml:65:13
-	android:launchMode
 		ADDED from AndroidManifest.xml:64:54
-activity#com.mayday.md.LoginActivity
+activity#com.mayday.md.MainActivity
 ADDED from AndroidManifest.xml:66:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:67:38
-	android:noHistory
 		ADDED from AndroidManifest.xml:67:13
 	android:excludeFromRecents
 		ADDED from AndroidManifest.xml:66:19

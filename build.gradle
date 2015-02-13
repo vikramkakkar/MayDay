@@ -9,7 +9,15 @@ buildscript {
 }
 
 allprojects {
+    /*
     repositories {
         jcenter()
+    }
+    */
+    repositories {
+        mavenCentral()
+        maven {
+            url "/Users/jshultz/.m2/repository/"
+        }
     }
 }

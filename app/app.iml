@@ -83,11 +83,10 @@
     </content>
     <orderEntry type="jdk" jdkName="Maven Android API 18 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="gson-2.3.1" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-r12" level="project" />
     <orderEntry type="library" exported="" name="cup-v1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
     <orderEntry type="library" exported="" name="crashlytics" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-21.0.3" level="project" />
   </component>
 </module>
 

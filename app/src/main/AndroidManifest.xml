@@ -61,10 +61,10 @@
             android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="false" android:name=".WizardModalActivity"
             android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
-        <activity android:excludeFromRecents="false" android:launchMode="singleTask"
-            android:name=".MainActivity" android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="false" android:name=".LoginActivity"
             android:noHistory="true" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="false" android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
         <activity android:excludeFromRecents="false" android:name=".MainModalActivity"
             android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
 
