@@ -34,15 +34,27 @@ public class ContactEditTexts {
         TextWatcher phoneNumberTextWatcher = phoneNumberWatcher(bActionButton);
         List<Integer> ids = Arrays.asList(first_contact, second_contact, third_contact);
         for (Integer id : ids) {
+            Log.e(">>>>", "ContactEditTexts setting editText");
             EditText editText = findEditText(id, fragmentManager);
-            editText.addTextChangedListener(phoneNumberTextWatcher);
-            contacts.add(editText);
+            if (editText != null) {
+                Log.e(">>>>", "ContactEditTexts (editText != null)");
+                editText.addTextChangedListener(phoneNumberTextWatcher);
+                contacts.add(editText);
+            }
         }
     }
 
     private EditText findEditText(int fragmentId, FragmentManager fragmentManager) {
+        Log.e(">>>>", "findEditText setting fragment");
         Fragment fragment = fragmentManager.findFragmentById(fragmentId);
-        return (EditText) fragment.getView().findViewById(R.id.contact_edit_text);
+        if (fragment != null) {
+            Log.e(">>>>", "findEditText fragment not null");
+            return (EditText) fragment.getView().findViewById(R.id.contact_edit_text);
+        } else {
+            Log.e(">>>>", "findEditText fragment null");
+            return null;
+        }
+
     }
 
     public void maskPhoneNumbers() {

@@ -81,27 +81,31 @@ public class SetupMessageFragment extends Fragment {
                 SMSSettings.saveMessage(activity, msg);
                 displaySettings(msg);
 
-                String pageId = currentPage.getAction().get(0).getLink();
-                int parentActivity = getArguments().getInt(PARENT_ACTIVITY);
-                Intent i;
+                if (currentPage != null) {
+                    Log.e(">>>>", "onCreateView (currentPage != null)");
+                    String pageId = currentPage.getAction().get(0).getLink();
+                    int parentActivity = getArguments().getInt(PARENT_ACTIVITY);
+                    Intent i;
 
-                if(parentActivity == AppConstants.FROM_WIZARD_ACTIVITY){
-                    i = new Intent(activity, WizardActivity.class);
-                } else{
+                    if(parentActivity == AppConstants.FROM_WIZARD_ACTIVITY){
+                        i = new Intent(activity, WizardActivity.class);
+                    } else{
 //                	AppUtil.showToast("Message saved.", 1000, activity);
-                    String confirmation = (currentPage.getAction().get(0).getConfirmation() == null)
-                            ? AppConstants.DEFAULT_CONFIRMATION_MESSAGE
-                            : currentPage.getAction().get(0).getConfirmation();
-                    Toast.makeText(activity, confirmation, Toast.LENGTH_SHORT).show();
+                        String confirmation = (currentPage.getAction().get(0).getConfirmation() == null)
+                                ? AppConstants.DEFAULT_CONFIRMATION_MESSAGE
+                                : currentPage.getAction().get(0).getConfirmation();
+                        Toast.makeText(activity, confirmation, Toast.LENGTH_SHORT).show();
 
-                    i = new Intent(activity, MainActivity.class);
-                }
-                i.putExtra("page_id", pageId);
-                startActivity(i);
+                        i = new Intent(activity, MainActivity.class);
+                    }
+                    i.putExtra("page_id", pageId);
+                    startActivity(i);
 
-                if(parentActivity == AppConstants.FROM_MAIN_ACTIVITY){
-                    activity.finish();
+                    if(parentActivity == AppConstants.FROM_MAIN_ACTIVITY){
+                        activity.finish();
+                    }
                 }
+
             }
         });
 
@@ -145,60 +149,83 @@ public class SetupMessageFragment extends Fragment {
             metrics = new DisplayMetrics();
             activity.getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
+            Log.e(">>>>", "onActivityCreated setting fragment");
             Fragment fragment = getFragmentManager().findFragmentById(R.id.sms_message);
-            ((MessageTextFragment)fragment).setActionButtonStateListener(bAction);
-            smsEditText = (EditText) fragment.getView().findViewById(R.id.message_edit_text);
+            if (fragment != null) {
+                Log.e(">>>>", "onActivityCreated (fragment != null)");
+                ((MessageTextFragment)fragment).setActionButtonStateListener(bAction);
+                smsEditText = (EditText) fragment.getView().findViewById(R.id.message_edit_text);
 
-            String currentMsg = SMSSettings.retrieveMessage(activity);
-            if(currentMsg != null) {
-                displaySettings(currentMsg);
+                String currentMsg = SMSSettings.retrieveMessage(activity);
+                if(currentMsg != null) {
+                    displaySettings(currentMsg);
+                }
+                bAction.setEnabled(!smsEditText.getText().toString().trim().equals(""));
+
+                String pageId = getArguments().getString(PAGE_ID);
+                String selectedLang = ApplicationSettings.getSelectedLanguage(activity);
+
+                PBDatabase dbInstance = new PBDatabase(activity);
+                dbInstance.open();
+                currentPage = dbInstance.retrievePage(pageId, selectedLang);
+                dbInstance.close();
+
+                tvTitle.setText(currentPage.getTitle());
+
+                if(currentPage.getContent() == null)
+                    tvContent.setVisibility(View.GONE);
+                else
+                    tvContent.setText(Html.fromHtml(currentPage.getContent(), null, new MyTagHandler()));
+
+                if(currentPage.getIntroduction() == null)
+                    tvIntro.setVisibility(View.GONE);
+                else
+                    tvIntro.setText(currentPage.getIntroduction());
+
+                if(currentPage.getWarning() == null)
+                    llWarning.setVisibility(View.GONE);
+                else
+                    tvWarning.setText(currentPage.getWarning());
+
+                bAction.setText(currentPage.getAction().get(0).getTitle());
+
+                pageItemAdapter = new PageItemAdapter(activity, null);
+                lvItems.setAdapter(pageItemAdapter);
+                pageItemAdapter.setData(currentPage.getItems());
+
+                AppUtil.updateImages(true, currentPage.getContent(), activity, metrics, tvContent, AppConstants.IMAGE_INLINE);
             }
-            bAction.setEnabled(!smsEditText.getText().toString().trim().equals(""));
-
-            String pageId = getArguments().getString(PAGE_ID);
-            String selectedLang = ApplicationSettings.getSelectedLanguage(activity);
-
-            PBDatabase dbInstance = new PBDatabase(activity);
-            dbInstance.open();
-            currentPage = dbInstance.retrievePage(pageId, selectedLang);
-            dbInstance.close();
-
-            tvTitle.setText(currentPage.getTitle());
-
-            if(currentPage.getContent() == null)
-                tvContent.setVisibility(View.GONE);
-            else
-                tvContent.setText(Html.fromHtml(currentPage.getContent(), null, new MyTagHandler()));
-
-            if(currentPage.getIntroduction() == null)
-                tvIntro.setVisibility(View.GONE);
-            else
-                tvIntro.setText(currentPage.getIntroduction());
-
-            if(currentPage.getWarning() == null)
-                llWarning.setVisibility(View.GONE);
-            else
-                tvWarning.setText(currentPage.getWarning());
-
-            bAction.setText(currentPage.getAction().get(0).getTitle());
-
-            pageItemAdapter = new PageItemAdapter(activity, null);
-            lvItems.setAdapter(pageItemAdapter);
-            pageItemAdapter.setData(currentPage.getItems());
-
-            AppUtil.updateImages(true, currentPage.getContent(), activity, metrics, tvContent, AppConstants.IMAGE_INLINE);
-
+            else {
+                Log.e(">>>>", "onActivityCreated (fragment == null)");
+            }
         }
     }
 
 
     private void displaySettings(String msg) {
-        smsEditText.setText(msg);
+
+        if (smsEditText != null) {
+            Log.e(">>>>", " smsEditText is not null");
+            smsEditText.setText(msg);
+        } else {
+            Log.e(">>>>", "displaySettings smsEditText null");
+        }
     }
 
 
     private String getSMSSettingsFromView() {
-        String message = smsEditText.getText().toString().trim();
-        return message;
+        if (smsEditText != null) {
+            String message = smsEditText.getText().toString().trim();
+            if (message != null) {
+                Log.e(">>>>", "getSMSSettingsFromView set message " + message);
+                return message;
+            } else {
+                Log.e(">>>>", "getSMSSettingsFromView message null");
+                return "";
+            }
+        } else {
+            Log.e(">>>>", "getSMSSettingsFromView smsEditText null");
+            return "";
+        }
     }
 }
