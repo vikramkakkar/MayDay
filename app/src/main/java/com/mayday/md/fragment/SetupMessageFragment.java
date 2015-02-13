@@ -17,6 +17,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.text.Html;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -150,10 +152,16 @@ public class SetupMessageFragment extends Fragment {
             activity.getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
             Log.e(">>>>", "onActivityCreated setting fragment");
-            Fragment fragment = getFragmentManager().findFragmentById(R.id.sms_message);
+            //Fragment fragment = getFragmentManager().findFragmentById(R.id.sms_message);
+            //Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.sms_message);
+            //Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.sms_message);
+            //android.app.Fragment fragment = activity.getFragmentManager().findFragmentById(R.id.sms_message);
+            Fragment fragment = this.getFragmentManager().findFragmentById(R.id.sms_message);
+
             if (fragment != null) {
                 Log.e(">>>>", "onActivityCreated (fragment != null)");
                 ((MessageTextFragment)fragment).setActionButtonStateListener(bAction);
+
                 smsEditText = (EditText) fragment.getView().findViewById(R.id.message_edit_text);
 
                 String currentMsg = SMSSettings.retrieveMessage(activity);
