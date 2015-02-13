@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/FindMyPhone" />
             <option value="$PROJECT_DIR$/Wearable" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/wear" />
           </set>
         </option>
       </GradleProjectSettings>
