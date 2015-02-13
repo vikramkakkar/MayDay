@@ -1,0 +1,10 @@
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/classes/debug
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-47cc427b488447e99783e54356e59170d3a98ed1.jar
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-901cc8229b94f351cf2d24f722308a3f242c57cc.jar
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/classes-ef068354d8819bc7393511fb25dac56c470d62fa.jar
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/classes-459f39d4970f11f83259ec88c9b722c17da0f65a.jar
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f91a413c7d062dabb0f1d9cff2a9be64143704c8.jar
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/classes-8462ec2506633b5a91041d103899817e0a1257e4.jar
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/classes-814d64062a9e3dcf4bfbce74900f16fe6205b3df.jar
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/classes-01f9f806e6cce54ba4bf5ff52bbd0ada076836fb.jar
+/Users/jshultz/Documents/workspace/FindMyPhone/Wearable/build/intermediates/pre-dexed/debug/classes-95bb7a842c643228735b83d7e0869ccd8d476952.jar

@@ -1,0 +1,64 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:17:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:17:11
+	package
+		ADDED from AndroidManifest.xml:18:11
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:20:5
+MERGED from com.google.android.gms:play-services-wearable:6.5.87:18:5
+MERGED from com.google.android.gms:play-services-base:6.5.87:18:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:support-v13:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:21:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:20:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+application
+ADDED from AndroidManifest.xml:24:5
+MERGED from com.google.android.gms:play-services-wearable:6.5.87:19:5
+MERGED from com.google.android.gms:play-services-base:6.5.87:20:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:support-v13:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:26:13
+	android:allowBackup
+		ADDED from AndroidManifest.xml:28:13
+	android:icon
+		ADDED from AndroidManifest.xml:25:13
+	android:theme
+		ADDED from AndroidManifest.xml:27:13
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:30:9
+MERGED from com.google.android.gms:play-services-base:6.5.87:21:9
+	android:name
+		ADDED from AndroidManifest.xml:31:17
+	android:value
+		ADDED from AndroidManifest.xml:32:17
+service#com.example.android.wearable.findphone.SoundAlarmListenerService
+ADDED from AndroidManifest.xml:34:9
+	android:name
+		ADDED from AndroidManifest.xml:35:13
+intent-filter#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from AndroidManifest.xml:36:13
+action#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from AndroidManifest.xml:37:17
+	android:name
+		ADDED from AndroidManifest.xml:37:25
