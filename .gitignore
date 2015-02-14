@@ -1,3 +1,13 @@
-local.properties
-build/
-.idea/
+# Gradle 
+.gradle 
+build/ 
+
+# Android 
+local.properties 
+
+# Mac OSX 
+.DS_Store 
+
+# IDEA 
+.idea/ 
+*.iml
