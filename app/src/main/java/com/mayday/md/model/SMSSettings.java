@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -43,6 +44,9 @@ public class SMSSettings {
     public static void saveMessage(Context context, String msg){
         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
         SharedPreferences.Editor editor = settings.edit();
+
+        Log.e(">>>>", "saveMessage old msg "+settings.getString(SMS_MESSAGE, "NO MESSAGE"));
+        Log.e(">>>>", "saveMessage new msg "+msg);
         editor.putString(SMS_MESSAGE, msg);
         editor.commit();
     }
