@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="138" android:versionName="1.3.8" package="com.mayday.md">
-    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="17"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="138" android:versionName="1.3.8" package="com.mayday.md" xmlns:tools="http://schemas.android.com/tools">
+    <!--<uses-sdk android:minSdkVersion="10" android:targetSdkVersion="17"/>-->
+    <uses-sdk tools:overrideLibrary="android.support.v13"></uses-sdk>
 
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>

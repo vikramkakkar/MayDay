@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 18
+    compileSdkVersion 21
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "com.mayday.md"
-        minSdkVersion 10
-        targetSdkVersion 17
+        minSdkVersion 18
+        targetSdkVersion 21
     }
 
     buildTypes {
@@ -23,4 +23,5 @@ dependencies {
     compile files('libs/cup-v1.0.0.jar')
     compile files('libs/support-v4-r12.jar')
     compile files('libs/gson-2.2.4.jar')
+    compile 'com.google.android.gms:play-services-wearable:6.5.87'
 }
