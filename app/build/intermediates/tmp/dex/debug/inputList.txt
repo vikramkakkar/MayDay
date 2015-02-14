@@ -1,10 +1,9 @@
 /Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/classes/debug
-/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-9a423b4a070c90b4d12598569ef01fb53f56e778.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-901cc8229b94f351cf2d24f722308a3f242c57cc.jar
 /Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/classes-0eb181020d7885d0c3b7459a47c5d8aea372586c.jar
 /Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/cup-v1.0.0-1cf83f3813c5e34a5dbe16463f82bf80e789b3e5.jar
-/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-091d9a1c1a4b86872b69eb62d95313b86a289166.jar
-/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/gson-2.2.4-ca9d787bdee38d3683d2a10f84305792380157e1.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c728896c638f8bf216c729e7e5f7c8943d9321f9.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ed8aac479076ea76749eceee4ee8a62b2a67a085.jar
 /Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/crashlytics-91799d2117bc8ab78089fedfe9dfeed559bc1831.jar
-/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/support-v4-r12-0da09499ee3775a73d10ff29319d52733c7ac045.jar
-/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/classes-15bbbc3391288ca642ab9848185144316ceb6f84.jar
+/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/classes-42d8c56c4a8300c2cb3fe75ada4ab98d556fc946.jar
 /Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/classes-4808f1fcd32590b5117ed40aa5d63e56fd3777ca.jar

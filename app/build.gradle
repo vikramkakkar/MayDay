@@ -18,10 +18,11 @@ android {
     }
 }
 
+
 dependencies {
-    compile files('libs/crashlytics.jar')
-    compile files('libs/cup-v1.0.0.jar')
-    compile files('libs/support-v4-r12.jar')
-    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/crashlytics.jar') // couldn't find maven
+    compile files('libs/cup-v1.0.0.jar') // couldn't find maven
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.google.code.gson:gson:2.3.1'
     compile 'com.google.android.gms:play-services-wearable:6.5.87'
 }
