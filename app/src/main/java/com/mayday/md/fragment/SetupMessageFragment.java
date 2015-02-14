@@ -14,7 +14,6 @@ import com.mayday.md.model.PageItem;
 import com.mayday.md.model.SMSSettings;
 
 import android.app.Activity;
-import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -78,7 +77,6 @@ public class SetupMessageFragment extends Fragment {
             public void onClick(View v) {
                 Log.e(">>>>", "action button pressed");
                 String msg =  getSMSSettingsFromView();
-                Log.e(">>>>", "SetupMessageFragment msg "+msg);
 
                 SMSSettings.saveMessage(activity, msg);
                 displaySettings(msg);
@@ -146,26 +144,14 @@ public class SetupMessageFragment extends Fragment {
         if (activity != null) {
             metrics = new DisplayMetrics();
             activity.getWindowManager().getDefaultDisplay().getMetrics(metrics);
-/*
+
             Fragment fragment = getFragmentManager().findFragmentById(R.id.sms_message);
             ((MessageTextFragment)fragment).setActionButtonStateListener(bAction);
             smsEditText = (EditText) fragment.getView().findViewById(R.id.message_edit_text);
-*/
-            Fragment fragment = new MessageTextFragment();
-            //FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-            android.support.v4.app.FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-            transaction.add(R.id.sms_message, fragment).commit();
-
-            Fragment fragment2 = getChildFragmentManager().findFragmentById(R.id.sms_message);
-            ((MessageTextFragment) fragment2).setActionButtonStateListener(bAction);
-            smsEditText = (EditText) fragment2.getView().findViewById(R.id.message_edit_text);
-            Log.e(">>>>", "onActivityCreated smsEditText "+smsEditText.getText().toString());
 
             String currentMsg = SMSSettings.retrieveMessage(activity);
-            Log.e(">>>>", "onActivityCreated currentMsg "+currentMsg);
             if(currentMsg != null) {
                 displaySettings(currentMsg);
-
             }
             bAction.setEnabled(!smsEditText.getText().toString().trim().equals(""));
 
@@ -212,14 +198,6 @@ public class SetupMessageFragment extends Fragment {
 
 
     private String getSMSSettingsFromView() {
-        Fragment fragment = new MessageTextFragment();
-        //FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-        android.support.v4.app.FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-        transaction.add(R.id.sms_message, fragment).commit();
-
-        Fragment fragment2 = getChildFragmentManager().findFragmentById(R.id.sms_message);
-        ((MessageTextFragment) fragment2).setActionButtonStateListener(bAction);
-        smsEditText = (EditText) fragment2.getView().findViewById(R.id.message_edit_text);
         String message = smsEditText.getText().toString().trim();
         return message;
     }
