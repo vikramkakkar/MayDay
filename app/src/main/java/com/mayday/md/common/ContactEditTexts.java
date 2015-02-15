@@ -30,10 +30,12 @@ public class ContactEditTexts {
     public ContactEditTexts(FragmentManager fragmentManager, final Button bActionButton,
                             Context context) {
         this.context = context;
-
+        Log.e(">>>>", "onActivityCreated fragmentManager "+fragmentManager);
         TextWatcher phoneNumberTextWatcher = phoneNumberWatcher(bActionButton);
         List<Integer> ids = Arrays.asList(first_contact, second_contact, third_contact);
         for (Integer id : ids) {
+            Log.e(">>>>", "onActivityCreated id "+id);
+
             EditText editText = findEditText(id, fragmentManager);
             editText.addTextChangedListener(phoneNumberTextWatcher);
             contacts.add(editText);

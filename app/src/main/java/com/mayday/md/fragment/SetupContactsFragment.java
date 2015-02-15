@@ -145,7 +145,7 @@ public class SetupContactsFragment extends Fragment {
             metrics = new DisplayMetrics();
             activity.getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
-            contactEditTexts = new ContactEditTexts(getFragmentManager(), bAction, activity);
+            contactEditTexts = new ContactEditTexts(getChildFragmentManager(), bAction, activity);
 
             SMSSettings currentSettings = SMSSettings.retrieve(activity);
             if(currentSettings.isConfigured()) {
