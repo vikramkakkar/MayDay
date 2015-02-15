@@ -99,12 +99,14 @@ public class SetupMessageFragment extends Fragment {
 
                     i = new Intent(activity, MainActivity.class);
                 }
+                /*
                 i.putExtra("page_id", pageId);
                 startActivity(i);
 
                 if(parentActivity == AppConstants.FROM_MAIN_ACTIVITY){
                     activity.finish();
                 }
+                */
             }
         });
 
@@ -151,10 +153,10 @@ public class SetupMessageFragment extends Fragment {
             Fragment fragment = getFragmentManager().findFragmentById(R.id.sms_message);
             ((MessageTextFragment)fragment).setActionButtonStateListener(bAction);
             smsEditText = (EditText) fragment.getView().findViewById(R.id.message_edit_text);
-*/
             Fragment fragment = new MessageTextFragment();
             android.support.v4.app.FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
             transaction.add(R.id.sms_message, fragment).commit();
+*/
 
             Fragment fragment2 = getChildFragmentManager().findFragmentById(R.id.sms_message);
             ((MessageTextFragment) fragment2).setActionButtonStateListener(bAction);
@@ -163,13 +165,13 @@ public class SetupMessageFragment extends Fragment {
 
             String currentMsg = SMSSettings.retrieveMessage(activity);
             Log.e(">>>>", "onActivityCreated currentMsg "+currentMsg);
+
             if(currentMsg != null) {
                 displaySettings(currentMsg);
-                ((EditText) fragment2.getView().findViewById(R.id.message_edit_text)).setTextColor(Color.parseColor("#000000"));
 
             }
             bAction.setEnabled(!smsEditText.getText().toString().trim().equals(""));
-            bAction.setEnabled(true);
+            //bAction.setEnabled(true);
 
             String pageId = getArguments().getString(PAGE_ID);
             String selectedLang = ApplicationSettings.getSelectedLanguage(activity);
