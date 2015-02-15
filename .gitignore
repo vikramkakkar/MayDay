@@ -11,3 +11,6 @@ local.properties
 # IDEA 
 .idea/ 
 *.iml
+
+# build
+*.apk
