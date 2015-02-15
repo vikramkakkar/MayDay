@@ -16,6 +16,7 @@ import com.mayday.md.model.SMSSettings;
 import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.Html;
@@ -152,7 +153,6 @@ public class SetupMessageFragment extends Fragment {
             smsEditText = (EditText) fragment.getView().findViewById(R.id.message_edit_text);
 */
             Fragment fragment = new MessageTextFragment();
-            //FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
             android.support.v4.app.FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
             transaction.add(R.id.sms_message, fragment).commit();
 
@@ -165,9 +165,11 @@ public class SetupMessageFragment extends Fragment {
             Log.e(">>>>", "onActivityCreated currentMsg "+currentMsg);
             if(currentMsg != null) {
                 displaySettings(currentMsg);
+                ((EditText) fragment2.getView().findViewById(R.id.message_edit_text)).setTextColor(Color.parseColor("#000000"));
 
             }
             bAction.setEnabled(!smsEditText.getText().toString().trim().equals(""));
+            bAction.setEnabled(true);
 
             String pageId = getArguments().getString(PAGE_ID);
             String selectedLang = ApplicationSettings.getSelectedLanguage(activity);
@@ -207,7 +209,9 @@ public class SetupMessageFragment extends Fragment {
 
 
     private void displaySettings(String msg) {
+
         smsEditText.setText(msg);
+
     }
 
 
