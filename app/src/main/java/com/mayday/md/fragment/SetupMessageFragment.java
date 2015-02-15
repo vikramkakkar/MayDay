@@ -151,11 +151,11 @@ public class SetupMessageFragment extends Fragment {
             Fragment fragment = getFragmentManager().findFragmentById(R.id.sms_message);
             ((MessageTextFragment)fragment).setActionButtonStateListener(bAction);
             smsEditText = (EditText) fragment.getView().findViewById(R.id.message_edit_text);
-*/
+
             Fragment fragment = new MessageTextFragment();
             android.support.v4.app.FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
             transaction.add(R.id.sms_message, fragment).commit();
-
+*/
             Fragment fragment2 = getChildFragmentManager().findFragmentById(R.id.sms_message);
             ((MessageTextFragment) fragment2).setActionButtonStateListener(bAction);
             smsEditText = (EditText) fragment2.getView().findViewById(R.id.message_edit_text);
