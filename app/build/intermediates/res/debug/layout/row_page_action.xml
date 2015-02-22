@@ -38,4 +38,4 @@
         android:visibility="invisible"
         android:layout_marginRight="5dp"
         android:layout_centerVertical="true"/> -->
-</RelativeLayout><!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/layout/row_page_action.xml -->
+</RelativeLayout><!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/layout/row_page_action.xml -->

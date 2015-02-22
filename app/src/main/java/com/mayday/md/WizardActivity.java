@@ -3,6 +3,7 @@ package com.mayday.md;
 
 import com.mayday.md.common.AppConstants;
 import com.mayday.md.common.ApplicationSettings;
+import com.mayday.md.common.ContactPickerFragment;
 import com.mayday.md.common.MyTagHandler;
 import com.mayday.md.data.PBDatabase;
 import com.mayday.md.fragment.LanguageSettingsFragment;
@@ -22,9 +23,12 @@ import com.mayday.md.trigger.HardwareTriggerService;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -44,7 +48,12 @@ public class WizardActivity extends BaseFragmentActivity {
     TextView tvToastMessage;
     Boolean flagRiseFromPause = false;
 
+    private static final int PICK_CONTACT_REQUEST_ID = 65636;
+    public static final int RESULT_OK = -1;
+
     private Handler inactiveHandler = new Handler();
+
+    ContactPickerFragment contactPickerFragment = new ContactPickerFragment();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -164,7 +173,7 @@ public class WizardActivity extends BaseFragmentActivity {
     }
 
     private void changeAppIcontoCalculator() {
-    	Log.e("WizardActivity.changeAppIcontoCalculator", "");
+        Log.e("WizardActivity.changeAppIcontoCalculator", "");
 
 /*
         getPackageManager().setComponentEnabledSetting(
@@ -299,14 +308,46 @@ public class WizardActivity extends BaseFragmentActivity {
         if (currentPage != null && currentPage.getComponent() != null &&
                 (
                         currentPage.getComponent().equals("alarm-test-hardware")
-                        || currentPage.getComponent().equals("alarm-test-disguise")
-                        || currentPage.getComponent().equals("disguise-test-open")
-                        || currentPage.getComponent().equals("disguise-test-unlock")
-                        || currentPage.getComponent().equals("disguise-test-code")
+                                || currentPage.getComponent().equals("alarm-test-disguise")
+                                || currentPage.getComponent().equals("disguise-test-open")
+                                || currentPage.getComponent().equals("disguise-test-unlock")
+                                || currentPage.getComponent().equals("disguise-test-code")
                 )
-        ) {
+                ) {
             inactiveHandler.postDelayed(runnableInteractive, Integer.parseInt(currentPage.getTimers().getFail()) * 1000);
         }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.e("WizardActivity", "onActivityResult requestCode "+requestCode);
+        Log.e("WizardActivity", "onActivityResult resultCode "+resultCode);
+        Log.e("WizardActivity", "onActivityResult data "+data.getData().toString());
+        if ((requestCode == PICK_CONTACT_REQUEST_ID) && (resultCode == RESULT_OK)) {
+            contactPickerFragment.phoneNumberEditText.setText(getPhoneNumber(data.getData()));
+        }
+    }
+
+    public String getPhoneNumber(Uri contactData) {
+        String[] projection = {ContactsContract.CommonDataKinds.Phone.NUMBER};
+        Cursor cursor = getCursor(contactData, projection);
+        /*
+        Cursor cursor = getContentResolver().query(ContactsContract.Data.CONTENT_URI,
+                new String[] {ContactsContract.CommonDataKinds.Phone.NUMBER},
+                ContactsContract.Data.CONTACT_ID + "=?" + " AND "
+                        + ContactsContract.Data.MIMETYPE + "='" + ContactsContract.CommonDataKinds.Phone.CONTENT_ITEM_TYPE + "'",
+                new String[] {String.valueOf(ContactsContract.Data.CONTACT_ID)}, null);
+        */
+        Log.e("WizardActivity", "onActivityResult cursor "+cursor);
+        //cursor.moveToNext();
+        cursor.moveToFirst();
+        return cursor.getString(0);
+    }
+
+    Cursor getCursor(Uri contactData, String[] projection) {
+        //return getActivity().managedQuery(contactData, projection, null, null, null);
+        Log.e("WizardActivity", "getCursor "+getContentResolver().query(contactData, projection, null, null, null).getCount());
+        return getContentResolver().query(contactData, projection, null, null, null);
     }
 
     public void hideToastMessageInInteractiveFragment() {

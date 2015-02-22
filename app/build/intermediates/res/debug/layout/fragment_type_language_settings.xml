@@ -46,4 +46,4 @@
         android:animateLayoutChanges="true"
         android:layout_weight="1" />
 </LinearLayout>
-<!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/layout/fragment_type_language_settings.xml -->
+<!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/layout/fragment_type_language_settings.xml -->

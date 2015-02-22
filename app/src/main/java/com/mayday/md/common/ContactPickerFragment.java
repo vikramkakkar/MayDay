@@ -24,7 +24,7 @@ public class ContactPickerFragment extends Fragment {
     private static final int PICK_CONTACT_REQUEST_ID = 100;
 
     private ImageButton contactPickerButton;
-    private EditText phoneNumberEditText;
+    public EditText phoneNumberEditText;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -56,10 +56,10 @@ public class ContactPickerFragment extends Fragment {
         contactPickerButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-            	 int wizardState = ApplicationSettings.getWizardState(getActivity());
+                int wizardState = ApplicationSettings.getWizardState(getActivity());
 //            	 if(wizardState != AppConstants.WIZARD_FLAG_HOME_READY){
-            		 AppConstants.IS_BACK_BUTTON_PRESSED = true;
-            		 AppConstants.IS_BACK_BUTTON_PRESSED = true;
+                AppConstants.IS_BACK_BUTTON_PRESSED = true;
+                AppConstants.IS_BACK_BUTTON_PRESSED = true;
 //            	 }
                 launchContactPicker(v);
             }
@@ -69,7 +69,8 @@ public class ContactPickerFragment extends Fragment {
     public void launchContactPicker(View view) {
         Intent contactPickerIntent = new Intent(ACTION_GET_CONTENT);
         contactPickerIntent.setType(CONTENT_ITEM_TYPE);
-        startActivityForResult(contactPickerIntent, PICK_CONTACT_REQUEST_ID);
+        //startActivityForResult(contactPickerIntent, PICK_CONTACT_REQUEST_ID);
+        startActivityForResult(new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI), PICK_CONTACT_REQUEST_ID);
     }
 
     @Override
@@ -79,7 +80,7 @@ public class ContactPickerFragment extends Fragment {
         }
     }
 
-    private String getPhoneNumber(Uri contactData) {
+    public String getPhoneNumber(Uri contactData) {
         String[] projection = {ContactsContract.CommonDataKinds.Phone.NUMBER};
         Cursor cursor = getCursor(contactData, projection);
         cursor.moveToNext();

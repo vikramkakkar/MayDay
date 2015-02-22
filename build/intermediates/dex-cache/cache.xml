@@ -9,11 +9,53 @@
         <dex dex="/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ed8aac479076ea76749eceee4ee8a62b2a67a085.jar" />
     </item>
     <item
+        jar="/Users/jshultz/Projects/MayDay/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/jshultz/Projects/MayDay/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-11b1a3b6f4d36ff84fdc25dbaefe25d61c0b2760.jar" />
+    </item>
+    <item
+        jar="/Users/jshultz/Projects/MayDay/app/libs/crashlytics.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b8189e9eef2f07fae743e05d7fe7e69daebe98d1">
+        <dex dex="/Users/jshultz/Projects/MayDay/app/build/intermediates/pre-dexed/debug/crashlytics-24d8ca05aee5f753ea9c545bcade5c0fff6661d7.jar" />
+    </item>
+    <item
+        jar="/Users/jshultz/Projects/MayDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/jshultz/Projects/MayDay/app/build/intermediates/pre-dexed/debug/classes-bdf696cd05a21120b83526b5ea7b348b690994fe.jar" />
+    </item>
+    <item
+        jar="/Users/jshultz/Projects/MayDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6384c6cd674a22610b932d9464aa6938d067f285">
+        <dex dex="/Users/jshultz/Projects/MayDay/app/build/intermediates/pre-dexed/debug/classes-469742b8ae44b5e04ade86c8d459fd99a2d5ea2a.jar" />
+    </item>
+    <item
         jar="/Users/jshultz/Documents/workspace/MayDay/app/libs/cup-v1.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="cfe1d346e954f98896faa51627af5894ca5a3aec">
         <dex dex="/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/pre-dexed/debug/cup-v1.0.0-1cf83f3813c5e34a5dbe16463f82bf80e789b3e5.jar" />
+    </item>
+    <item
+        jar="/Users/jshultz/Projects/MayDay/app/libs/cup-v1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cfe1d346e954f98896faa51627af5894ca5a3aec">
+        <dex dex="/Users/jshultz/Projects/MayDay/app/build/intermediates/pre-dexed/debug/cup-v1.0.0-8733d5a894c52c82c39c2f63ec4bf983129ed442.jar" />
+    </item>
+    <item
+        jar="/Users/jshultz/Projects/MayDay/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/jshultz/Projects/MayDay/app/build/intermediates/pre-dexed/debug/classes-0555febfd0506ea51404484ea0e93432859884ce.jar" />
     </item>
     <item
         jar="/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"

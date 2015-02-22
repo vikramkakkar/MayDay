@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="addition">+</string>
     <string name="alert_status_active">La alerta esta activada y se enviara cada cinco minutos </string>
@@ -11,7 +11,7 @@
     <string name="characters_left">caracteres:  </string>
     <string name="choose_contact">Escoge a tus contactos de emergencia</string>
     <string name="code_ok">Acceptar</string>
-    <!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-es/common_strings.xml -->
+    <!-- From: file:/Users/jshultz/Projects/MayDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-es/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Una aplicación necesita que Android Wear se actualice."</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"Esta aplicación no se ejecutará hasta que actualices Android Wear."</string>
@@ -41,7 +41,7 @@
     <string msgid="411506735369601515" name="common_open_on_phone">"Abrir en teléfono"</string>
     <string msgid="9071884888741449141" name="common_signin_button_text">"Iniciar sesión"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
-    <!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="contact_hint_text">Ingresa el numero de tu contacto</string>
     <string name="decimal_point">.</string>

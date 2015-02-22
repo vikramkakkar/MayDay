@@ -36,4 +36,4 @@
     <View android:layout_width="fill_parent"
           android:layout_height="1dp"
           style="@style/custom_action_bar_sep"></View>
-</LinearLayout><!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/layout/sms_settings_layout.xml -->
+</LinearLayout><!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/layout/sms_settings_layout.xml -->

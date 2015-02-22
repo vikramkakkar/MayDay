@@ -24,4 +24,4 @@
         android:layout_marginRight="50dp"
         android:textSize="22sp"
         android:textColor="#ffffff" />
-</RelativeLayout><!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/layout/row_page_item.xml -->
+</RelativeLayout><!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/layout/row_page_item.xml -->

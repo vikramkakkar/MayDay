@@ -28,4 +28,4 @@
         android:layout_height="wrap_content"
         android:visibility="invisible"
         android:layout_width="wrap_content"/>
-</RelativeLayout><!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/layout/root_layout.xml -->
+</RelativeLayout><!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/layout/root_layout.xml -->

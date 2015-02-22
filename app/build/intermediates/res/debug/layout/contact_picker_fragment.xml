@@ -19,4 +19,4 @@
         android:src="@drawable/socialperson"
         android:contentDescription="@string/choose_contact"
         style="@style/contact_select_button" />
-</RelativeLayout><!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/layout/contact_picker_fragment.xml -->
+</RelativeLayout><!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/layout/contact_picker_fragment.xml -->

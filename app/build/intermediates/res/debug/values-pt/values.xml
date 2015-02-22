@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string name="addition">+</string>
     <string name="alert_status_active">Alerta está ativo e enviando a cada 5 minutos</string>
@@ -11,7 +11,7 @@
     <string name="characters_left">Caracteres: </string>
     <string name="choose_contact">Escolher contato de emergência</string>
     <string name="code_ok">Ok</string>
-    <!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-pt/common_strings.xml -->
+    <!-- From: file:/Users/jshultz/Projects/MayDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-pt/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Um app exige uma atualização do app Android Wear."</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"Este app só funciona com uma versão atualizada do app Android Wear."</string>
@@ -41,7 +41,7 @@
     <string msgid="411506735369601515" name="common_open_on_phone">"Abrir no smartphone"</string>
     <string msgid="9071884888741449141" name="common_signin_button_text">"Login"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Fazer login com o Google"</string>
-    <!-- From: file:/Users/jshultz/Documents/workspace/MayDay/app/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/Users/jshultz/Projects/MayDay/app/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string name="contact_hint_text">inserir contato</string>
     <string name="decimal_point">.</string>
