@@ -51,14 +51,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ContactPickerFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ContactPickerFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mayday/md/common/ContactPickerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36363637" vertical-offset="872" max-vertical-offset="1425">
+            <state vertical-scroll-proportion="0.0" vertical-offset="872" max-vertical-offset="1425">
               <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConstants.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mayday/md/common/AppConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23529412" vertical-offset="0" max-vertical-offset="1035">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2477,6 +2487,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/mayday/md/fragment/SetupMessageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mayday/md/common/ContactPickerFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mayday/md/WizardActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mayday/md/common/AppConstants.java" />
       </list>
     </option>
   </component>
@@ -3287,13 +3298,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mayday/md/model/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="3570">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
@@ -3684,11 +3688,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mayday/md/common/ContactPickerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637" vertical-offset="872" max-vertical-offset="1425">
+        <state vertical-scroll-proportion="0.0" vertical-offset="872" max-vertical-offset="1425">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mayday/md/common/AppConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23529412" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
