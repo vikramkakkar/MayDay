@@ -21,14 +21,12 @@ import com.mayday.md.model.Page;
 import com.mayday.md.trigger.HardwareTriggerService;
 
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.database.Cursor;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -49,7 +47,7 @@ public class WizardActivity extends BaseFragmentActivity {
     Boolean flagRiseFromPause = false;
 
     private static final int PICK_CONTACT_REQUEST_ID = 65636;
-    public static final int RESULT_OK = -1;
+    private static final int RESULT_OK = -1;
 
     private Handler inactiveHandler = new Handler();
 
@@ -318,38 +316,6 @@ public class WizardActivity extends BaseFragmentActivity {
         }
     }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Log.e("WizardActivity", "onActivityResult requestCode "+requestCode);
-        Log.e("WizardActivity", "onActivityResult resultCode "+resultCode);
-        Log.e("WizardActivity", "onActivityResult data "+data.getData().toString());
-        if ((requestCode == PICK_CONTACT_REQUEST_ID) && (resultCode == RESULT_OK)) {
-            contactPickerFragment.phoneNumberEditText.setText(getPhoneNumber(data.getData()));
-        }
-    }
-
-    public String getPhoneNumber(Uri contactData) {
-        String[] projection = {ContactsContract.CommonDataKinds.Phone.NUMBER};
-        Cursor cursor = getCursor(contactData, projection);
-        /*
-        Cursor cursor = getContentResolver().query(ContactsContract.Data.CONTENT_URI,
-                new String[] {ContactsContract.CommonDataKinds.Phone.NUMBER},
-                ContactsContract.Data.CONTACT_ID + "=?" + " AND "
-                        + ContactsContract.Data.MIMETYPE + "='" + ContactsContract.CommonDataKinds.Phone.CONTENT_ITEM_TYPE + "'",
-                new String[] {String.valueOf(ContactsContract.Data.CONTACT_ID)}, null);
-        */
-        Log.e("WizardActivity", "onActivityResult cursor "+cursor);
-        //cursor.moveToNext();
-        cursor.moveToFirst();
-        return cursor.getString(0);
-    }
-
-    Cursor getCursor(Uri contactData, String[] projection) {
-        //return getActivity().managedQuery(contactData, projection, null, null, null);
-        Log.e("WizardActivity", "getCursor "+getContentResolver().query(contactData, projection, null, null, null).getCount());
-        return getContentResolver().query(contactData, projection, null, null, null);
-    }
-
     public void hideToastMessageInInteractiveFragment() {
         tvToastMessage.setVisibility(View.INVISIBLE);
     }
@@ -361,7 +327,13 @@ public class WizardActivity extends BaseFragmentActivity {
         AppConstants.IS_BACK_BUTTON_PRESSED = true;
     }
 
-
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if ((requestCode == PICK_CONTACT_REQUEST_ID) && (resultCode == RESULT_OK)) {
+            Context context = getApplicationContext();
+            contactPickerFragment.onActivityResult(requestCode, resultCode, data, context);
+        }
+    }
 
     private Runnable runnableInteractive = new Runnable() {
         public void run() {
